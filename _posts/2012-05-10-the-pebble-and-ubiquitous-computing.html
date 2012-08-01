@@ -1,0 +1,16 @@
+---
+permalink: /the-pebble-and-ubiquitous-computing/index.html
+layout: post
+title: The Pebble and Ubiquitous Computing
+published: true
+categories: []
+---
+<p>In case you haven't heard, <a href="http://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android">the Pebble </a>is a watch with an eInk screen that tethers to your phone over bluetooth. It's being funded via Kickstarter in what I believe is their biggest project to date (over $10 million). The company making it is Allerta, a fellow YC company that previously made a watch that only tethered to Blackberries (and had a fatal flaw: only a single button). Needless to say, I'm a backer, and thus am slated to receive one when they ship.</p>
+<p>As you can see from the Kickstarter page, a lot of the proposals involve using it as a very convenient information display, so that you can keep your phone in your pocket. That's great, but yesterday I realized that the accelerometer inside the Pebble takes it to the next level:</p>
+<p><strong>Everything is a touch surface.</strong> Gestures don't have to be a wizardly waving of your arms&mdash;though you can certainly do that, it will be certainly less awkward than waving your phone around&mdash;they can be as discreet as a sequences of taps.</p>
+<p>Objects that have no sensors in them can become touch-enabled. You can have tactile equivalents of QR codes: just print a number, and have people tap it out on a virtual phone grid to trigger.</p>
+<p>You could <em>Draw Something</em> in a sandbox. And really, generally allow user-arranged interfaces, here's a scenario: the watch displays the image of a particular control (a button, a slider, a knob) you tap somewhere on a surface (let's say you're holding a pen and it's a piece of paper). Now the system knows that's where you dropped that control, and it shows you the next one. So you could arrange your own <em>Draw Something</em> interface, a mild vibration from the built-in motor can indicate you're passing over an active control with its image showing on the watch's screen, in case you forgot to note it. Then you can just go ahead and draw, tapping on the controls to activate them. You can also just drop "buttons" around yourself: you sit down at the office, and you drop a "go to speakerphone" button on your arm rest. When you get a phone call, you just tap it to pick up, instead of either pulling out your phone, having to reach your arm up to your bluetooth headset, or even using your other arm to press a button on the watch.</p>
+<p>The world around you is now your configurable, editable control panel.</p>
+<p>Tactile interactions are still incredibly valuable, but we've come to associate them with information poor systems. The Pebble allows us to combine information-rich environment with physical interaction once again.&nbsp;</p>
+<p><strong>Bump all the things!</strong></p>
+<p><em>(and when the Google Glasses come out... ubicomp heaven)</em></p>

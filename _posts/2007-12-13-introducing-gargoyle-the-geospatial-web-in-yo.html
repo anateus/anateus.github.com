@@ -1,0 +1,28 @@
+---
+permalink: /introducing-gargoyle-the-geospatial-web-in-yo/index.html
+layout: post
+title: Introducing Gargoyle - The Geospatial Web in Your Pocket
+published: true
+categories: []
+---
+I have just finished v0.1 of Gargoyle (yes, it's a Snow Crash reference).
+
+Gargoyle is a python application that periodically queries your location via GPS and then checks to see whether you are withn range of an item on your watch list. It is written to run on <a href="http://maemo.org/">Maemo</a> devices such as the Nokia N800 and N810 (and possibly the 770, too).
+
+The watch list can contain such items as "any chinese restaurants with ratings of 3.5 stars on yelp and above" or "any locations mentioned within the last week in <a href="http://boingboing.net/">boingboing</a> posts" (<a href="http://www.geonames.org/">GeoNames</a> is invaluable here). They won't be defined in quite the flowing natural language seen here, but the possibilities are still mind bogglingly exciting.
+
+If you are wearing a bluetooth headset, it then it uses <a href="http://www.speech.cs.cmu.edu/flite/">flite</a> to read to you some information about the item on your watchlist based on a particular prompt for that item. This will be something like "[Name] is [Distance] away, rated [rating] stars, and located at [Address]" for the restaurant, and "This location is mentioned in [Post_Title], [Post_Author] says [Location_In_Context_Sentence]" for the <a href="http://boingboing.net/">BoingBoing</a> tracker.
+
+But all this stuff is to come. Here's what the current version, which mostly amounts to a proof of concept does: it tells you the name of the town you are in using geonames, and then it finds the single nearest pizza place within half a mile and tells you its name, address, and distance.
+
+So you want to test it out? Here it is: <a href="http://www.mockingeye.com/wp-content/uploads/2007/12/gargoyle-01.py" title="Gargoyle v0.1">Gargoyle v0.1</a> (WARNING: ugly, hacky, raw code. Not for the faint of heart.)
+
+But there are some things that you need to do before it runs:
+<ul>	<li>You need the following packages besides python: python-gpsbt (it's on the Maemo Extras repository)</li>
+	<li>You need flite installed (same repo).</li>
+	<li>An Application ID from Yahoo that you need to insert in the right location in the code. You can get them <a href="http://developer.yahoo.com/wsregapp/index.php">HERE</a>. Note that the Yahoo links point to the same address with <strong>https://</strong> instead of <strong>http://</strong>, it will even redirect you there after you login. you'll likely have to manually change the address back to <strong>http://</strong>.</li>
+</ul>
+
+I think that about covers it. Play around with it if you'd like! Comment with suggestion, criticisms, and whatnot. Don't start coding patches and such just yet, since this is a POC. I'm going to actually follow a design I had previously prepared in creating Gargoyle v0.2, and that's when I will welcome many patches, design discussions, and so forth.
+
+This software is provided under a BSD-style license found in the header.

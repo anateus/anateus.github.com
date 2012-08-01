@@ -1,0 +1,42 @@
+---
+permalink: /douglas-engelbart-augmenting-human-intellect/index.html
+layout: post
+title: ! 'Douglas Engelbart - Augmenting Human Intellect: A Conceptual Framework'
+published: true
+categories: []
+---
+In my paper reports I focus on materials that are relevant to my goals, rather than a general and exhaustive overview of what the papers discussed. I will concentrate on presenting the pertinent ideas I have gleaned from these sources. I will include asides by myself---i.e. comments on the material---within blockquotes.
+
+As one of my initial papers I chose a very important work by one of the luminaries of human-computer interaction <a href="http://en.wikipedia.org/wiki/Douglas_Engelbart">Douglas Engelbart</a>---best known for inventing the computer mouse. <em>Augmenting Human Intellect: A Conceptual Framework</em> is a fairly hefty research report describing an approach to augmenting human intellectual capabilities.
+
+<ul>
+
+<li>Engelbart follows the common model of human cognition as a sensory-mental-motor complex. Inputs are provided by the senses, processed via some mental system, and then various motor functions output the results back into the world.</li>
+
+<li>Problems are approached by humans by creating solutions that are broken down into many processes and subprocesses. These process collections are called <em>process hierarchies</em>.
+<blockquote class="posterous_short_quote">These are what I have chosen to call <em>strategies</em>, and each (sub)process is essentially equivalent to a <em>frame</em>.</blockquote>
+</li>
+
+<li>Different process capabilities of an individual---i.e. the actions the individual may perform---form that individual's <em>repertoire hierarchy</em>.</li>
+
+<li>Goals/problems are general things that represent general solutions to such items, e.g. memorandum would represent a sequence of actions involves in writing a memo.
+<blockquote>It seems that the goals, as described by Engelbart, are similar to the concept of <a href="http://en.wikipedia.org/wiki/Prototype_Theory">prototypes</a>.</blockquote>
+</li>
+
+<li>Engelbart provides a figure represent a fun experiment he conducted. In order to figure out how one may augment a human further, one must understand better how we have been augmenting ourselves up to now. So, this experiment has to do with "de-augmenting" an individual. First, the subject wrote "Augmentation is fundamentally a matter of organization" using a typewriter, taking only a few seconds. Then, the subject produced the statement in cursive, doing it much slower. Then the experiment of "de-augmenting a human by attaching a brick to a pen" proceeded. With a brick attached to the pen, writing in cursive, performance time, as well as quality of product was reduced markedly.
+<blockquote class="posterous_medium_quote">Although the nature of the product itself had no changed much, the efficiency as well as convenience of the activity was greatly reduced first by elimination of augmenting tools, and then actively reducing the capability of remaining tools. This shows that the statement to be written "Augmentation is fundamentally a matter of organization" is truly a key point. The organization of the writing procedure into typing improves overall productivity greatly.</blockquote>
+</li>
+
+<li>Augmenting capabilities does not hinge on a particular mental theory, since it is only the selection and efficiency of capabilities that is affected. The exact nature and process of the capabilities is of secondary importance.</li>
+
+<li>Then, Engelbart refers to <a href="http://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a>'s seminal 1945 article in the Atlantic Monthly "As We May Think". He quotes extensively from it, describing Bush's <a href="http://en.wikipedia.org/wiki/Memex">Memex </a>system (a major inspiration for the World Wide Web). He goes on on to note that the Memex has but an added benefit of speed and convenience over a traditional filing system.
+<blockquote class="posterous_short_quote">That is, no new capabilities were truly added. Only that instead of walking through a hall of filing cabinets, recall is fast. Much like a phone call is a mere spatial surrogate of talking in person.</blockquote>
+<blockquote class="posterous_medium_quote">One of the reasons that Bush's "predictions" (perhaps self-fulfilling since many inventors and developers were inspired by this article) are so apt is that little technological development remains that is not just an externalization of faculties (i.e. capabilities) that were previously performed less efficiently or maybe wholly internally.</blockquote>
+</li>
+</ul>
+
+Engelbart lays the foundations of my approach to helping humans achieve goals. I want to derive <em>process hierarchies</em> and <em>repertoire hierarchies</em> by annotating <em>strategy narratives</em> using FrameNet, so that the system may select an optimal <em>process hierarchy</em> for each goal (at each point in time, the optimal strategy may most certainly change based on further input).
+
+<strong>References:</strong>
+<ul><li>D. C. Engelbart, "Augmenting human intellect: A conceptual framework," Stanford Research Institute, Tech. Rep., October 1962.<sup><small>(<a href="http://www.bootstrap.org/augdocs/friedewald030402/augmentinghumanintellect/ahi62index.html">HTML</a> | <a href="http://www.bootstrap.org/augdocs/friedewald030402/augmentinghumanintellect/AHI62.pdf">PDF</a>)</small></sup>
+</li></ul>

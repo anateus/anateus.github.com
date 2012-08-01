@@ -1,0 +1,78 @@
+---
+permalink: /invest-in-peace/index.html
+layout: post
+title: Invest in Peace?
+published: true
+categories: []
+---
+This is an old writeup of a proposed way to settle some of the obstacles to peace in Israel. It's still has relevant as it was then, and the predictions of failure in Iraq (past the removal of Saddam) by its authors were completly vindicated.
+
+I've interspersed the writeup with my comments.
+
+<blockquote>Some people think that peace between Israel and Palestine is impossible. One way to solve an impossible problem is to first remove a major constraint to its solution. If the now-simplified problem can be solved, the constraint can be re-added subsequently. For instance, if we remove the financial constraint which always puts peacemaking at a lower priority than military action we could ask: How might the Mideast conflict be solved given funding on the scale of the pending war with Iraq?
+
+The wars on Afghanistan and now Iraq are seen as an investment, with a "Return on Investment" (ROI) of establishing new, quisling governments willing to discount the price of oil and natural gas. Could a business case be made that the ROI of a massive investment in peace will be much greater than the ROI of a war? The cost of the pending war is very high, estimated recently at $200B by a presidential advisor in the WSJ, not including the human capital. Rather than spending these vast sums on munitions and destruction, could large scale spending on peace not only avoid the devastation, but actually create wealth through economic growth tied to consumer and investor confidence? Significant peace dividends could come in the form of a reduced dependence on foreign aid as well as enhanced human capital.</blockquote>
+
+No longer pending, the Iraq war has already cost over $400,000,000,000 (zeroes for effect, that's $400 billion).
+<p><!--more--></p>
+
+<blockquote>
+If such a business case can be made, then a team composed of business development experts, mediators, construction companies, consultants, architects, scientists, etc. could develop a plan which resulted in a Palestinian state, autonomous but demilitarized, on the model of Costa Rica. Israel could focus on becoming the leading high-tech democracy of the emerging Middle East common market, and abandon the soul-searing enterprise of being an occupying power.
+
+A group of people with some seed capital could elaborate on the architecture of such a plan to the point where the involved parties sign "Letters of intent" detailing their commitments to "buy in" under agreed-upon conditions. With these tools in hand, the work of planning the details of all the operations could begin. As the teams quantify the risks and rewards of peacemaking and nation building, the substantial capital can be raised from governments and private sources worldwide.
+
+Starting with a budget of $100B US as a ballpark, here is a rough estimate of the main components of this project, each of which addresses one of the major hurdles for peace.
+
+1) No Right of Return. $30B
+
+Descendants of the 750,000 Palestinians who were forced out in 1948, and those dispossessed in later annexation and bulldozing, would share $30b, which amounts to $10,000 to 3 million persons. Disbursement of the funds would probably require the creation of a better banking system with anti-corruption safeguards.
+</blockquote>
+Might need a bit more than that. Since right now, there are probably closer to 4-5 million persons who can claim rights. Also, upgrade that amount due to inflation, falling dollar, increased property prices to $25,000 per person.
+
+New total: <strong>$100 billion</strong>
+
+<blockquote>
+2) Sell the settlements $20B
+
+The 200,000 settler families would then be able to sell their properties to this new middle class of Palestinians. The market demand for settlement housing units, together with the expected decrease in violence, would dramatically increase the value of those homes. Each settler family who sells would also receive a $100,000 inducement, a relocation bond towards qualified moving expenses or to deposit as equity in mortgage applications for expensive Israeli real estate.
+
+3) The Big Dig ($15B)
+
+To connect the West Bank and Gaza, a very large scale construction project would be undertaken, similar to the "Big Dig" of Boston. The development of a 6 lane underground highway tunnel, vented and well-lit, would result in two continuous nations, a topological first in world history. This "Big Dig" would create union scale construction and maintenance jobs for many unemployed Palestinians and Israelis, both men and women, who would be required to sign a nonviolence pledge. The threat of immediate termination upon evidence of co-worker harassment would guarantee a cooperative workforce. US companies such as Bechtel or Halliburton could bid to manage this major project.
+</blockquote>
+
+To date, the Big Dig in boston has cost $14.6 billion. So a mere $15 billion for a project that must surmount much greater obstacles is perhaps too meager a sum. Double that, and you're getting somewhere.
+
+New total: <strong>$150 billion</strong>
+
+<blockquote>
+4) Water Projects ($20B)
+
+Currently, water is at the core of the dispute, and resolving it would reduce security and economic pressure. An aqueduct project which allocated the water flowing from the north, public works projects throughout Palestine to manage the aquifers, and advanced software to create a market in water rights would help. Peace, as well as an annual contribution to the treasuries of Lebanon and Syria would help keep water flowing. Finally, nuclear powered desalinization plants (American made and guarded) could supply more freshwater to both nations.
+
+5) The Jerusalem Real Estate Investment Trust ($15B)
+
+The capital of the Holy Lands would be demilitarized, to be administered in perpetuity by an international non-profit Real Estate Investment Trust (REIT) with an inter-denominational board. With its $15B in seed capital, the trust would begin to buy up all available properties in Jerusalem, and then rent them, perhaps to current owners. Both Israel and Palestine could establish their capitals there, as well as embassies of foreign powers. The idea is that this REIT would, over time, become wealthier and wealthier through rental and fees, and after 50-100 years, end up owning almost all Jerusalem property. Stock in the REIT would be publically traded, providing world-wide shared public ownership of Jerusalem.
+</blockquote>
+
+These values sound about right to me, but lets double just to be safe.
+
+New total: <strong>$220 billion</strong>
+
+<blockquote>
+Where will the money come from?
+
+The US already spends $3B a year in Foreign Aid to Israel, and there are rumors that it will increase to $10B. The European Union also provides aid, as do Arab countries. So while $100 billion seems like a big investment, over time, that is what is being spent anyway! But spending it on peace can generate major dividends.
+
+Radicals are calling for an end to aid to Israel, as well as for divestment from Israeli corporations. And although neither Israeli nor Palestinian covert intelligence operations were implicated in the 9/11/2001 attack on the US, the stress which emanates from the Occupation/Intifada clearly fans the flames of hate which drives such acts. The anger caused by the last 50 years of conflict and terror is real, but can rapidly pale in time with economic development and coexistence.
+
+<em>This writing, (c) 2002 <a href="http://www.buypeace.com">www.buypeace.com</a>, may be copied and distributed in any media provided this notice is kept intact.</em>
+</blockquote>
+
+Wow, you made it all the way down here? Have a <a href="http://en.wikipedia.org/wiki/Cookie">cookie</a>!
+
+So, even with some projected costs doubled, allotment for displaced arabs more than doubled (with a very generous estimate of their numbers), a temporary solution through direct investment would cost less than half of the Iraq War (not including damages, or Afghanistan. Just direct expenditure on IRaq).
+
+So, why the hell not? For one, being "bribed off" their ancestral lands (from which they've been removed for over a generation, but that didn't stop the jews) may not be accepted with great enthusiasm to say the least, but perhaps the housing exchange with removed jewish settlers might greatly alleviate some of these complaints. Another added factor that will ease the process will be limited right of return rights. That is, a citizenship process akin to the US immigration procedures: long, arduous, and requiring demonstration of value to country, but with provisions for temporary work and residence.
+
+Another issue would be the internationalization and neutralization of Jerusalem. The REIT idea is actually quite interesting, since administration by the UN will fail, since pretty much everyone in the world, including most members of the Security Council, resents the organization. But of course, both Jews and Arabs want to have Jerusalem as their capital, and so far have resisted anything less than full sovereignty. I predict this to be the hardest issue to surmount: What to do with Jerusalem. I think I know, but, I'll explore it in a later article! Think about <em>this</em> proposal in the meantime.
