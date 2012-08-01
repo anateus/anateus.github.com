@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://anateus.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Mocking Eye
+subtitle: "'Tis all in vain?"
+author: Mike K
 simple_search: http://google.com/search
-description:
+description: "There's nothing I don't find interesting if I look at it the right way, so expect quite an eclectic mix. Once I say the same thing on three separate occasions, I will try and put it up here. That's my criterion for archiving a thought."
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -96,4 +96,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
