@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Mocking Eye]]></title>
   <link href="http://anateus.github.com/atom.xml" rel="self"/>
   <link href="http://anateus.github.com/"/>
-  <updated>2012-08-01T13:57:36-07:00</updated>
+  <updated>2012-08-01T14:01:01-07:00</updated>
   <id>http://anateus.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Mike K]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
