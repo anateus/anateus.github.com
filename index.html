@@ -9,7 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="The following command will do the trick: CLICOLOR_FORCE=1 ls -G|less -R Or just add this to your .bash_profile file to have ls always display in &hellip;">
+  <meta name="description" content="I&#8217;ve migrated the blog from Posterous to Octopress. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,44 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated From Posterous to Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-01T20:29:00-07:00" pubdate data-updated="true">Aug 1<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve migrated the blog from Posterous to <a href="http://octopress.org">Octopress</a>. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn&#8217;t want the various security and management headaches that basically every dynamic CMS brings with it.</p>
+
+<p>I used the alternative <a href="https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb">posterous importer provided by Jekyll</a>&#8211;their default one doesn&#8217;t preserve the permalinks. Before running it you should fix a bug: <code>s/post\.media[2]/post.media/</code>. Then you can run it with <code>ruby posterous.rb USERNAME PASSWORD API_TOKEN</code>. Presto!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -493,43 +531,6 @@ alias less='less -R'</pre></div>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/reverse-heel-christian-laboutin-experiment/index.html">Reverse Heel Christian Louboutin Experiment</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-11-24T00:00:00-08:00" pubdate data-updated="true">Nov 24<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>As far as I know <a href="http://en.wikipedia.org/wiki/Christian_Louboutin">Christian Louboutin</a>&#8211;maker of the sexiest heels&#8211;has never done a reverse heel. I came up with reverse heels totally independently a couple of weeks ago while contemplating crazy things to do to women&#8217;s shoes. Alas, I found out I was soundly beaten to this concept by others and several versions of it have already been made. Basically, a reverse heel is a heel that juts horizontally towards the back from the front part of the shoe rather than straight down from the heel.<p /> So, I decided to mock up what a Louboutin might look like with a reverse heel, whilst maintaining its original lines, curves, and sexy look. It turned out&#8230; ok. I think with some tweaking it could turn out to look quite nicely! In particular I would elongate the support past the heel, while making it thinner and more deadly&#8211;Louboutin shoes are famous for looking like dangerous weapons.<p /> Just a random exploration, we&#8217;ll see what Christian does :&gt;</p>
-<p><img src="/images/reverse-laboutin.png" alt="Reverse heel Christian Louboutin experiment" /></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -545,6 +546,10 @@ alias less='less -R'</pre></div>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated from Posterous to Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/piping-ls-through-less-with-colors-on-mac-os/index.html">Piping ls through less with colors on Mac OS X</a>
       </li>
     
@@ -558,10 +563,6 @@ alias less='less -R'</pre></div>
     
       <li class="post">
         <a href="/can-we-feed-everyone-on-the-planet-mquot-glob/index.html">Can we feed everyone on the planet? — Global Food Security Part 1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/how-to-translate-chinese-and-japanese-charact/index.html">How to translate Chinese and Japanese characters</a>
       </li>
     
   </ul>
