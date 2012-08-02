@@ -3,3 +3,7 @@
 html {
       background: $page-bg image-url('random_grey_variations.png') top left;
 }
+
+body > header {
+      background: rgba(134, 138, 167, 0.29);
+}
