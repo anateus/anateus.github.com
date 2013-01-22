@@ -9,7 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="A cynical view I somewhat share, provided by the genius of Douglas Adam: ‘On [that] world, the people are people. The leaders are lizards. The people &hellip;">
+  <meta name="description" content="Edit: Apparently this got posted to reddit a while ago, and several better versions were provided, here&#8217;s what I would use now: [code] def &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,65 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/merging-dictionaries-and-lists-in-python/index.html">Merging Dictionaries and Lists in Python</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-05T00:00:00-08:00" pubdate data-updated="true">Feb 5<span>th</span>, 2008</time>
+        
+         | <a href="/merging-dictionaries-and-lists-in-python/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>Edit:</strong></p>
+<p>Apparently this got posted to reddit a while ago, and several better versions were provided, here&#8217;s what I would use now:</p>
+<p>[code] def merge_lists(*ls): return sum(ls, [])
+ def merge_dicts(*dicts): dict(merge_lists(*map(dict.items, dicts))) [/code]</p>
+<hr />
+<p>I came up with what I think is a rather pretty and elegant way to merge dictionaries (and lists) in Python:</p>
+<p>[code]def merge_lists(*lists):
+ return reduce(lambda x, y: x+y,lists)
+
+def merge_dicts(*dictionaries):
+ result = {}
+ 
+ for key in set(merge_lists([d.keys() for d in dictionaries])):
+ result[key] = merge_lists([d[key] for d in dictionaries if key in d])
+ 
+ return result [/code]</p>
+<p>Some explanation for novices:</p>
+<ul>
+<li>The <code>*arg</code> notation means that any unnamed arguments (that is, not like this: <code>funct(foo="bar")</code>) will be stores in a tuple named arg.</li>
+<li>The <code>reduce(funct,collection)</code> will sequentially apply the function <code>funct()</code> to each member of <code>collection</code>. The classic example is that <code>reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])</code> calculates <code>((((1+2)+3)+4)+5)</code>.</li>
+<li>List comperehensions are super fun and work like this: <code>[something(value) for value in list]</code> does <code>something</code> to each <code>value</code> in <code>list</code>, and returns the results in a list containing the results of <code>something(value)</code>. There is a permutation that looks like this: <code>[something(value) for value in list if value &gt; 5]</code> (any condition can be placed after the <code>if</code>), this only adds <code>something(value)</code> to the list if the condition is <code>true</code>.</li>
+</ul>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -527,55 +586,6 @@ p.s. if you use some site that&#8217;s not on the list, leave a comment, and I&#
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/intuitive-visual-musical-instrument-and-sexy/index.html">Intuitive, Visual Musical Instrument and Sexy Food Music</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-10-21T00:00:00-07:00" pubdate data-updated="true">Oct 21<span>st</span>, 2007</time>
-        
-         | <a href="/intuitive-visual-musical-instrument-and-sexy/index.html#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">Apparently, Yamaha has been developing <a href="http://www.global.yamaha.com/tenori-on/index.html">a new MIDI instrument called the Tenori-On</a>.
-
-Here&#8217;s an overall demo video that shows many of <a href="http://www.global.yamaha.com/tenori-on/features/index.html">the awesome functions of this device</a>:
-<object height="350" width="425"><param name="movie" value="http://www.youtube.com/v/_SGwDhKTrwU" />
-<param name="wmode" value="transparent" />
-<embed src="http://www.youtube.com/v/_SGwDhKTrwU" wmode="transparent" type="application/x-shockwave-flash" height="350" width="425"></embed></object>
-
-Now, it&#8217;s finally commercially available. one sold on ebay just recently for $1202 or so. Guess what I want for $gift_giving_holiday?
-
-Here&#8217;s the music video for <a href="http://en.wikipedia.org/wiki/Simian_Mobile_Disco">Simian Mobile Disco</a>&#8217;s Hustler: <a href="http://creativity-online.com/work/view?seed=e29a3195">Sexy chicks are soon introduced to food, with interesting results</a>. Warning: nearly NSFW. Visually and audially delightful.
-
-<small>(tenori-on via <a href="http://infosthetics.com/">infosthetics</a>)</small>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -593,6 +603,10 @@ Here&#8217;s the music video for <a href="http://en.wikipedia.org/wiki/Simian_Mo
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated from Posterous to Octopress</a>
       </li>
     
@@ -606,10 +620,6 @@ Here&#8217;s the music video for <a href="http://en.wikipedia.org/wiki/Simian_Mo
     
       <li class="post">
         <a href="/a-brief-interlude-client-attitudes/index.html">A brief interlude - Client attitudes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/can-we-feed-everyone-on-the-planet-mquot-glob/index.html">Can we feed everyone on the planet? — Global Food Security Part 1</a>
       </li>
     
   </ul>
@@ -626,7 +636,7 @@ Here&#8217;s the music video for <a href="http://en.wikipedia.org/wiki/Simian_Mo
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Mike K -
+  Copyright &copy; 2013 - Mike K -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

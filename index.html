@@ -9,7 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="I&#8217;ve migrated the blog from Posterous to Octopress. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is &hellip;">
+  <meta name="description" content="In trying to get a collectd instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,61 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading Everything Stdin in a Bash Script</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-22T14:27:00-08:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2013</time>
+        
+         | <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In trying to get a <a href="http://collectd.org/">collectd</a> instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the <code>read</code> command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that&#8217;s perhaps canonical, but doesn&#8217;t seem to pop up via quick googling:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">VALUE</span><span class="o">=</span><span class="k">$(</span>cat<span class="k">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$VALUE&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&#8217;s it! <code>$(cat)</code> is a shorthand for <code>$(cat /dev/stdin)</code>, so presumably you can use this to read from stderr by pointing it at <code>/dev/stderr</code>.</p>
+
+<p>Happy piping!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -524,45 +579,6 @@ alias less='less -R'</pre></div>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/directions-in-artificial-intelligence-researc/index.html">Directions in Artificial Intelligence Research</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-04-07T00:00:00-07:00" pubdate data-updated="true">Apr 7<span>th</span>, 2011</time>
-        
-         | <a href="/directions-in-artificial-intelligence-researc/index.html#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Much of the early optimism about Artificial Intelligence was crushed by what is now called <a href="http://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank">Moravec&#8217;s Paradox</a>: it turns out that it&#8217;s often substantially harder to replicate the lower-level sensorimotor skills of humans and animals than higher reasoning tasks. Students of <a href="http://en.wikipedia.org/wiki/Embodied_cognition" target="_blank">embodied cognition </a>see intelligence arising from a <em>necessary </em>interplay with our senses taking this even further, <a href="http://plato.stanford.edu/entries/consciousness-higher/" target="_blank">higher-order theories of consciousness</a>&#8211;which I&#8217;ve recently become a fan of&#8211;have consciousness as a higher order layering on top of mere intelligence. Thus, we&#8217;re adding a few more layers to the layer cake of <a href="http://en.wikipedia.org/wiki/Supervenience" target="_blank">supervenience</a> (similar to what scientists often call &#8220;emergence&#8221;, not used in Philosophy that way because the term has been claimed by a distinct usage).</p>
-<p>I would love to see more work on complete end-to-end AI systems that have increasingly deeper levels of feedback. That&#8217;s the only we&#8217;ll see better AI. That and neural modelling which is getting reeeal interesting. I think I&#8217;ll start posting links to some fun papers soon.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -576,6 +592,10 @@ alias less='less -R'</pre></div>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated from Posterous to Octopress</a>
@@ -593,10 +613,6 @@ alias less='less -R'</pre></div>
         <a href="/a-brief-interlude-client-attitudes/index.html">A brief interlude - Client attitudes</a>
       </li>
     
-      <li class="post">
-        <a href="/can-we-feed-everyone-on-the-planet-mquot-glob/index.html">Can we feed everyone on the planet? — Global Food Security Part 1</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -611,7 +627,7 @@ alias less='less -R'</pre></div>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Mike K -
+  Copyright &copy; 2013 - Mike K -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

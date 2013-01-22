@@ -4,7 +4,7 @@
   <title><![CDATA[Mocking Eye]]></title>
   <link href="http://anateus.github.com/atom.xml" rel="self"/>
   <link href="http://anateus.github.com/"/>
-  <updated>2012-08-02T10:34:38-07:00</updated>
+  <updated>2013-01-22T14:43:49-08:00</updated>
   <id>http://anateus.github.com/</id>
   <author>
     <name><![CDATA[Mike K]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Reading everything stdin in a bash script]]></title>
+    <link href="http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/"/>
+    <updated>2013-01-22T14:27:00-08:00</updated>
+    <id>http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script</id>
+    <content type="html"><![CDATA[<p>In trying to get a <a href="http://collectd.org/">collectd</a> instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the <code>read</code> command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that&#8217;s perhaps canonical, but doesn&#8217;t seem to pop up via quick googling:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">VALUE</span><span class="o">=</span><span class="k">$(</span>cat<span class="k">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$VALUE&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&#8217;s it! <code>$(cat)</code> is a shorthand for <code>$(cat /dev/stdin)</code>, so presumably you can use this to read from stderr by pointing it at <code>/dev/stderr</code>.</p>
+
+<p>Happy piping!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrated from Posterous to Octopress]]></title>
@@ -372,15 +398,6 @@ alias less='less -R'</pre></div>
 <blockquote>
 <p><br />The Americans are trying to steal the Russian <a href="http://en.wikipedia.org/wiki/Mig_29">MiG-29</a> plans.<br />The CIA sends a spy who manages to come back with the blueprints.<br />They build them only to discover they&#8217;ve just built a steam locomotive.<br />So they send a better spy who comes back with plans that he&#8217;s sure are the right ones.<br />They build them, and find they&#8217;ve got another locomotive.<br />This time they send their best spy, and his orders are to bring back the head engineer.<br />Back in the US with the engineer they ask him what they were doing wrong. The engineer looks at the plans they&#8217;ve stolen and at the locomotive, and points at some fine print on the plans, &#8220;See? you&#8217;ve just forgotten to <a href="http://en.wikipedia.org/wiki/File_(tool)">file</a> it down!&#8221;</p>
 </blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[If I needed a motto...]]></title>
-    <link href="http://anateus.github.com/if-i-needed-a-motto/index.html"/>
-    <updated>2010-07-07T00:00:00-07:00</updated>
-    <id>http://anateus.github.com/if-i-needed-a-motto/if-i-needed-a-motto</id>
-    <content type="html"><![CDATA[Pigritia, Impatientia, Superbia Bonas Est <p /> I think I got my declensions right.
 ]]></content>
   </entry>
   

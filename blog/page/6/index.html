@@ -9,7 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="My online identity is highly fragmented. Some parts are public, others are restricted to specific groups. Part of my identity is presence. That is, &hellip;">
+  <meta name="description" content="There are many myths about terrorists and their origins, motivators, goals and methods. There are many pundits who express their various opinions and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/making-a-terrorist/index.html">Making a Terrorist</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-19T00:00:00-07:00" pubdate data-updated="true">Mar 19<span>th</span>, 2008</time>
+        
+         | <a href="/making-a-terrorist/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">There are many myths about terrorists and their origins, motivators, goals and methods. There are many pundits who express their various opinions and conjectures. But there are relatively few works that present more studied information.
+
+Here are two books that I own, which provide a wealth of information. Each of these tomes completes the other:
+<ul>
+	<li>
+<a href="http://www.amazon.com/gp/product/0691134383?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0691134383">What Makes a Terrorist: Economics and the Roots of Terrorism</a> by Alan Krueger<img src="/images/media_httpwwwassocama_kgolb.jpg" alt="Making a Terrorist" />
+</li>
+	<li>
+<a href="http://www.amazon.com/gp/product/037541486X?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=037541486X">The Looming Tower: Al-Qaeda and the Road to 9/11</a> by Lawrence Wright<img src="/images/media_httpwwwassocama_tCFGf.jpg" alt="Making a Terrorist" />
+</li>
+</ul>
+
+The first of these, with a rather odacious title, is based on a lecture series given by its author, a respected economist. It is a fairly slim paperback overflowing with data. There are tables filled with meaningful figures nearly every other page. This work is an attempt to understand the circumstances and demographics of terrorism. As <a href="http://www.marginalrevolution.com/marginalrevolution/2007/08/what-makes-a-te.html">one review of the book</a> stated, it really does not answer the question posed by its title. Rather, it describes what terrorism isn&#8217;t. Poor economic prospects, poor eduction, poor healthcare, all those are factors commonly presented as motivators for terrorism. Krueger&#8217;s meticulous analysis shows that this is rarely the case.
+
+His investigation shows that no single religion has the lion&#8217;s share of terrorists. Nevertheless, most terrorism is perpetrated by members of a religious group other than that targeted. Other factors that Krueger finds <em>do</em> characterize terrorists are limited political freedoms and civil liberties. 
+
+Wright&#8217;s Pulitzer-prize winning masterpiece follows quite a different side of terrorism. Rather than concentrating on data, it provides a non-fiction narrative following radical Islamism from its roots with <a href="http://en.wikipedia.org/wiki/Sayyid_Qutb">Sayyid Qutb</a> to the important-to-America <a href="http://en.wikipedia.org/wiki/Osama_Bin_Laden">Osama Bin Laden</a>. Captivating in its detail, Wright creates an intimate profile of the men who shape much of terrorist-spawning radical Islam.
+
+The two books together construct a visceral image of one of the greatest dangers facing our world. They are illuminating, educational, and very very important.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -534,65 +590,6 @@ Instead, I will just be content in the knowledge that for me, there is a car out
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/merging-dictionaries-and-lists-in-python/index.html">Merging Dictionaries and Lists in Python</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-02-05T00:00:00-08:00" pubdate data-updated="true">Feb 5<span>th</span>, 2008</time>
-        
-         | <a href="/merging-dictionaries-and-lists-in-python/index.html#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>Edit:</strong></p>
-<p>Apparently this got posted to reddit a while ago, and several better versions were provided, here&#8217;s what I would use now:</p>
-<p>[code] def merge_lists(*ls): return sum(ls, [])
- def merge_dicts(*dicts): dict(merge_lists(*map(dict.items, dicts))) [/code]</p>
-<hr />
-<p>I came up with what I think is a rather pretty and elegant way to merge dictionaries (and lists) in Python:</p>
-<p>[code]def merge_lists(*lists):
- return reduce(lambda x, y: x+y,lists)
-
-def merge_dicts(*dictionaries):
- result = {}
- 
- for key in set(merge_lists([d.keys() for d in dictionaries])):
- result[key] = merge_lists([d[key] for d in dictionaries if key in d])
- 
- return result [/code]</p>
-<p>Some explanation for novices:</p>
-<ul>
-<li>The <code>*arg</code> notation means that any unnamed arguments (that is, not like this: <code>funct(foo="bar")</code>) will be stores in a tuple named arg.</li>
-<li>The <code>reduce(funct,collection)</code> will sequentially apply the function <code>funct()</code> to each member of <code>collection</code>. The classic example is that <code>reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])</code> calculates <code>((((1+2)+3)+4)+5)</code>.</li>
-<li>List comperehensions are super fun and work like this: <code>[something(value) for value in list]</code> does <code>something</code> to each <code>value</code> in <code>list</code>, and returns the results in a list containing the results of <code>something(value)</code>. There is a permutation that looks like this: <code>[something(value) for value in list if value &gt; 5]</code> (any condition can be placed after the <code>if</code>), this only adds <code>something(value)</code> to the list if the condition is <code>true</code>.</li>
-</ul>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -610,6 +607,10 @@ def merge_dicts(*dictionaries):
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated from Posterous to Octopress</a>
       </li>
     
@@ -623,10 +624,6 @@ def merge_dicts(*dictionaries):
     
       <li class="post">
         <a href="/a-brief-interlude-client-attitudes/index.html">A brief interlude - Client attitudes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/can-we-feed-everyone-on-the-planet-mquot-glob/index.html">Can we feed everyone on the planet? — Global Food Security Part 1</a>
       </li>
     
   </ul>
@@ -643,7 +640,7 @@ def merge_dicts(*dictionaries):
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Mike K -
+  Copyright &copy; 2013 - Mike K -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

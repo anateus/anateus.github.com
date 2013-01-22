@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Moviesneak.py -- Find contiguous movies to sneak into! - Mocking Eye</title>
+  <title>Reading everything stdin in a bash script - Mocking Eye</title>
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="Edit: Fix in the comments has been applied, and the whole app is now on BitBucket, so download it from there: http://bitbucket.org/anateus/moviesneak &hellip;">
+  <meta name="description" content="In trying to get a collectd instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://anateus.github.com/moviesneakpy-find-contiguous-movies-to-sneak/">
+  <link rel="canonical" href="http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Moviesneak.py -- Find Contiguous Movies to Sneak Into!</h1>
+      <h1 class="entry-title">Reading Everything Stdin in a Bash Script</h1>
     
     
       <p class="meta">
@@ -95,7 +95,7 @@
   
 
 
-<time datetime="2010-07-02T00:00:00-07:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2010</time>
+<time datetime="2013-01-22T14:27:00-08:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2013</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -104,15 +104,24 @@
   </header>
 
 
-<div class="entry-content"><p><br /><strong>Edit:</strong> Fix in the comments has been applied, and the whole app is now on BitBucket, so download it from there: <a href="http://bitbucket.org/anateus/moviesneak.py">http://bitbucket.org/anateus/moviesneak.py</a></p>
-<p>I&#8217;m happy to announce the release of version 0.5 of moviesneak.py, script for figuring out what movies come right after each other such that you can go from one to the next on a single ticket.</p>
-<p>This version follows an age-old tradition of BASIC programs by prompting you for information step by step. The date, zipcode, movie theater, and movies you actually want to watch. Then it prints out a list of movie pairs (I doubt you&#8217;re going to sit through more than two).</p>
-<p>Currently a tolerance of 15 minutes is hardcoded, fairly straightforward to modify. What this mean is that if one movie starts 15 minutes before another ends, it would still recommend them as a pair, what with previews and whatnot. If the opposite is true, 15 minutes is not too suspicious a time to loiter about :&gt;</p>
-<p>The code is distributed under a BSD license. It requires BeautifulSoup which I&#8217;ve included in my distribution, so you just need Python!</p>
-<p>Happy sneaking! Don&#8217;t get caught :)</p>
-<p> </p>
-<p><span style="text-decoration: line-through;">Download here:</span></p>
-<p><span style="text-decoration: line-through;"><a href="http://logarchy.org/moviesneak-0.5.zip">moviesneak-0.5.zip</a></span></p>
+<div class="entry-content"><p>In trying to get a <a href="http://collectd.org/">collectd</a> instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the <code>read</code> command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that&#8217;s perhaps canonical, but doesn&#8217;t seem to pop up via quick googling:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">VALUE</span><span class="o">=</span><span class="k">$(</span>cat<span class="k">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$VALUE&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&#8217;s it! <code>$(cat)</code> is a shorthand for <code>$(cat /dev/stdin)</code>, so presumably you can use this to read from stderr by pointing it at <code>/dev/stderr</code>.</p>
+
+<p>Happy piping!</p>
 </div>
 
 
@@ -135,7 +144,7 @@
   
 
 
-<time datetime="2010-07-02T00:00:00-07:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2010</time>
+<time datetime="2013-01-22T14:27:00-08:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2013</time>
       
 
 
@@ -143,7 +152,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://anateus.github.com/moviesneakpy-find-contiguous-movies-to-sneak/index.html" data-via="" data-counturl="http://anateus.github.com/moviesneakpy-find-contiguous-movies-to-sneak/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/" data-via="" data-counturl="http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/" >Tweet</a>
   
   
   
@@ -154,14 +163,18 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/my-life-is-chaos-turned-miraculous/index.html" title="Previous Post:  My life is chaos turned miraculous">&laquo;  My life is chaos turned miraculous</a>
+        <a class="basic-alignment left" href="/blog/2012/08/01/migrated-from-posterous-to-octopress/" title="Previous Post: Migrated from Posterous to Octopress">&laquo; Migrated from Posterous to Octopress</a>
       
-      
-        <a class="basic-alignment right" href="/if-i-needed-a-motto/index.html" title="Next Post: If I needed a motto...">If I needed a motto... &raquo;</a>
       
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -217,7 +230,10 @@
       var disqus_shortname = 'mockingeye';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/';
+        var disqus_url = 'http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
