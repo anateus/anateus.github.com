@@ -9,7 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="I&#8217;ve been using Brightkite for several weeks now, and I rather enjoy it. What is it? Well, it&#8217;s a GPS-less location tracking service, of  &hellip;">
+  <meta name="description" content="A moment of fancy on IRC led me to concoct the following: ((len([i for i in __globals__ if i is not god and type(i) is type(god)]) == 0) and (god. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-shahadah-islamic-declaration-of-faith-in/index.html">The Shahadah (Islamic Declaration of Faith) in Python</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-05-14T00:00:00-07:00" pubdate data-updated="true">May 14<span>th</span>, 2008</time>
+        
+         | <a href="/the-shahadah-islamic-declaration-of-faith-in/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">A moment of fancy on <a href="http://en.wikipedia.org/wiki/IRC">IRC</a> led me to concoct the following:
+
+<blockquote class="posterous_short_quote"><code>((len([i for i in __globals__ if i is not god and type(i) is type(god)]) == 0) and (god.prophet == muhammad))) == True</code></blockquote>
+
+This is the <a href="http://en.wikipedia.org/wiki/Shahadah">Shahadah</a> represented in Python.
+
+Programming Language Wars are frequently religious, I thought why not take it a step further.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -548,66 +592,6 @@ Releasing code for POI storage on couchDB within the next two weeks.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/progress-on-gargoyle/index.html">Progress on Gargoyle</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-03-24T00:00:00-07:00" pubdate data-updated="true">Mar 24<span>th</span>, 2008</time>
-        
-         | <a href="/progress-on-gargoyle/index.html#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">Remember <a href="http://www.mockingeye.com/index.php/2007/12/12/introducing-gargoyle-the-geospatial-web-in-your-pocket/">Gargoyle</a>?
-
-Well, it hasn&#8217;t been abandoned yet. I&#8217;ve been rewriting the design and scrapping it over and over. I think I&#8217;ve finally reached a design that&#8217;s stable, and that will plug nicely into all kinds of stuff.
-
-Today I wrote a lightweight <a href="http://new.webpy.org/">web.py</a>-based <a href="http://en.wikipedia.org/wiki/Point_of_Interest">POI</a> system. It gives a user a random hash which is used to identify a unique POI list. Access is done <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">RESTfully</a>. That is:
-
-<blockquote class="posterous_short_quote">
-<code>http://www.example.com/locate/te6hemi8t3cu/38.89768/-77.036455/</code>
-</blockquote>
-
-Which would display all POIs in the list <code>te6hemi8t3cu</code> that are in the box bounded by <code>(38.897000, -77.036000)</code> and <code>(38.897999, -77.036999)</code>. That is, three spaces after the decimal is my chosen granularity (it&#8217;s roughly walking distance). The POI list is produced either in a human readable bullet-point list (for easy display on mobile devices), or as a <a href="http://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML</a> file (with some added metadata of course. Such as an expiration date for the entry).
-
-Adding a POI is just as easy, just using <code>add</code> instead of <code>locate</code>, and appending <code>/poi_info</code> to the URL.
-
-This means that you can easily write apps to use this simple API, as well as display it using Google Earth.
-
-What&#8217;s the next step? I need to convert my already existing client for the Nokia N800 to be able to use this POI list, as well as maintain its own POI cache. It should only read to the user things within a 4 or 5 decimal space distance, and not bother querying unless the user is approaching the edges of the grid box she&#8217;s in.
-
-Finally, once these infrastructure issues are taken care of, the real purpose of Gargoyle will be implemented. This takes the form of a the app that goes through your &#8220;reading list&#8221; and adds relevant items to the POI list. 
-
-I will post the code for the N800 code and the POI server some time within the week. It still needs some cleanup. Gargoyle v0.2 here we come!
-
-<strong>Addendum:</strong> POIs can also be meta-POIs. That is, rather than being a placename, an entry into the db can be a uri to an external kml source (can be dynamic). An example would be a URL that points to a script that forwards the coords to the <a href="http://www.geonames.org/export/wikipedia-webservice.html">Geonames Wikipedia web service service</a> (shows nearest wikipedia entries) and converts the resulting XMl or JSON into KML.
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -625,6 +609,10 @@ I will post the code for the N800 code and the POI server some time within the w
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/03/new-job/">New Job!</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
       </li>
     
@@ -638,10 +626,6 @@ I will post the code for the N800 code and the POI server some time within the w
     
       <li class="post">
         <a href="/the-pebble-and-ubiquitous-computing/index.html">The Pebble and Ubiquitous Computing</a>
-      </li>
-    
-      <li class="post">
-        <a href="/a-brief-interlude-client-attitudes/index.html">A brief interlude - Client attitudes</a>
       </li>
     
   </ul>

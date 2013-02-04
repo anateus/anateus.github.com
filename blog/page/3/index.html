@@ -9,8 +9,7 @@
   <meta name="author" content="Mike K">
 
   
-  <meta name="description" content="Pigritia, Impatientia, Superbia Bonas Est I think I got my declensions right.
-">
+  <meta name="description" content="In one of my sailing classes, one of my shipmates was a Russian ex-navyman who served on a Delta IV class (designated &#8220;Delfin&#8221; or Dolphin &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,47 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/a-classic-of-soviet-engineering/index.html">A Classic of Soviet Engineering</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-09T00:00:00-07:00" pubdate data-updated="true">Aug 9<span>th</span>, 2010</time>
+        
+         | <a href="/a-classic-of-soviet-engineering/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="/images/Typhoon3.jpg" alt="A Classic of Soviet Engineering" />In one of my sailing classes, one of my shipmates was a Russian ex-navyman who served on a <a href="http://en.wikipedia.org/wiki/Delta_class#Delta_IV_.28Project_667BDRM.2C_Delfin.29_7_boats">Delta IV class</a> (designated &#8220;Delfin&#8221; or Dolphin in Russian) nuclear submarine. Once he realized I spoke Russian we got to chatting more about his experiences on the submarines and he told me the amusing story of the genesis of the <a href="http://en.wikipedia.org/wiki/Typhoon_class">Typhoon-class submarine</a> (that&#8217;s the NATO designation, the Russians call it &#8220;Akula&#8221;&#8211;Shark).<p />Those of you have watched or read <a href="http://en.wikipedia.org/wiki/The_hunt_for_red_october">The Hunt for Red October</a> would be familiar with the Soviet-built Typhoon, it was the <em>Red October </em>itself. It also has a rather distinctive wide and flat appearance.<p />In the late 70s and early 80s, the workhorses of the Soviet nuclear sub fleet were earlier iterations of the Delta class (Delta I through III). The world was moving from <a href="http://en.wikipedia.org/wiki/Liquid-propellant_rocket">liquid-fueled</a> to <a href="http://en.wikipedia.org/wiki/Solid_fuel_rocket">solid-fueled</a> rockets but apparently the latter take up more space that was available on the Deltas. The Americans were designing and putting out bigger subs.<p />When faced with this dilemma the Soviets thought about it for a while, then put two Delta class hulls next to each other, wrapped them with a shared skin, and called it a day! <p /><br />P.S. This reminds me of a Soviet joke my Dad used to tell, that I&#8217;ll translate here into English. It doesn&#8217;t carry over all too well, but some of you may be amused at the self-deprecation:</p>
+<blockquote>
+<p><br />The Americans are trying to steal the Russian <a href="http://en.wikipedia.org/wiki/Mig_29">MiG-29</a> plans.<br />The CIA sends a spy who manages to come back with the blueprints.<br />They build them only to discover they&#8217;ve just built a steam locomotive.<br />So they send a better spy who comes back with plans that he&#8217;s sure are the right ones.<br />They build them, and find they&#8217;ve got another locomotive.<br />This time they send their best spy, and his orders are to bring back the head engineer.<br />Back in the US with the engineer they ask him what they were doing wrong. The engineer looks at the plans they&#8217;ve stolen and at the locomotive, and points at some fine print on the plans, &#8220;See? you&#8217;ve just forgotten to <a href="http://en.wikipedia.org/wiki/File_(tool)">file</a> it down!&#8221;</p>
+</blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -541,80 +581,6 @@ I will publish the code soon as I finish cleaning it up and packaging.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/processing-user-goals-and-narratives/index.html">Processing User Goals and Narratives</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-11-11T00:00:00-08:00" pubdate data-updated="true">Nov 11<span>th</span>, 2008</time>
-        
-         | <a href="/processing-user-goals-and-narratives/index.html#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">In order to model a strategy to reach a goal, we need to parse some user input.
-
-A goal is a particular frame with particular arguments. Each step in a strategy is&#8212;in fact&#8212;also a goal! Some goals are stubs, certainly.
-
-This feature means that the system understands the underlying details better and better. If once <code>"make a salad"</code> is specified as a step in <code>"make a dinner"</code>, and later <code>"make a salad"</code> is narrated, next time <code>"make a dinner"</code> is undertaken, the details of salad-making can be taken into account.
-
-So, how does one undertake processing a narrative?
-
-Each sentence is examined separately. It is an underlying assumption of the system that sentences will be kept simple. So, the goal is one statement, and each sentence in the narrative is a statement.
-
-I am adopting the method described in <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.3.3085">&#8220;A Maximum Entropy Approach to FrameNet Tagging&#8221; (2008) by Michael Fleischman and Eduard Hovy</a>.
-
-According to that model, the MaxEnt classifier (I&#8217;ll be using an <a href="http://nltk.org">NLTK </a>impementation) will take these features: 
-<ul>
-	<li>Phrase type: PP, NP, etc.</li>
-	<li>Voice</li>
-	<li>Position: position in the sentence</li>
-	<li>Grammatical function: external argument, object argument, etc.</li>
-	<li>Head word: the verb in question</li>
-</ul>
-
-And decide what each word in the sentence is what frame element (Agent, Cause, etc.)
-
-In addition to those features, an n-gram model may be applied, wherein the each subsequent word processed will be supplied the classification of some of the previous words, since once one word is classified as an Agent, another one is unlikely to also be one.
-
-So, a user tells a simple story, and what do we get? We get a frame tagged with the head word. That is, a Motion frame, for example, would also include the particular verb lemma:
-<ul>
-<i>The boy walked to school</i>
-	<li>Theme: &#8220;the boy&#8221;</li>
-	<li>Direction: &#8220;to&#8221;</li>
-	<li>Goal: &#8220;school&#8221;</li>
-	<li>Head: &#8220;WALK&#8221;</li>
-</ul>
-
-The space of strategies is basically a graph of frames. As each frame gets defined in terms of possible subsequent frames, a <a href="http://en.wikipedia.org/wiki/Hidden_markov_model">Hidden Markov Model</a> of narratives is generated.
-
-Then, a wide variety of techniques is available for leveraging HMMs to get us better strategies!
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -632,6 +598,10 @@ Then, a wide variety of techniques is available for leveraging HMMs to get us be
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/03/new-job/">New Job!</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
       </li>
     
@@ -645,10 +615,6 @@ Then, a wide variety of techniques is available for leveraging HMMs to get us be
     
       <li class="post">
         <a href="/the-pebble-and-ubiquitous-computing/index.html">The Pebble and Ubiquitous Computing</a>
-      </li>
-    
-      <li class="post">
-        <a href="/a-brief-interlude-client-attitudes/index.html">A brief interlude - Client attitudes</a>
       </li>
     
   </ul>
