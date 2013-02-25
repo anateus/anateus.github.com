@@ -1,0 +1,707 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Mocking Eye</title>
+  <meta name="author" content="Mike K">
+
+  
+  <meta name="description" content="Remember Gargoyle? Well, it hasn&#8217;t been abandoned yet. I&#8217;ve been rewriting the design and scrapping it over and over. I think I&#8217;ve &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://anateus.github.com/blog/page/6/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Mocking Eye" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-71094-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Mocking Eye</a></h1>
+  
+    <h2>'Tis all in vain?</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:anateus.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/progress-on-gargoyle/index.html">Progress on Gargoyle</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-24T00:00:00-07:00" pubdate data-updated="true">Mar 24<span>th</span>, 2008</time>
+        
+         | <a href="/progress-on-gargoyle/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Remember <a href="http://www.mockingeye.com/index.php/2007/12/12/introducing-gargoyle-the-geospatial-web-in-your-pocket/">Gargoyle</a>?
+
+Well, it hasn&#8217;t been abandoned yet. I&#8217;ve been rewriting the design and scrapping it over and over. I think I&#8217;ve finally reached a design that&#8217;s stable, and that will plug nicely into all kinds of stuff.
+
+Today I wrote a lightweight <a href="http://new.webpy.org/">web.py</a>-based <a href="http://en.wikipedia.org/wiki/Point_of_Interest">POI</a> system. It gives a user a random hash which is used to identify a unique POI list. Access is done <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">RESTfully</a>. That is:
+
+<blockquote class="posterous_short_quote">
+<code>http://www.example.com/locate/te6hemi8t3cu/38.89768/-77.036455/</code>
+</blockquote>
+
+Which would display all POIs in the list <code>te6hemi8t3cu</code> that are in the box bounded by <code>(38.897000, -77.036000)</code> and <code>(38.897999, -77.036999)</code>. That is, three spaces after the decimal is my chosen granularity (it&#8217;s roughly walking distance). The POI list is produced either in a human readable bullet-point list (for easy display on mobile devices), or as a <a href="http://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML</a> file (with some added metadata of course. Such as an expiration date for the entry).
+
+Adding a POI is just as easy, just using <code>add</code> instead of <code>locate</code>, and appending <code>/poi_info</code> to the URL.
+
+This means that you can easily write apps to use this simple API, as well as display it using Google Earth.
+
+What&#8217;s the next step? I need to convert my already existing client for the Nokia N800 to be able to use this POI list, as well as maintain its own POI cache. It should only read to the user things within a 4 or 5 decimal space distance, and not bother querying unless the user is approaching the edges of the grid box she&#8217;s in.
+
+Finally, once these infrastructure issues are taken care of, the real purpose of Gargoyle will be implemented. This takes the form of a the app that goes through your &#8220;reading list&#8221; and adds relevant items to the POI list. 
+
+I will post the code for the N800 code and the POI server some time within the week. It still needs some cleanup. Gargoyle v0.2 here we come!
+
+<strong>Addendum:</strong> POIs can also be meta-POIs. That is, rather than being a placename, an entry into the db can be a uri to an external kml source (can be dynamic). An example would be a URL that points to a script that forwards the coords to the <a href="http://www.geonames.org/export/wikipedia-webservice.html">Geonames Wikipedia web service service</a> (shows nearest wikipedia entries) and converts the resulting XMl or JSON into KML.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/making-a-terrorist/index.html">Making a Terrorist</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-19T00:00:00-07:00" pubdate data-updated="true">Mar 19<span>th</span>, 2008</time>
+        
+         | <a href="/making-a-terrorist/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">There are many myths about terrorists and their origins, motivators, goals and methods. There are many pundits who express their various opinions and conjectures. But there are relatively few works that present more studied information.
+
+Here are two books that I own, which provide a wealth of information. Each of these tomes completes the other:
+<ul>
+	<li>
+<a href="http://www.amazon.com/gp/product/0691134383?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0691134383">What Makes a Terrorist: Economics and the Roots of Terrorism</a> by Alan Krueger<img src="/images/media_httpwwwassocama_kgolb.jpg" alt="Making a Terrorist" />
+</li>
+	<li>
+<a href="http://www.amazon.com/gp/product/037541486X?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=037541486X">The Looming Tower: Al-Qaeda and the Road to 9/11</a> by Lawrence Wright<img src="/images/media_httpwwwassocama_tCFGf.jpg" alt="Making a Terrorist" />
+</li>
+</ul>
+
+The first of these, with a rather odacious title, is based on a lecture series given by its author, a respected economist. It is a fairly slim paperback overflowing with data. There are tables filled with meaningful figures nearly every other page. This work is an attempt to understand the circumstances and demographics of terrorism. As <a href="http://www.marginalrevolution.com/marginalrevolution/2007/08/what-makes-a-te.html">one review of the book</a> stated, it really does not answer the question posed by its title. Rather, it describes what terrorism isn&#8217;t. Poor economic prospects, poor eduction, poor healthcare, all those are factors commonly presented as motivators for terrorism. Krueger&#8217;s meticulous analysis shows that this is rarely the case.
+
+His investigation shows that no single religion has the lion&#8217;s share of terrorists. Nevertheless, most terrorism is perpetrated by members of a religious group other than that targeted. Other factors that Krueger finds <em>do</em> characterize terrorists are limited political freedoms and civil liberties. 
+
+Wright&#8217;s Pulitzer-prize winning masterpiece follows quite a different side of terrorism. Rather than concentrating on data, it provides a non-fiction narrative following radical Islamism from its roots with <a href="http://en.wikipedia.org/wiki/Sayyid_Qutb">Sayyid Qutb</a> to the important-to-America <a href="http://en.wikipedia.org/wiki/Osama_Bin_Laden">Osama Bin Laden</a>. Captivating in its detail, Wright creates an intimate profile of the men who shape much of terrorist-spawning radical Islam.
+
+The two books together construct a visceral image of one of the greatest dangers facing our world. They are illuminating, educational, and very very important.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/unified-identity-design/index.html">Unified Identity Design</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-17T00:00:00-07:00" pubdate data-updated="true">Mar 17<span>th</span>, 2008</time>
+        
+         | <a href="/unified-identity-design/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">My online identity is highly fragmented. Some parts are public, others are restricted to specific groups. Part of my identity is <em>presence</em>. That is, the way people can find out what I&#8217;m doing, and contact me. Here is a taxonomy of some different aspects of my Online Identity:
+<ul>
+	<li>
+<strong>Events:</strong> Google Calendar, Facebook Events</li>
+	<li>
+<strong>Personal Information:</strong> Facebook, LinkedIn</li>
+	<li>
+<strong>Text Messaging:</strong> AIM, SMS, GoogleTalk, Email</li>
+	<li>
+<strong>Voice:</strong> Cell, Skype</li>
+	<li>
+<strong>Contacts:</strong> Facebook, LinkedIn, Gmail contacts, Cellphone contacts</li>
+	<li>
+<strong>Presence:</strong> AIM Away message, Facebook status, Twitter</li>
+
+</ul>
+
+The idea of <a href="http://en.wikipedia.org/wiki/Unified_messaging">Unified Messaging</a> is a vertical solution in that it attempts to aggregate the methods of contact for one person, but it usually does so via proprietary solutions for each category. That is, there is a provided method for events (that is, calendar), personal information, text messaging, and voice.
+
+What I want is a way to take all of my existing solutions, and create an intermediate format, which can be used to update all the rest. And then I want mobile access.
+
+I plan on integrating some of this into Gargoyle. The method of implementation will most likely be FOAF, though I&#8217;m as yet unsure about how I want to store my events. Events right now are probably the best category, since facebook publishes an iCal feed of my events, which I have imported as a dynamic calendar into my Google Calendar. The Google Calendar, in turn, sends me event notifications to my cell, via SMS.
+
+My initial task is to be available via whatever way is most convenient, no matter what the original mode of contact was, with SMS being the common-denominator. This can be most easily achieved by putting gatekeeper bots at each incoming mode of communication. So, there will be an AIM bot, that when set to &#8220;on&#8221; would forward all incoming AIM messages to an appropriate alternative location. Perhaps an even easier way would be to use existing methods: run my own Jabber server, with transports for all the various protocols. Jabber is also the easiest method for which to write bots in python.
+
+These are some preliminary ideas that I&#8217;m filing publically. More to come soon.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/transparent-society-privacy-and-the-balance-o/index.html">Transparent Society, Privacy, and the Balance of Power</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-11T00:00:00-07:00" pubdate data-updated="true">Mar 11<span>th</span>, 2008</time>
+        
+         | <a href="/transparent-society-privacy-and-the-balance-o/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Recently <a href="http://en.wikipedia.org/wiki/Bruce_Schneier">Bruce Schneier</a> posted <a href="http://www.wired.com/politics/security/commentary/securitymatters/2008/03/securitymatters_0306">a debunking of the idea of a Transparent Society</a> (such as put forward by <a href="http://en.wikipedia.org/wiki/David_Brin">David Brin</a>). He argues that the while the more open exchange of information in society can lead to a power balance, existing power structures mean that those already powerful will benefit most from disclosure. Here&#8217;s a quote near the top:
+
+<blockquote>You cannot evaluate the value of privacy and disclosure unless you account for the relative power levels of the discloser and the disclosee.
+
+If I disclose information to you, your power with respect to me increases. One way to address this power imbalance is for you to similarly disclose information to me. We both have less privacy, but the balance of power is maintained. But this mechanism fails utterly if you and I have different power levels to begin with.
+
+An example will make this clearer. You&#8217;re stopped by a police officer, who demands to see identification. Divulging your identity will give the officer enormous power over you: He or she can search police databases using the information on your ID; he or she can create a police record attached to your name; he or she can put you on this or that secret terrorist watch list. Asking to see the officer&#8217;s ID in return gives you no comparable power over him or her. The power imbalance is too great, and mutual disclosure does not make it OK. </blockquote>
+
+As a frequent advocate of transparency as a way to normalize power in a society I must clarify my position in light of these valid objections. Schneier very correctly points to &#8220;The Transparent Society&#8221; as an utopian ideal. Perhaps it is a tired trope, but I&#8217;d like to point out that &#8220;utopia&#8221; originally meant &#8220;no place&#8221;. That is, a place of total transparency and thus balanced power is an unachievable goal on its face.
+
+I advocate movement toward such a society in a way that&#8212;unlike Schneier assumptions about such ideas&#8212;maintains as much power as possible within the hands of those currently on the lower end of the scale. This is where cryptography and other protectors of your information/privacy come in. I disagree with Schneier&#8217;s claim that there is an inherent value in privacy; it is only there to equalize the balance.
+
+Thus, believing in transparency doesn&#8217;t mean you accept a &#8220;me first&#8221; approach. One does not necessarily expose oneself first in the hope of the powerful following suit. Rather, the <a href="http://en.wikipedia.org/wiki/Power-knowledge">power-knowledge</a> of the elite must be systematically broken down while protecting our own zealously all the while. Eventually, we should reach a sort of detente in the matter.
+
+There are common-good externalities to transparency that are substantial, but as Schneier warns, we must equalize initial powers as much as possible before going &#8220;clear&#8221;. Otherwise, the individual benefits are small, and the opportunity for exploitation increases.
+
+<em>Caveat Patefactor!</em>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-wisdom-of-crowds-and-democracy/index.html">The Wisdom of Crowds and Democracy</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-07T00:00:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2008</time>
+        
+         | <a href="/the-wisdom-of-crowds-and-democracy/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Democracy is founded on giving people the right to self-determination and the illusion that this is a good method by which to extract collective intelligence.
+
+There is not the problem of the mob but quite the opposite: it is the massed individual stupidity which brings down the democratic endeavor.
+
+Let us look at an example: There is a large jar filled with jelly beans&#8212;such as may be found at fairs and such&#8212;and people attempt to guess the correct number as closely as possible. What has been found is that people are usually wildly off the mark, and more often than not they follow a bias in one direction. However, the <em>average of guesses is amazingly close to the real number</em>.
+
+Imagine following a standard democratic prescription, however, and merely picking the number most guessers chose (the <em>mode</em>) or even the middle value (the <em>median</em>): you would not get a good result at all! (<strong>Update:</strong> Robin Hanson (see below) says the median often gives results even better than the average, so&#8230; that would also work! :&gt;)
+
+<em>Why should we then use a method this wretched to solve a problem not far off, namely that of electing our leaders?</em>
+
+Further Reading:
+<ul>
+	<li>
+<a href="http://www.amazon.com/Myth-Rational-Voter-Democracies-Policies/dp/0691129428/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1204903394&amp;sr=8-1">The Myth of the Rational Voter by Bryan Caplan</a> [BOOK]</li>
+	<li>
+<a href="http://www.amazon.com/Wisdom-Crowds-James-Surowiecki/dp/0385721706/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1204903420&amp;sr=1-1">The Wisdom of Crowds by James Surowiecki</a> [BOOK]</li>
+	<li>
+<a href="http://hanson.gmu.edu/futarchy.html">Futarchy: Vote Values, Bet Beliefs by Robin Hanson</a> [HTML]. Short manifesto expanded on in the paper below:
+	</li>
+<li>
+<a href="http://hanson.gmu.edu/futarchy.pdf">Shall We Vote on Values but Bet on Beliefs by Robin Hanson</a> [PDF]</li>
+</ul>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-most-important-things-youll-read-this-mon/index.html">The Most Important Things You&#8217;ll Read This Month</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-07T00:00:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2008</time>
+        
+         | <a href="/the-most-important-things-youll-read-this-mon/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">One of the most important things you can do is keep the <a href="http://www.overcomingbias.com/2007/12/the-robbers-cav.html">Robbers Cave experiment</a> in your mind at all time.
+
+Two groups of culturally homogeneous boys were slowly introduced to one another, and conflict blazed out of nowhere. Just the mere grouping caused the boys to detect minute differences and exaggerate them until two distinct cultures emerged, at odds and in constant competition.
+
+Only a tough common problem united them in a single struggle. Only after several more of these combined efforts did they decrease hostilities.
+
+<a href="http://www.overcomingbias.com/2007/12/the-robbers-cav.html">Go! Go read it now!</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/making-the-most-of-amazoncom/index.html">Making the Most of Amazon.com</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-07T00:00:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2008</time>
+        
+         | <a href="/making-the-most-of-amazoncom/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Two sites that will help you make more of Amazon.com:
+<ul>
+	<li>
+<a href="http://deallocker.com/tool/secret-amazon-discount/">DealLocker Amazon Discount Search</a> lets you search Amazon by the rate of discount.</li>
+	<li>
+<a href="http://www.filleritem.com/">FillerItem</a> lets you put in the amount you are short to get the Amazon Free Super Saver Shipping, so you can get a product as close to that as possible, to save yourself both the shipping charges and whatever you may overpay in your overzealous purchasing to attempt to fill the gap!</li>
+</ul>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/international-war-that-can-work/index.html">International War That Can Work?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-07T00:00:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2008</time>
+        
+         | <a href="/international-war-that-can-work/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">One of my favourite <a href="http://en.wikipedia.org/wiki/TED_%28conference%29">TED</a> talks ever:
+<blockquote class="posterous_medium_quote">In this bracingly honest and funny talk, international security strategist Thomas P.M. Barnett outlines a post-Cold War solution for the foundering US military: Break it in two. He suggests the military re-form into two groups: a Leviathan force, a small group of young and fierce soldiers capable of swift and immediate victories; and an internationally supported network of System Administrators, an older, wiser, more diverse organization that actually has the diplomacy and power it takes to build and maintain peace.</blockquote>
+<div style="">
+<object align="middle" height="285" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="320" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="movie" value="http://static.videoegg.com/ted/flash/loader.swf" />
+<param name="FlashVars" value="bgColor=FFFFFF&amp;file=http://static.videoegg.com/ted/movies/THOMASBARNETT-2006_high.flv&amp;autoPlay=false&amp;fullscreenURL=http://static.videoegg.com/ted/flash/fullscreen.html&amp;forcePlay=false&amp;logo=&amp;allowFullscreen=true" />
+<param name="quality" value="high" />
+<param name="allowScriptAccess" value="always" />
+<param name="bgcolor" value="#FFFFFF" />
+<param name="scale" value="noscale" />
+<param name="wmode" value="window" />
+<embed name="VE_Player" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://static.videoegg.com/ted/flash/loader.swf" type="application/x-shockwave-flash" wmode="window" allowscriptaccess="always" align="middle" height="285" flashvars="bgColor=FFFFFF&amp;file=http://static.videoegg.com/ted/movies/THOMASBARNETT-2006_high.flv&amp;autoPlay=false&amp;fullscreenURL=http://static.videoegg.com/ted/flash/fullscreen.html&amp;forcePlay=false&amp;logo=&amp;allowFullscreen=true" quality="high" width="320"></embed></object>
+
+<a href="http://www.ted.com/talks/view/id/33">Link to video page</a>
+</div>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/what-the-roads-can-teach-us/index.html">What the Roads Can Teach Us</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-03T00:00:00-08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2008</time>
+        
+         | <a href="/what-the-roads-can-teach-us/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">I&#8217;ve often looked to the roads, traffic, and vehicle-pedestrian interaction as a guide to human to behavior. It is a situation where the risk is very high and communication is highly constrained, so behavior strategies are more readily apparent.
+
+Most of us know the roads as strongly structured environments with mostly clear rules regulating behavior, with fairly stiff penalties placed on violators. The theory being that the restricted communication and great complexity of navigating the roads and streets should be offset by the strict direction of behavior and heavy punishment to deter deviation.
+
+In practice, those who cheat will win. Most people are risk-averse enough to allow the few bold and brash to take advantage of that for consistent gain. Alas, this leads to situations where this opportunistic behavior leads to disaster.
+
+But this isn&#8217;t the only problem. In recent years, more and more studies have come out showing that at least some of the problems on the roads stem from overconfidence which stems from the various risk-reducing tools we use. <a href="http://en.wikipedia.org/wiki/Seat_belt_legislation">Seat belts</a> tend to promote risky driving, although they certainly reduce fatilities by a huge percentage. A <a href="http://www.bath.ac.uk/news/articles/releases/overtaking110906.html">recent experiment by a professor at the University of Bath</a> had him biking and measuring the behavior of cars that drove past. When not wearing a helmet he was given a much wider berth than when doing so. Even more space was granted when he donned a woman&#8217;s wig. This seems to indicate that the safety granted by the helmet encouraged drivers to take more risks in regards to the cyclist. Once again, bicycle helmets have an immensly beneficial effect in reducing fatalities to mere injuries, so this study should most certainly not be construed as a reason not to don one.
+
+Taking this type of data into account, what can be done to improve the safety of everyone involved?
+
+An idea of growing popularity is that of a <a href="http://en.wikipedia.org/wiki/Shared_space">Shared Space</a>, pioneered by the Dutch traffic engineer <a href="http://en.wikipedia.org/wiki/Hans_Monderman">Hans Monderman</a>. This is a model where nearly all traffic markings are removed from an area. This includes signs, traffic lights, and even the clear distinction between road and sidewalk. Intersection are converted into roundabouts.
+
+The results from the several implementations of this model are overwhelmingly positive. This removal of strict direction forces all those involved, pedestrians and drivers alike, to pay much more attention to their environment. It demands the interaction via eye-contact and implicit behavior adjustment of all participants. The result is the smooth operation of traffic, where average speeds drops, but total trip times shorten, as well as huge improvement in safety &#8212; fatality and injury rates plummet. After the initial period of habituation, no extreme vigilance from pedestrians or motorists is required as the more cautious behavior is internalized.
+
+I contend that what can work in the street can also work in other areas of life where many demand regulation and strict control for the safety of all. No external authority or risk-reducing device can substitue for personal vigilance, skepticism, and common sense. And in many cases, as the above examples illustrate, relying on our own individual virtues can be much superior.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/no-need/index.html">No Need</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-03T00:00:00-08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2008</time>
+        
+         | <a href="/no-need/index.html#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"> 
+
+<blockquote class="posterous_short_quote">Sire, I had no need of that hypothesis.</blockquote>
+
+<a href="http://en.wikipedia.org/wiki/Pierre-Simon_Laplace">Pierre-Simon Laplace</a>, a french scientist, <a href="http://en.wikiquote.org/wiki/Pierre-Simon_Laplace">replying</a> to <a href="http://en.wikipedia.org/wiki/Napoleon">Napoleon</a> on being asked why there was no mention of God in his work on the movement of the planets.
+
+What use is that hypothesis to you? Let me know.
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/7/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/5/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/03/new-job/">New Job!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/">Reading everything stdin in a bash script</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/01/migrated-from-posterous-to-octopress/">Migrated from Posterous to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/piping-ls-through-less-with-colors-on-mac-os/index.html">Piping ls through less with colors on Mac OS X</a>
+      </li>
+    
+      <li class="post">
+        <a href="/the-pebble-and-ubiquitous-computing/index.html">The Pebble and Ubiquitous Computing</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Mike K -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'mockingeye';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

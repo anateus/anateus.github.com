@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Mocking Eye]]></title>
+  <link href="http://anateus.github.com/atom.xml" rel="self"/>
+  <link href="http://anateus.github.com/"/>
+  <updated>2013-02-03T20:45:21-08:00</updated>
+  <id>http://anateus.github.com/</id>
+  <author>
+    <name><![CDATA[Mike K]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Job!]]></title>
+    <link href="http://anateus.github.com/blog/2013/02/03/new-job/"/>
+    <updated>2013-02-03T20:22:00-08:00</updated>
+    <id>http://anateus.github.com/blog/2013/02/03/new-job</id>
+    <content type="html"><![CDATA[<p>Just thought I might make it a point to mention I recently joined the engineering team at <a href="http://www.comprehend.com/">Comprehend</a>, a fellow Y Combinator company. We make analytics software targeting pharmaceutical companies in an industry that&#8217;s filled with balkanized solutions. Helping tackle the byzantine challenges involved in clinical trials should be interesting!</p>
+
+<p>As usual, I must add that my opinions and comments and do not represent my employer in any way shape or form.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading everything stdin in a bash script]]></title>
+    <link href="http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/"/>
+    <updated>2013-01-22T14:27:00-08:00</updated>
+    <id>http://anateus.github.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script</id>
+    <content type="html"><![CDATA[<p>In trying to get a <a href="http://collectd.org/">collectd</a> instance to send me alerts, I found out that I didn&#8217;t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the <code>read</code> command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that&#8217;s perhaps canonical, but doesn&#8217;t seem to pop up via quick googling:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">VALUE</span><span class="o">=</span><span class="k">$(</span>cat<span class="k">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$VALUE&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&#8217;s it! <code>$(cat)</code> is a shorthand for <code>$(cat /dev/stdin)</code>, so presumably you can use this to read from stderr by pointing it at <code>/dev/stderr</code>.</p>
+
+<p>Happy piping!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated from Posterous to Octopress]]></title>
+    <link href="http://anateus.github.com/blog/2012/08/01/migrated-from-posterous-to-octopress/"/>
+    <updated>2012-08-01T20:29:00-07:00</updated>
+    <id>http://anateus.github.com/blog/2012/08/01/migrated-from-posterous-to-octopress</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve migrated the blog from Posterous to <a href="http://octopress.org">Octopress</a>. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn&#8217;t want the various security and management headaches that basically every dynamic CMS brings with it.</p>
+
+<p>I used the alternative <a href="https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb">posterous importer provided by Jekyll</a>&#8211;their default one doesn&#8217;t preserve the permalinks. Before running it you should fix a bug: <code>s/post\.media[2]/post.media/</code>. Then you can run it with <code>ruby posterous.rb USERNAME PASSWORD API_TOKEN</code>. Presto!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Piping ls through less with colors on Mac OS X]]></title>
+    <link href="http://anateus.github.com/piping-ls-through-less-with-colors-on-mac-os/index.html"/>
+    <updated>2012-06-13T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/piping-ls-through-less-with-colors-on-mac-os/piping-ls-through-less-with-colors-on-mac-os</id>
+    <content type="html"><![CDATA[<p>The following command will do the trick:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>CLICOLOR_FORCE=1 ls -G|less -R</pre></div>
+</div>
+
+
+<p>Or just add this to your <code>.bash_profile</code> file to have ls always display in color and less always able to consume color codes:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>alias ls='CLICOLOR_FORCE=1 ls -G'
+alias less='less -R'</pre></div>
+</div>
+
+
+<p>This has been tested on 10.6.8 and should be valid for subsequent versions as well. Just a tad annoying since <code>ls</code> on Mac OS X behaves a bit differently than the standard linux one (i.e. no <code>--color</code> option).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Pebble and Ubiquitous Computing]]></title>
+    <link href="http://anateus.github.com/the-pebble-and-ubiquitous-computing/index.html"/>
+    <updated>2012-05-10T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/the-pebble-and-ubiquitous-computing/the-pebble-and-ubiquitous-computing</id>
+    <content type="html"><![CDATA[<p>In case you haven&#8217;t heard, <a href="http://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android">the Pebble </a>is a watch with an eInk screen that tethers to your phone over bluetooth. It&#8217;s being funded via Kickstarter in what I believe is their biggest project to date (over $10 million). The company making it is Allerta, a fellow YC company that previously made a watch that only tethered to Blackberries (and had a fatal flaw: only a single button). Needless to say, I&#8217;m a backer, and thus am slated to receive one when they ship.</p>
+<p>As you can see from the Kickstarter page, a lot of the proposals involve using it as a very convenient information display, so that you can keep your phone in your pocket. That&#8217;s great, but yesterday I realized that the accelerometer inside the Pebble takes it to the next level:</p>
+<p><strong>Everything is a touch surface.</strong> Gestures don&#8217;t have to be a wizardly waving of your arms&mdash;though you can certainly do that, it will be certainly less awkward than waving your phone around&mdash;they can be as discreet as a sequences of taps.</p>
+<p>Objects that have no sensors in them can become touch-enabled. You can have tactile equivalents of QR codes: just print a number, and have people tap it out on a virtual phone grid to trigger.</p>
+<p>You could <em>Draw Something</em> in a sandbox. And really, generally allow user-arranged interfaces, here&#8217;s a scenario: the watch displays the image of a particular control (a button, a slider, a knob) you tap somewhere on a surface (let&#8217;s say you&#8217;re holding a pen and it&#8217;s a piece of paper). Now the system knows that&#8217;s where you dropped that control, and it shows you the next one. So you could arrange your own <em>Draw Something</em> interface, a mild vibration from the built-in motor can indicate you&#8217;re passing over an active control with its image showing on the watch&#8217;s screen, in case you forgot to note it. Then you can just go ahead and draw, tapping on the controls to activate them. You can also just drop &#8220;buttons&#8221; around yourself: you sit down at the office, and you drop a &#8220;go to speakerphone&#8221; button on your arm rest. When you get a phone call, you just tap it to pick up, instead of either pulling out your phone, having to reach your arm up to your bluetooth headset, or even using your other arm to press a button on the watch.</p>
+<p>The world around you is now your configurable, editable control panel.</p>
+<p>Tactile interactions are still incredibly valuable, but we&#8217;ve come to associate them with information poor systems. The Pebble allows us to combine information-rich environment with physical interaction once again.&nbsp;</p>
+<p><strong>Bump all the things!</strong></p>
+<p><em>(and when the Google Glasses come out&#8230; ubicomp heaven)</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A brief interlude - Client attitudes]]></title>
+    <link href="http://anateus.github.com/a-brief-interlude-client-attitudes/index.html"/>
+    <updated>2012-03-21T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/a-brief-interlude-client-attitudes/a-brief-interlude-client-attitudes</id>
+    <content type="html"><![CDATA[<p>
+<p>Americans are often surprised at the extent to which &#8220;the customer is always right&#8221; isn&#8217;t a valued precept in Europe. It is a common aspect of American culture that a certain level of service and courtesy is due, and that the customer is doing the business a favor by being a patron. Certainly a high quality of service is respected throughout Europe, but the same sense of deep entitlement is mostly lacking.</p>
+<p>But perhaps it&#8217;s merely redirected: Europeans expect more of their governments both in terms of the services provided and in terms of the responsiveness to their needs. Very much the sort of feelings that Americans have about businesses, but not nearly as much about their governments.</p>
+<p>As someone who on occasion identifies as an anarcho-capitalist, this makes a lot of sense to me. Governments are just service providers, insurance companies on a grand scale that assume the moral right to extract their premium payments from you whether you&#8217;re interested in their particular products or not. So I perceive a continuum between business and government, mostly on the axis of forced participation (what&#8217;s in the middle? various levels of oligarchic monopolies, state-sponsored enterprises and so forth. Businesses do use some coercion, the perfect entity on the least-force side of this spectrum would forgo advertising for example).</p>
+<p>Most metrics have been pointing at greater social and economic mobility in Europe vs. the US for at least the last decade. Quality of life metrics have been solidly on Europe&#8217;s side for even longer. It seems the cause is not the rift in political ideology&#8211;everyone&#8217;s a populist at the ballot box&#8211;nor the difference in approaching ethical and legal matters, but rather the difference in expectations of customer service.&nbsp;</p>
+<p>The US has an incredibly successful and useful myth of the individual freedoms that abound here. However having freedoms of great magnitude possible is not the same as freedoms commonly accorded. Same for opportunity. This myth however is incredibly useful, it&#8217;s *why* you have such great opportunity here. Although it is not the case now&#8211;and hasn&#8217;t been the case for many times in history&#8211;that people can rise with greater ease here than elsewhere, those who do rise have a chance to rise much higher exactly because of the collective beliefs in opportunity and freedom. Sounds a like the lottery.</p>
+<p>Skill and smarts can often beat the house, but let&#8217;s return to the previous metaphor. I think people in the US have been getting complacent about the crappy customer service they&#8217;ve been getting. We expect the smiles and greetings, but we&#8217;ve forgotten how to complain. And sure, movements like Occupy are that unruly couple you&#8217;re trying not to make eye contact with who are tearing the shift manager a new one, but you silently agree that this place <em>has</em> gone downhill.&nbsp;</p>
+<p>Ask to speak to the manager.</p>
+<p>&nbsp;</p>
+<p><em>Interlude? Between what and what? Well, the next part of my series on global food security is on its way! Boy howdy! And if you don&#8217;t find agriculture as fascinating as I do, you should probably stop eating.</em></p>
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Can we feed everyone on the planet? — Global Food Security Part 1]]></title>
+    <link href="http://anateus.github.com/can-we-feed-everyone-on-the-planet-mquot-glob/index.html"/>
+    <updated>2012-02-13T00:00:00-08:00</updated>
+    <id>http://anateus.github.com/can-we-feed-everyone-on-the-planet-mquot-glob/can-we-feed-everyone-on-the-planet-mquot-glob</id>
+    <content type="html"><![CDATA[<p><em>This is the first of a series that will contain some of my thoughts on global food security and other related global thread factors. This post is a fairly hasty introduction to something I&#8217;ve been doing research on for some time.</em></p>
+<p>Our planet is overpopulated. Teeming masses of humanity are multiplying at an unsustainable rate. Beyond war and disease, one of our most basic existential needs&mdash;food&mdash;is unsatisfied<a href="#water"><sup>*</sup></a>: 925 million people are perpetually hungry, and up to 2 billion are intermittently food insecure<a href="#food-sec"><sup>1</sup></a>. You need to care about this because although food insecurity doesn&#8217;t lead clearly to a true existential risk (that&#8217;s where humanity gets wiped out), it is a major factor in societal collapse. This last affliction is one we&#8217;re still in danger of despite our advances in technology, and especially with the tight integration of the global economy, it may not be as easy to maintain high functioning pockets.</p>
+<p>So, how can we feed everyone on the planet? In this first part I will use some rough calculations to look at whether this is even possible, or if we&#8217;re wide off the mark.</p>
+<p>In order to find out if we can feed everyone I&#8217;ve adopted this simplified approach: find out how much food we produce, figure out a way to estimate its caloric content, and divide by the rough yearly caloric need per person. I found out the numbers for global food production are not very easy to come by and the ones I found estimated it in dollar value. However, I was able to dig up the global cereal production in tonnes. Cereals are the staple food in the vast majority of the world, and can be used to estimate the rough scale of our global food production. In later parts of the series I will attempt to produce more accurate estimates of our food production. One of the main problems with using cereals here is that in much of Africa&mdash;one of the parts of the world most afflicted with food insecurity&mdash;Cassava is the major staple. Unfortunately, Cassava is quite nutritionally poor and its widespread use is one of the things I&#8217;ll address in later posts. There&#8217;s another important problem with cereal (and is a major area I will also address later): 35-40% of cereal production goes to animal feed, rather than human consumption.</p>
+<p>So here&#8217;s the the calculation intended to see if we&#8217;re even in the ballpark of feeding everyone:</p>
+<table>
+
+<tr>
+<td>Total global production of cereals, in tonnes (2007)<a href="http://#cereal"><sup>2</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal per tonne of cereal<a href="http://#food-crisi"><sup>3</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal required per year per person<sup>&dagger;</sup></td>
+<td>&nbsp;</td>
+<td>People we can feed per year</td>
+</tr>
+<tr>
+<td>(&nbsp;2,349,874,000</td>
+<td>&times;</td>
+<td>3,000,000&nbsp;)</td>
+<td>&divide;</td>
+<td>912,500</td>
+<td>=</td>
+<td>7,725,613,150.68</td>
+</tr>
+
+</table>
+<p>Well, looks like we&#8217;re just about there, as far as calories from cereals go! Does that mean we can rest safe? Well, obviously we can&#8217;t, or there wouldn&#8217;t be hungry people in the world. In subsequent posts I&#8217;m going to cover a many of the major issues preventing global food security and discuss methods to overcome them. A serious directed effort is necessary to reasonably guarantee food security to almost everyone human being in the world, but it&#8217;s much easier than it seems at first. Here are some of the topics I&#8217;ll address:</p>
+<ul>
+<li>Post-harvest loss and food waste</li>
+<li>Why couldn&#8217;t the Green Revolution keep up?</li>
+<li>Genetically modified organisms and agribusiness</li>
+<li>Food insecurity and societal collapse</li>
+<li>Demographics and food security</li>
+</ul>
+<p><strong>Notes:</strong><br /> * <a name="water">&nbsp;</a>I&#8217;m ignoring water for now because the issues with the lack of water are more clearly infrastructural as opposed to related to a true global scarcity.<br /> &dagger; <a name="est">&nbsp;</a> This is my own rough estimate of 2,500 kcal * 365 days.</p>
+<p><strong>References:</strong></p>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Food_security" target="_blank">Food Security - Wikipedia</a><a name="food-sec">&nbsp;</a></li>
+<li><a href="http://earthtrends.wri.org/searchable_db/index.php?theme=8&amp;variable_ID=183&amp;action=select_countries" target="_blank">Agricultural Production: Cereals, total production - World Resources Institute</a><a name="cereal">&nbsp;</a></li>
+<li><a href="http://www.grida.no/publications/rr/food-crisis/page/3565.aspx" target="_blank">World Food Supply - GRIDA Arendal</a><a name="food-crisis">&nbsp;</a></li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to translate Chinese and Japanese characters]]></title>
+    <link href="http://anateus.github.com/how-to-translate-chinese-and-japanese-charact/index.html"/>
+    <updated>2012-02-06T00:00:00-08:00</updated>
+    <id>http://anateus.github.com/how-to-translate-chinese-and-japanese-charact/how-to-translate-chinese-and-japanese-charact</id>
+    <content type="html"><![CDATA[<p><em>I&#8217;m in an Iron Blogger &#8220;competition&#8221; and per the rules I have to update the blog once a week. I&#8217;ve been a bit lax, so I&#8217;ve dug this up from my collection of articles I wrote for my now famously vaporware newsletter (vol 2 will come and the meek shall inherit). Enjoy!</em></p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chinese_character_%E6%8E%A1_cai3_pick_with_ROOT_colored.svg/260px-Chinese_character_%E6%8E%A1_cai3_pick_with_ROOT_colored.svg.png" border="0" align="left" alt="The Chinese character cai, meaning 'to pick&amp;iacute;, with its 'root&amp;iacute;, the original, semantic (meaning-bearing) graph on the right, colored red; and its later-added, redundant semantic determinative (which also happens to serve as its dictionary classifier, or section header (b˘shou) on the left in black. Both portions have been called the 'radical&amp;iacute; (although nowadays generally the left side), leading to confusion." style="margin-right: 15px;" />Hanzi Smatter<a href="#a1"><sup>1</sup></a> is great, but sometimes you don&#8217;t want to rely on a random blog to translate your friends&#8217; crappy tattoos. Or maybe you wanna know what that anime&#8217;s title REALLY means. Wonder no more! For a history lesson as well as a lot of information I&#8217;m just going to skip that could be important for translating larger texts (such as reading direction), there are links at the bottom of this section. For simplicity&#8217;s sake I&#8217;m going to refer to all these characters as Hanzi<a href="#a2"><sup>2</sup></a> (Kanji<a href="#a3"><sup>3</sup></a> being the Japanese pronunciation of the same characters). There are also a lot of nuances to the radicals, their ordering, and non-radical elements of these characters that I&#8217;m gonna ignore for the same of simplicity.</p>
+<p>The key to being able to decipher these characters is understanding how they are constructed. Although some look quite complex and monolithic, all Hanzi are constructed from building blocks called <strong>radicals</strong><a href="http://#a4"><sup>4</sup></a>. Each radical consists of a particular number of strokes required to draw it and Chinese dictionaries are usually ordered by the increasing number of strokes (there are several other orderings, including ones based on semantic categorization, a tradition descended from the ancient Chinese dictionary the&nbsp;<a href="http://en.wikipedia.org/wiki/Erya" target="_blank">Erya</a>). Computerized radical-based dictionaries offer significantly faster lookups, because you can drill-down to the characters you mean quite quickly.</p>
+<ol>
+<li>Go to <a href="http://www.cojak.org/">http://www.cojak.org</a>. There are other Hanzi/Kanji dictionaries out there, but that one&#8217;s decent and pretty</li>
+<li>Try and identify a simple &#8220;monolithic&#8221; structure within the character, and count its number of strokes. Until you become more familiar with the radicals you may miscount, though thankfuly the dictionary&#8217;s interface lets you just find the radical that looks most similar. The location of the radical within the character varies, it&#8217;s meant to represent the core &#8220;semantic&#8221; aspect of the word, but that isn&#8217;t universally true.</li>
+<li>Click on that radical!</li>
+<li>Now you will be presented with choices of embellishments upon that radical, again ordered by number of strokes. Your character should be amongst the list.</li>
+<li>Now you will see the definition of that character. Below you may see a list of words that begin with that character, but are made up of multiple ones. If the character you are trying to translate is within a longer text, see if the adjacent characters don&#8217;t match those in the list, because words can be made up of multiple characters</li>
+<li>Voila! With a little bit of pattern recognition, you&#8217;ve now got the tools to be translating most Hanzi without much difficulty.</li>
+</ol>
+<p>Almost underwhelming isn&#8217;t it? Unfamiliar things can often seem daunting, especially foreign languages and writing systems. Even a little bit of knowledge, however, can go a long way towards demistifying large swathes of territory! One weekend I was waiting for a train at the Mountain View Caltrain station, when an elderly Chinese couple began speaking at me in animated Mandarin and gesturing at the ticket machine. I tried to help them buy tickets, but they waved me away. I don&#8217;t speak any Chinese, but I am familiar with various cultural elements such as Laozi<a href="http://#a5"><sup>5</sup></a> (a.k.a Lao-Tzu, etc.) father of Taoism whose name simply means &#8220;old master&#8221;. As the woman spoke to me, I noticed the word &#8220;lao&#8221; coming up multiple times. I asked &#8220;lao?&#8221;, to which she nodded vigorously and repeated &#8220;lao! lao!&#8221;. So, I helped them get the Senior-priced tickets on the machine and they left happily.</p>
+<p>Without resorting to universal hand gestures, the cross-linguistic issues were resolved! The important thing is to always try and apply even tiny bits of pattern recognition, you never know when it will be quite helpful.</p>
+<p><strong>Notes &amp; References:</strong><br /> <a name="a1"><sup>1 </sup></a><a href="http://hanzismatter.blogspot.com/" target="_blank">Hanzi Smatter</a><br /> <a name="a2"><sup>2 </sup></a><a href="http://en.wikipedia.org/wiki/Hanzi" target="_blank">Hanzi - Wikipedia</a><br /> <a name="a3"><sup>3 </sup></a><a href="http://en.wikipedia.org/wiki/Kanji" target="_blank">Kanji - Wikipedia</a><br /> <a name="a4"><sup>4 </sup></a><a href="http://en.wikipedia.org/wiki/Radical_(Chinese_character)" target="_blank">Radical (Chinese Character) - Wikipedia</a><br /> <a name="a5"><sup>5 </sup></a><a href="http://en.wikipedia.org/wiki/Laozi" target="_blank">Laozi - Wikipedia</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How I'd Improve Schools]]></title>
+    <link href="http://anateus.github.com/how-id-improve-schools/index.html"/>
+    <updated>2011-05-13T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/how-id-improve-schools/how-id-improve-schools</id>
+    <content type="html"><![CDATA[<p>I recently read a&nbsp;<a href="http://news.ycombinator.com/item?id=2463375">comment on a Hacker News post</a>&nbsp;that really struck a chord with me. To summarize, schools try to cram mastery into a particular allotment of time, instead of letting students work as long as they need to until mastery. In a system without this restriction &#8220;high aptitude&#8221; children would be able to reach advanced subjects without having to do it externally, and receive the support and structure which is the whole point of formal schooling. Simultaneously &#8220;low aptitude&#8221; children wouldn&#8217;t be pressured and rushed. Those who have different learning modalities and would otherwise slip through the cracks would have the time to figure this out before being spit out of the school system feeling bad about themselves and not having found their optimal learning methodology.</p>
+<p />
+<div>This gels with <a href="http://www.overcomingbias.com">Robin Hanson</a>&#8217;s notion that the school systems in the most prosperous nations are vestigial artifacts of training for 19th century industrial society. For that purpose the various aspects of our schools seem most appropriate: start earlier than needed, last longer than required, training to do work on command whether useful or not, etc.</div>
+<p />
+<div>School shouldn&#8217;t be an onus, <strong>or</strong> a badge of accomplishment. It should be what it&#8217;s meant to be: a place where maximal aid is provided in the students&#8217; pursuit of learning about the world. No need for &#8220;We must prepare students for the real world / for work / to be well rounded individuals / for college&#8221; sloganeering.</div>
+<p />
+<div>I would like to enable learning by doing one simple thing that shouldn&#8217;t change how schools are actually run a whole lot, but may feel strange:&nbsp;No more time-based grades, you stay in a class until you pass it*.</div>
+<p />
+<p />
+<p />
+<div>* if you want to enforce standards, just select a minimal set of classes that must be finished and a few elective slots, that&#8217;s how must highschools work already. And if you&#8217;re scared of classes that have 10 and 17 year olds together you could probably segment classes by rough age ranges.</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Bin Laden's Really Dead]]></title>
+    <link href="http://anateus.github.com/why-bin-ladens-really-dead/index.html"/>
+    <updated>2011-05-02T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/why-bin-ladens-really-dead/why-bin-ladens-really-dead</id>
+    <content type="html"><![CDATA[Although many in the Arab world would continue with their usual conspiracy theories (everything always boils down to a Mossad or CIA plot), there is one core reason why I think we have no cause to doubt the correct identification of Bin Laden:<p /> If he&#39;s still alive, a single teeny tiny tape sent to Al Jazeera would utterly destroy whatever credibility the US maintains in the world&#39;s eyes. There is no way the US government would risk such an embarrassment. Thus, I conclude that the kill must be genuine. I wouldn&#39;t put it past the US government to fabricate evidence, but in this case there is too much to lose.<p /> Additionally, I think the burial at sea (but with Muslim rites) is just disrespectful enough while not being insulting to Muslims. It also prevents any sort of pilgrimage site from being created. Bin Laden would not become a Shahid.
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Some thoughts on Atlas Shrugged]]></title>
+    <link href="http://anateus.github.com/some-thoughts-on-atlas-shrugged/index.html"/>
+    <updated>2011-04-20T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/some-thoughts-on-atlas-shrugged/some-thoughts-on-atlas-shrugged</id>
+    <content type="html"><![CDATA[<p style="text-align: justify;">Atlas Shrugged, it seems most folks either love it or hate it. Except there&#8217;s a secret underground of folks who follow a golden middle path. Those who can&#8217;t stand Ayn Rand will decry you as a heartless bastard who couldn&#8217;t tell good literature from a boiled sock. While those who love the book see your slightest disdain for either its literary stature or its message as weak-willed bleeding-hearted drivel.</p>
+<p style="text-align: justify;">In reality, Atlas Shrugged is a passably written but powerful polemic. Rand could out-write Dan Brown on a good day, and maybe stand up next to James Patterson but even Stephen King is rather far ahead. However, what she wrote has a strong impact on many people and dismissing it as nothing but fodder for egotists is willfully ignorant.</p>
+<p style="text-align: justify;">In my youth Atlas Shrugged was helpful in presenting an individualistic alternative that for whatever reason I wasn&#8217;t exposed to. For many who grow up with ideals such as pulling yourself up by your bootstraps as cliched caricatures the book offers nothing but more of the same. Myself, I&#8217;ve always leaned towards approving of such things but before reading Atlas Shrugged in high school there was never a crystallized idea that this was a path one might follow. That is, although I thought I followed a meritocratic ideal I had always pictured it as a sort of technocracy instead of the more distributed ad-hoc system where your value to others is measured directly by them and not some external agency. Atlas Shrugged really opened my eyes not just to how I could be appreciated but how I should appreciate others&#8211;directly, personally, and for the sake of their own labors.</p>
+<p style="text-align: justify;">However, I was mature enough to quickly abandon the book&#8217;s (over-)simplifications, straw men, and other problems. Holding Rand&#8217;s improbable men of marble in ultimate regard is pretending much of what makes us human doesn&#8217;t exist. The book&#8217;s lessons are reacting to a context where the negative extremes it riles against are reality&#8211;e.g. the Russia Ayn Rand escaped. Its ideas are not templates for direct realization, for they are just as extreme and unreasonable.</p>
+<p style="text-align: justify;">We tend to assume that just because we may not appreicate someone else&#8217;s endeavors they are somehow willfully blind. Paradoxical as it may seem Atlas Shrugged helped me find a new sort of compassion&#8211;most people see themselves as striving towards a personal ideal of some sort, not as corrupt goblins.</p>
+<p style="text-align: justify;">Just because you may see Atlas Shrugged as an extreme part of a view you consider prevalent, consider that it may be a shining beacon for those on the other side. It can also be a bible for zealots who take its words literally and can find no flaws in its stilted prose. So, let&#8217;s not dismiss this important work but nor should we revere it.</p>
+<p style="text-align: justify;">(Oh and I saw the trailer for the movie and it was incredibly painful. Megan McArdle compared the movie to Tommy Wiseau&#8217;s The Room so I guess I&#8217;ll wait for the Rifftrax!)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Directions in Artificial Intelligence Research]]></title>
+    <link href="http://anateus.github.com/directions-in-artificial-intelligence-researc/index.html"/>
+    <updated>2011-04-07T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/directions-in-artificial-intelligence-researc/directions-in-artificial-intelligence-researc</id>
+    <content type="html"><![CDATA[<p>Much of the early optimism about Artificial Intelligence was crushed by what is now called <a href="http://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank">Moravec&#8217;s Paradox</a>: it turns out that it&#8217;s often substantially harder to replicate the lower-level sensorimotor skills of humans and animals than higher reasoning tasks. Students of <a href="http://en.wikipedia.org/wiki/Embodied_cognition" target="_blank">embodied cognition </a>see intelligence arising from a <em>necessary </em>interplay with our senses taking this even further, <a href="http://plato.stanford.edu/entries/consciousness-higher/" target="_blank">higher-order theories of consciousness</a>&#8211;which I&#8217;ve recently become a fan of&#8211;have consciousness as a higher order layering on top of mere intelligence. Thus, we&#8217;re adding a few more layers to the layer cake of <a href="http://en.wikipedia.org/wiki/Supervenience" target="_blank">supervenience</a> (similar to what scientists often call &#8220;emergence&#8221;, not used in Philosophy that way because the term has been claimed by a distinct usage).</p>
+<p>I would love to see more work on complete end-to-end AI systems that have increasingly deeper levels of feedback. That&#8217;s the only we&#8217;ll see better AI. That and neural modelling which is getting reeeal interesting. I think I&#8217;ll start posting links to some fun papers soon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reverse heel Christian Louboutin experiment]]></title>
+    <link href="http://anateus.github.com/reverse-heel-christian-laboutin-experiment/index.html"/>
+    <updated>2010-11-24T00:00:00-08:00</updated>
+    <id>http://anateus.github.com/reverse-heel-christian-laboutin-experiment/reverse-heel-christian-laboutin-experiment</id>
+    <content type="html"><![CDATA[<p>As far as I know <a href="http://en.wikipedia.org/wiki/Christian_Louboutin">Christian Louboutin</a>&#8211;maker of the sexiest heels&#8211;has never done a reverse heel. I came up with reverse heels totally independently a couple of weeks ago while contemplating crazy things to do to women&#8217;s shoes. Alas, I found out I was soundly beaten to this concept by others and several versions of it have already been made. Basically, a reverse heel is a heel that juts horizontally towards the back from the front part of the shoe rather than straight down from the heel.<p /> So, I decided to mock up what a Louboutin might look like with a reverse heel, whilst maintaining its original lines, curves, and sexy look. It turned out&#8230; ok. I think with some tweaking it could turn out to look quite nicely! In particular I would elongate the support past the heel, while making it thinner and more deadly&#8211;Louboutin shoes are famous for looking like dangerous weapons.<p /> Just a random exploration, we&#8217;ll see what Christian does :&gt;</p>
+<p><img src="http://anateus.github.com/images/reverse-laboutin.png" alt="Reverse heel Christian Louboutin experiment" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Curbing music being played on cellphones in public]]></title>
+    <link href="http://anateus.github.com/curbing-music-being-played-on-cellphones-in-p/index.html"/>
+    <updated>2010-11-04T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/curbing-music-being-played-on-cellphones-in-p/curbing-music-being-played-on-cellphones-in-p</id>
+    <content type="html"><![CDATA[<img src="http://anateus.github.com/images/cellmusic.png" alt="Curbing music being played on cellphones in public" /><p>If you take public transportation you&#39;ve indubitably encountered someone playing music using their cellphone as a boom box.<p />If you&#39;re an ethnomusicologist perhaps you&#39;re delighted at the developments in <a href="http://wayneandwax.com/?p=2332">treble culture</a>. If you&#39;re not, chances are you found it rather annoying, and perhaps the young turk or turkette partaking of the tinny notes seems rather too set in their ways to be berated by you in public.<p /> So, I&#39;ve come up with a passive-aggressive <b>and </b>mildly vandalistic (yes, vandalistic) method to curb this! Instructional pictograph stickers!<p />What you&#39;re looking at is a prototype for a design. The dimensions are those of a bumper sticker. I&#39;m not perfectly satisfied with the wording, nor with the NO pictograph, but it&#39;s getting there. Would appreciate comments and suggestions! Once I&#39;ve finalized, I will provide these TO THE WORLD!<p /> You&#39;ll be able to deploy them at your favorite public transportation venue, or just anywhere else affected by this scourge!<br /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fixing svn checksum mismatch]]></title>
+    <link href="http://anateus.github.com/fixing-svn-checksum-mismatch/index.html"/>
+    <updated>2010-11-03T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/fixing-svn-checksum-mismatch/fixing-svn-checksum-mismatch</id>
+    <content type="html"><![CDATA[All the info I found addressing this contains way too much cruft and doesn&#39;t present the actual solution clearly. Here are steps that will work, so you can get back to coding:<br /><ol><li>Copy the file away</li><li>svn revert FILENAME (in case you have local changes)<br /> </li><li>svn rm FILENAME</li><li>svn ci -m &quot;Fixing checksum mismatch&quot;</li><li>Copy the file back</li><li>svn add FILENAME</li><li>svn ci -m &quot;Fixed checksum mismatch&quot;</li></ol>There you go. No more headache.
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Made-you-look advertising]]></title>
+    <link href="http://anateus.github.com/made-you-look-advertising/index.html"/>
+    <updated>2010-11-02T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/made-you-look-advertising/made-you-look-advertising</id>
+    <content type="html"><![CDATA[I got a spam letter today from AT&T. Except it didn&#8217;t say anything <br />about who it was from on the outside. The addressee was &#8220;California <br />Resident&#8221; so it was clear it was spam, but it was printed in a fake <br />handwritten font, in a fake blue pen color. <p /> Upon opening the envelope you find a paper in standard Letter <br />dimensions, with what looks like a photocopy of an ad, complete with <br />the characteristic ink fading and smudging. Several parts of the ads <br />had the same kind of fake blue pen marked up as if with notes by the <br />kind sender. Although throughout the short interaction between myself <br />and the letter I was quite aware it was just advertising, the <br />anti-branding just drew me in. As far as I can recall, the AT&T logo <br />was only visible in one place, and even there it was understated and <br />quite small. Maybe it was just my fascination with the thinking behind <br />such an ad, but I felt drawn in against my will, my disbelief <br />suspended just a tad. <p /> We live in a word saturated with brands. Also today, I saw a pack of <br />Duracell batteries at Safeway that included a horrible plastic <br />screwdriver shaped like a Duracell battery, clearly with the primary <br />purpose of adding the brand to your life even though it&#8217;s obvious <br />almost no one would actually use the dinky screwdriver; it would lay <br />discarded somewhere, ready to anchor the brand when you least expect <br />it. <p /> So, we seem to have developed powerful advertising ignoring skills. <br />Some studies have shown that advertising we pay less attention to <br />tends to have even greater effects, but I find this spam masquerading <br />as a personal letter to be proof that we&#8217;ve gotten too good at <br />discarding the useless brochures and pointless offers clogging our <br />mailboxes. <p /> Perhaps once we get good at discarding these, they&#8217;ll be able to <br />return to the gaudy spam of old.
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Problems of a Jewish AI]]></title>
+    <link href="http://anateus.github.com/problems-of-a-jewish-ai/index.html"/>
+    <updated>2010-09-15T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/problems-of-a-jewish-ai/problems-of-a-jewish-ai</id>
+    <content type="html"><![CDATA[Future Jewish post-human minds are going to have to turn to their post-human Rabbis and ask:<br /><ul><li>Is running on <a href="http://en.wikipedia.org/wiki/Shabbat">Shabbes</a> considered a violation? Or does that count under <a href="http://en.wikipedia.org/wiki/Pikuach_nefesh">Pikuach Nefesh</a>?</li> <li>How do you circumcise? <i>Drop the least significant bit?</i><br /></li><li>Do you have to switch to a UPS for <a href="http://en.wikipedia.org/wiki/Yom_kippur">Yom Kippur</a>?</li><li>Is an MP3 of a <a href="http://en.wikipedia.org/wiki/Shofar">Shofar</a> good enough?</li> <li>Where should the <a href="http://en.wikipedia.org/wiki/Tefillin">Tefillin</a> go? The boot sector?<br /></li></ul>Can you think of others? Better clear these things now, before all uploadees count as <a href="http://en.wikipedia.org/wiki/Apikoros">Apikoros</a> :&gt;
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Correct Way To Peel A Banana - Newsletter Series]]></title>
+    <link href="http://anateus.github.com/the-correct-way-to-peel-a-banana-newsletter-s/index.html"/>
+    <updated>2010-08-31T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/the-correct-way-to-peel-a-banana-newsletter-s/the-correct-way-to-peel-a-banana-newsletter-s</id>
+    <content type="html"><![CDATA[<p><img src="http://gallery.mailchimp.com/95b0ecc1ad880785a49290f12/images/banana.jpg" border="0" height="300px" align="left" alt="A picture of a banana" style="margin-right: 15px;" width="142px" />A common problem. I&#8217;ve often seen it mentioned in collections of trivia and cool facts that monkeys and apes open their bananas from the &#8220;bottom&#8221;, often accompanied by a suggestion for us to do the same. Following a recent reminder by a fellow named Mahdroo, I started doing just that! It has proved to be far superior to the traditional human choice.</p>
+<p>As you can see on in the image to the left, a banana has the little &#8220;tail&#8221; on top, and a small nub on the bottom. Commonly one may bend the tail backwards against the banana&#8217;s natural curvature, until it tears. Then you peel the banana. But sometimes, the banana isn&#8217;t quite ripe, or just extra hardy. In those cases the skin doesn&#8217;t tear as easily and you mush up the top of the banana. Here&#8217;s the solution:</p>
+<p>Turn the banana upside down! Use your fingers to squeeze the nub. It should start opening in the middle as you squeeze (careful not to squeeze the flesh of the banana), then just use your other hand to peel the two (or more) sections apart! Voila! You have peeled a banana from the bottom! Feel free to discard the little part that&#8217;s now at the top of your banana, though I know some folks who enjoy eating that part.</p>
+<p><strong>This has been a post from the Newsletter Series</strong><br /><em>After every newsletter issue I will be slowly posting selected articles from it (often with slight editing) unto my blog. If you want to get these articles in their original rapidly delivered form, sign up below:</em></p>
+      
+
+
+
+<div><form class="validate" method="post" action="http://mockingeye.us2.list-manage.com/subscribe/post?u=95b0ecc1ad880785a49290f12&amp;id=98c0723763" style="font: normal 100% Arial; font-size: 12px;"> 
+<div class="indicate-required" style="text-align: right; font-style: italic; overflow: hidden; color: #333333; margin: 0 9% 0 0;">* indicates required</div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">Email Address <strong class="note-required">*</strong> </label> <input name="EMAIL" class="required email" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">First Name </label> <input name="FNAME" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">Last Name </label> <input name="LNAME" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div><input name="subscribe" class="btn" type="submit" value="Subscribe" style="clear: both; display: block; margin: 1em 0 1em 5%;" /></div>
+ <a href="#" class="mc_embed_close" style="display: none;">Close</a> </form></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Mocking Eye Newsletter]]></title>
+    <link href="http://anateus.github.com/the-mocking-eye-newsletter/index.html"/>
+    <updated>2010-08-28T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/the-mocking-eye-newsletter/the-mocking-eye-newsletter</id>
+    <content type="html"><![CDATA[<p><img src="http://anateus.github.com/images/NewspaperAirplane.jpg" alt="The Mocking Eye Newsletter" />After this week&#8217;s daily news commentary experiment failed, I finally decided to get started on my newsletter!</p>
+<p>These will be weekly emails that will my writings on all sorts of subjects. You&#8217;ll get to learn about the <strong>coolest things</strong> possible, with links to further resources. Also: fabulous how-tos that will teach you various <strong>useful skills</strong>! Basically a bit like DamnInteresting.com but with a Mike K twist.</p>
+<p>Sign up below! Other than the newsletter once a week you will never be spammed, nor will your email address be used for anything else ever, nor sold, given away, etc. It&#8217;s safe with me!</p>
+      
+
+
+
+<div><form class="validate" method="post" action="http://mockingeye.us2.list-manage.com/subscribe/post?u=95b0ecc1ad880785a49290f12&amp;id=98c0723763" style="font: normal 100% Arial; font-size: 12px;"> 
+<div class="indicate-required" style="text-align: right; font-style: italic; overflow: hidden; color: #333333; margin: 0 9% 0 0;">* indicates required</div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">Email Address <strong class="note-required">*</strong> </label> <input name="EMAIL" class="required email" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">First Name </label> <input name="FNAME" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;">Last Name </label> <input name="LNAME" type="text" style="margin-right: 1.5em; padding: .2em .3em; float: left;" /></div>
+<div><input name="subscribe" class="btn" type="submit" value="Subscribe" style="clear: both; display: block; margin: 1em 0 1em 5%;" /></div>
+ <a href="#" class="mc_embed_close" style="display: none;">Close</a> </form></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Delicious Vegeterian Dishes For Carnivores Part 1 - Le tourin à l'ail]]></title>
+    <link href="http://anateus.github.com/delicious-vegeterian-dishes-for-carnivores-pa/index.html"/>
+    <updated>2010-08-15T00:00:00-07:00</updated>
+    <id>http://anateus.github.com/delicious-vegeterian-dishes-for-carnivores-pa/delicious-vegeterian-dishes-for-carnivores-pa</id>
+    <content type="html"><![CDATA[<p><img src="http://anateus.github.com/images/letourin.jpg" alt="Delicious Vegeterian Dishes For Carnivores Part 1 - Le tourin à l'ail" />Now that my copy of <a href="http://www.amazon.com/gp/product/0684800012?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0684800012">On Food and Cooking by Harold McGee</a> has arrived, I decided it was time to get started exploring French cuisine. For those unfamiliar with the book it is the premier guide on <strong>why </strong>food tastes as it does when handled in particular ways. It&#8217;s the science of food presented in a readable and clear way, without the flourishes of <a href="http://www.amazon.com/gp/product/0982761007?ie=UTF8&amp;tag=themoceye-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0982761007">molecular gastronomy or modernist cuisine</a>. Highly recommended!</p>
+<p>As much as I love meat, meat products, meat flavors for health reasons I&#8217;ve been try to cook mostly mostly fish and vegetables.</p>
+<p>This also poses an interesting challenge: I happen to be taste averse to a wide variety of vegetables, particularly <a href="http://en.wikipedia.org/wiki/Cruciferous_vegetables">cruciferous vegetables</a> in their cooked state. I don&#8217;t mean &#8220;I don&#8217;t like them&#8221;, I mean &#8220;I will vomit if I force myself to eat them&#8221;. This doesn&#8217;t mean I want to avoid vegetables I&#8217;m averse to entirely, but rather, I will figure out what in their chemical composition I am bothered by, and attempt to minimize it. I&#8217;m gonna up the difficulty level a bit more: I can&#8217;t just drown everything in salt and butter and call it a day, that&#8217;s the easy way out.</p>
+<p>To start out, though, I wanted something relatively easy, thus: <a href="http://en.wikipedia.org/wiki/Le_tourin">Le tourin &agrave; l&#8217;ail</a>. This is a pretty simple garlic soup common in the south-west of France. It&#8217;s pretty low in fat and since it contains egg much like <a href="http://en.wikipedia.org/wiki/Egg_drop_soup">egg drop soup</a>, this lets me consume another item to which I&#8217;m taste averse.</p>
+<p>The recipe I used can be found <a href="http://en.wikibooks.org/wiki/Cookbook:Le_tourin">on Wikibooks</a>, but I&#8217;ll reproduce it here for convenience, my modifications are in italics:</p>
+<blockquote>
+<h2><span class="mw-headline" style="font-size: small;">Ingredients</span></h2>
+<ul>
+<li>10-12 cloves of garlic, <span class="mw-redirect">chopped</span></li>
+<li>1 tablespoon <span class="mw-redirect">olive oil</span></li>
+<li>1 tablespoon flour</li>
+<li>water &mdash; 4 cups (adjust amount as needed - use distilled, filtered or reverse osmosis water) 
+<ul>
+<li><em>I used a diluted vegetable stock. Seasoning this water properly is the key to making this soup taste delicious.</em></li>
+</ul>
+</li>
+<li>salt to taste</li>
+<li>1 egg, separated</li>
+<li>pepper to taste</li>
+<li>1 teaspoon vinegar</li>
+</ul>
+<p>Serves 2</p>
+<h2><span style="font-size: small;"><span class="mw-headline">Procedure</span></span></h2>
+<ol>
+<li>In a frying pan, <span class="mw-redirect">brown</span> the chopped garlic (or optionally, an equal mixture of chopped onions and garlic) in the olive oil. 
+<ul>
+<li><em>I used a small pot. I would recommend that or a saucepan. Looking up the recipe in French, they tend to use a &#8220;faittout&#8221;, which seems to mean some sort of saucepan. </em></li>
+</ul>
+</li>
+<li>Add the flour.</li>
+<li>Mix well, then cook for a moment.</li>
+<li>Add some boiling salted water, and cook for 10 minutes.</li>
+<li>In a separate dish, mix:  
+<ul>
+<li>egg yolk</li>
+<li>pepper</li>
+<li>vinegar</li>
+</ul>
+</li>
+<li>Add the egg white to the soup, first tempering in a separate bowl with a whisk, so that no large pieces of egg white form. 
+<ul>
+<li><em>Make sure to add it very gradually, and to use a fork in the soup itself to spread out the egg whites as you are pouring.</em></li>
+</ul>
+</li>
+<li>Cook another 5 minutes. Remove from heat and add the egg yolk mixture, again tempering to avoid coagulation.</li>
+<li>Place thin slices of bread in each soup bowl, and pour the soup on top. Serve hot. Bon app&eacute;tit.</li>
+</ol>
+<p>&nbsp;</p>
+</blockquote>
+<p>It turned out quite well! The garlic which I only browned slightly turned out to have an almost potato-like texture, but without the starchiness. Soft and rich, it complemented the egg whites in provided substance to the texture. The cooked garlic also lacked the sweetness many root vegetables (such as turnips) acquire when cooked. For me, that&#8217;s a plus. I&#8217;m not sure what the vinegary yolk contributed, but I&#8217;m sure it helped. The soup was redolent of garlic, but surprisingly mild, the flavor releasing only in your mouth, never overpowering.</p>
+<p>I cannot overstate the value of properly seasoning the soup. My vegeterian girlfriend remarked that she would be afraid to order this soup at a restaurant after tasting it, it tasted so much like chicken broth. With no additions of MSG or similar umami-fortifiers, the saltiness is what provided this deepness of flavor. It&#8217;s a thin boundry between &#8220;perfectly seasoned&#8221; and &#8220;oversalted&#8221; andwe must tread and carefully remain on the right side. The cowardly will be rewarded with bland and tasteless soups!</p>
+<p>&nbsp;</p>
+<p>Not sure what I&#8217;ll make next time! Ratatouille calls out to me, but I can&#8217;t stand neither zucchinis nor aubergines&#8230; which makes me want to figure out a way to prepare it even more!</p>
+]]></content>
+  </entry>
+  
+</feed>
