@@ -14,9 +14,9 @@ I like learning about other people's problems. I particular like learning about 
 
 Bras are required to perform these core functions:
 
-1. Mold the breasts into the currently fashionable shape and thus look attractive when viewed under clothing
-2. Look attractive when seen without other clothing covering them
-3. Be supportive: allow for a wider range of vigorous activities than some women can easily accomplish without
+1. Mold the breasts into the a shape desired by the wearer (usually dictated by changing fashions, but on occasion alternative ones are desired)
+2. Reflect the look desired by the wearer when viewed without clothing (this would sometimes be "more attractive" and others, such as with sport bras, less so).
+3. Provide support and comfort allow for a wider range of vigorous activities than some women can easily accomplish without. This includes eliminating chafing.
 
 In order to perform #1 and #2 bras are form-fitting so as to not be prominent under clothing. Form-fitting is best achieved with stretchy fabrics, which would make either #3 or #2 hard (sports bras for example sacrifice #2). Underwires were introduced to be able to transfer most of the difficult task of providing support to rigid elements made of plastic or metal. If a form-fitting item is not stretchy it will always be uncomfortable if it is not custom made. This is the core reason bras are so uncomfortable. It's the only clothing item of this sort I can think of that is commonly worn. Imagine briefs made from dress shirt fabric. That is not a pleasant thought.
 
