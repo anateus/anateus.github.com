@@ -14,5 +14,5 @@ Going to resume posting, collating smaller thoughts I've had and sometimes poste
     - Here's what actually happens: [Real-Time Visualization of Joint Cavitation](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119470)
     - But don't worry, it's safe: [Ig Nobel Winner Shows Knuckle Cracking Won’t Cause Arthritis](http://tech.mit.edu/V129/N41/ignobels.html)
 - [ASCII](http://www.wikiwand.com/en/ASCII_art)/[ANSI art](http://www.wikiwand.com/en/ANSI_art) is old hat. New hotness? [PETSCII](https://www.wikiwand.com/en/PETSCII) art. The thing that really does it for me is it contains triangles.
-    - Here's a [gallery/competition of it](http://csdb.dk/event/?id=2139&sort=rating)
+    - Here's a [gallery/competition of PETSCII art](http://csdb.dk/event/?id=2139&sort=rating)
 - [Pulmonic ingressives](http://www.wikiwand.com/en/Ingressive_sound) in the wild: <iframe width="560" height="315" src="https://www.youtube.com/embed/URgdIAz4QNg" frameborder="0" allowfullscreen></iframe>
