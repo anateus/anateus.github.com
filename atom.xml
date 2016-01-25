@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Mocking Eye]]></title>
+  <link href="http://mockingeye.com/atom.xml" rel="self"/>
+  <link href="http://mockingeye.com/"/>
+  <updated>2016-01-25T11:15:48-08:00</updated>
+  <id>http://mockingeye.com/</id>
+  <author>
+    <name><![CDATA[Mike K]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Revelations and Miscellania]]></title>
+    <link href="http://mockingeye.com/blog/2016/01/25/revelations-and-miscellania/"/>
+    <updated>2016-01-25T10:59:14-08:00</updated>
+    <id>http://mockingeye.com/blog/2016/01/25/revelations-and-miscellania</id>
+    <content type="html"><![CDATA[<p>Switching all the world&rsquo;s cars to driverless at once would save more lives this year than immediate world peace.</p>
+
+<h2>Sports Corner</h2>
+
+<p><a href="https://www.wikiwand.com/en/Kabaddi">Kabbadi</a> is an Indian full-contact team sport where you have to take a breath, then chant &ldquo;kabbadikabbadikabbadi&hellip;&rdquo; as you run into the other team&rsquo;s territory and try to tag them. The chanting is to prove you&rsquo;re still on your first breath. Once you tag a member of the other team, they try and prevent you from exiting their territory. India vs. Pakistan in the 2014 World Cup: <iframe width="560" height="315" src="https://www.youtube.com/embed/RSnP9z99I9M" frameborder="0" allowfullscreen></iframe></p>
+
+<h2>A Musical Interlude</h2>
+
+<p>Here&rsquo;s the band Too Many Zooz (you&rsquo;ve probably seen videos of them preforming in NYC&rsquo;s Union Square subway station) doing their Brasshouse thing: <iframe width="560" height="315" src="https://www.youtube.com/embed/2saIopqJCKQ" frameborder="0" allowfullscreen></iframe></p>
+
+<h2>The Ur-kel Masters</h2>
+
+<p>Videogame mashup of Family Matters and Star Control II.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Posts Will Continue Until Morale Improves. -mgmt]]></title>
+    <link href="http://mockingeye.com/blog/2015/05/13/posts-will-continue-until-morale-improves-mgmt/"/>
+    <updated>2015-05-13T14:13:00-07:00</updated>
+    <id>http://mockingeye.com/blog/2015/05/13/posts-will-continue-until-morale-improves-mgmt</id>
+    <content type="html"><![CDATA[<p>Going to resume posting, collating smaller thoughts I&rsquo;ve had and sometimes posted on other media. Perhaps it&rsquo;ll encourage me to expand on some.</p>
+
+<ul>
+<li>A cult becomes a religion when you can be one just on holidays.</li>
+<li>Being kind is better than being nice.</li>
+<li>If you&rsquo;ve known me for any length of time you&rsquo;ve probably heard me crack my knuckles.
+
+<ul>
+<li>Here&rsquo;s what actually happens: <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119470">Real-Time Visualization of Joint Cavitation</a></li>
+<li>But don&rsquo;t worry, it&rsquo;s safe: <a href="http://tech.mit.edu/V129/N41/ignobels.html">Ig Nobel Winner Shows Knuckle Cracking Won’t Cause Arthritis</a></li>
+</ul>
+</li>
+<li><a href="http://www.wikiwand.com/en/ASCII_art">ASCII</a>/<a href="http://www.wikiwand.com/en/ANSI_art">ANSI art</a> is old hat. New hotness? <a href="https://www.wikiwand.com/en/PETSCII">PETSCII</a> art. The thing that really does it for me is it contains triangles.
+
+<ul>
+<li>Here&rsquo;s a <a href="http://csdb.dk/event/?id=2139&amp;sort=rating">gallery/competition of PETSCII art</a></li>
+</ul>
+</li>
+<li><a href="http://www.wikiwand.com/en/Ingressive_sound">Pulmonic ingressives</a> in the wild: <iframe width="560" height="315" src="https://www.youtube.com/embed/URgdIAz4QNg" frameborder="0" allowfullscreen></iframe></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[User Interfaces]]></title>
+    <link href="http://mockingeye.com/blog/2014/01/12/user-interfaces/"/>
+    <updated>2014-01-12T23:04:00-08:00</updated>
+    <id>http://mockingeye.com/blog/2014/01/12/user-interfaces</id>
+    <content type="html"><![CDATA[<p>User interfaces matter. I was watching a recent episode of <a href="http://en.wikipedia.org/wiki/The_Taste">The Taste</a>, and one of the contestants' meatloaf just wasn&rsquo;t cooking. Every time she went back to her oven she&rsquo;d see the touch screen display 350F. She would slide the touch-based temperature slider to 550F and walk away. But when she&rsquo;d return, the temperature was back to 350F.</p>
+
+<p>The first time she did this I had a suspicion. The second time she went to back to the screen, I was able to confirm it. The temperature selection screen had an OK button on the bottom right. Just like it&rsquo;s a <a href="http://en.wikipedia.org/wiki/Modal_dialog">modal dialog</a>. She would set the temperature, but walk away without tapping that all-important OK button so the temperature wasn&rsquo;t actually being adjusted.</p>
+
+<p>User interfaces use metaphors in order to access shortcuts you already have in your brain. This is why <a href="http://en.wikipedia.org/wiki/Skeumorphism#Digital_skeuomorphs">skeumorphism</a> is used in the design of digital interfaces, so you don&rsquo;t have to learn a completely new way to perform a task.</p>
+
+<p>One of the most simple interfaces is a lever. It <a href="http://en.wikipedia.org/wiki/Affordance">affords</a> manipulation and it augments human capability: you can exert greater force. But it&rsquo;s also a metaphor for what a user interface is. If an interfaces does not enable enhancement of capacity, it is actively a hinderance. To avoid <a href="http://en.wikipedia.org/wiki/Cargo_cult#Metaphorical_uses_of_the_term">cargo cult design</a> always consider what you attempting to enable and how much leverage you are contributing.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mirrorshades]]></title>
+    <link href="http://mockingeye.com/blog/2013/03/03/mirrorshades/"/>
+    <updated>2013-03-03T17:21:00-08:00</updated>
+    <id>http://mockingeye.com/blog/2013/03/03/mirrorshades</id>
+    <content type="html"><![CDATA[<p>Finally reading Bruce Sterling&rsquo;s cyberpunk short story collection <a href="http://www.amazon.com/gp/product/0441533825/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0441533825&amp;linkCode=as2&amp;tag=themoceye-20">Mirrorshades</a>. It&rsquo;s commonly referred to as the definitive collection of what was then a movement and is now more of a distinct sub-genre. I was expecting to read a collection of hyper stylized and at times outdated stories, akin to how much of William Gibson&rsquo;s Sprawl trilogy reads now (they&rsquo;re still awesome, but are clearly an artifact of their times, while a lot of good SF from the same era manages to escape that fate). To my delight I got something much fresher. Covering a nice swathe of the movement, it gives a pretty comprehensive and non-stereotypical example of the style and the themes of cyberpunk. There&rsquo;s still a lot of arguing about whether everything in it is cyberpunk (for example Gibson&rsquo;s Gernsback Continuum, which still reads fresh) but I think it manages to capture the feelings of cyberpunk with a nuance and scope I wasn&rsquo;t really expecting.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solving a Major Problem -- Bras]]></title>
+    <link href="http://mockingeye.com/blog/2013/02/24/solving-a-major-problem-bras/"/>
+    <updated>2013-02-24T21:59:00-08:00</updated>
+    <id>http://mockingeye.com/blog/2013/02/24/solving-a-major-problem-bras</id>
+    <content type="html"><![CDATA[<p>I like learning about other people&rsquo;s problems. I particular like learning about problems from people who have different problems than mine and one of the most common and persistent of those is the issue of bras. Many women told me about it and complaints were near universal and came from all quarters. I&rsquo;ve specifically asked a lot of women about their experiences with bras to better understand and also did research on the state of the art of design, engineering and manufacturing of bras. This is something that affects women with breasts of all sizes&ndash;it isn&rsquo;t restricted to women with big breasts. I realized recently that although I&rsquo;d love to work on this problem, without some help I can&rsquo;t do it. I&rsquo;m not a domain expert in several of the fields required, though I&rsquo;ve gone into some depth on the subject, so writing about it would perhaps inspire someone to either join me or take it up on their own.</p>
+
+<p><em>An important note:</em> It is common amongst engineers and programmers to wade into a new domain with a savior complex, &ldquo;we&rsquo;ll fix this for you with our fresh perspective!&rdquo;. On a slightly different slant, a lot of women have experience <a href="http://www.urbandictionary.com/define.php?term=Mansplain">mansplaining</a>. I&rsquo;m trying very explicitly to not be doing either of these. I&rsquo;d like this to be an overview of what I&rsquo;ve discovered and what I think is a good solution. I&rsquo;m not swooping from above magically delivering bra salvation to the helpless female masses. I just haven&rsquo;t seen these ideas put together before and thought folks might be interested. Just wanted this to be clear.</p>
+
+<h2>The Problem</h2>
+
+<p>Bras are required to perform these core functions:</p>
+
+<ol>
+<li>Mold the breasts into the a shape desired by the wearer (usually dictated by changing fashions, but on occasion alternative ones are desired)</li>
+<li>Reflect the look desired by the wearer when viewed without clothing (this would sometimes be &ldquo;more attractive&rdquo; and others, such as with sport bras, less so).</li>
+<li>Provide support and comfort allow for a wider range of vigorous activities than some women can easily accomplish without. This includes eliminating chafing.</li>
+</ol>
+
+
+<p>In order to perform #1 and #2 bras are form-fitting so as to not be prominent under clothing. Form-fitting is best achieved with stretchy fabrics, which would make either #3 or #2 hard (sports bras for example sacrifice #2). Underwires were introduced to be able to transfer most of the difficult task of providing support to rigid elements made of plastic or metal. If a form-fitting item is not stretchy it will always be uncomfortable if it is not custom made. This is the core reason bras are so uncomfortable. It&rsquo;s the only clothing item of this sort I can think of that is commonly worn. Imagine briefs made from dress shirt fabric. That is not a pleasant thought.</p>
+
+<p>Bra sizing is terrible. The cup size of a 32C and a 34C is of a different size even though it&rsquo;s designated as C. The way most companies design bras these days is that they a group of women that they used to measure and now usually perform 3D laser scans on called the <em>model pool</em>. Using the model pool they derive their band size to cup size function. This means that the particular function varies from manufacturer to manufacturer. So not only are the sizes themselves inconsistent between manufacturers the <em>steps</em> are also different since the sizing function would vary by their particular pool and how they segmented it. On top of this there are the core issues of breast asymmetry and placement: The vast majority of women&rsquo;s breasts are asymmetrical and the distance between the breasts varies a lot. These are not taken into account in the sizing and adjustment for them is minimal if available at all.</p>
+
+<p>So, bras are uncomfortable and under the current model can&rsquo;t possibly be made comfortable. A less egregious but annoying aspect of the bra industry is that they subtly imply but never state that the bras might affect breast sagging (the technical term for which is <em>ptosis</em>). Repeated studies by the industry have shown this to not be the case (breasts will sag with age regardless of bra wear), so they never claim it outright but merely hint. Additionally, there are medical effects such as back pain and problems with the lymph nodes that result from imperfect fit.</p>
+
+<p>This is a problem that ranks highly on both the scales of <em>pain</em> and <em>persistence</em>. This is a daily issue that causes many women a lot of suffering. It&rsquo;s a big deal.</p>
+
+<h2>The Solution</h2>
+
+<p>We must be able to create a custom bra for each woman. My proposed method involves performing a 3D scan of the breasts from which a custom pattern is derived.</p>
+
+<p>The state of 3D scanning as evidenced by products such as the Kinect or the <a href="http://leapmotion.com/">Leap</a> is such that large and slow laser scanning equipment is no longer necessary. Small units can be built and placed inside changing rooms in existing stores or perhaps in some sort of booth.</p>
+
+<p>Fundamentally, a bra is an item that applies certain force vectors to from a source shape to a target shape. Current design techniques in the industry treat the breasts as liquids filling a form. The form is anchored to a body and they perform simulations not very different from those involved in other structures such as bridges to ensure forces dissipate in optimal ways throughout the bra and through the body. This sort of analysis would still be necessary, but with a 3D scan of the breasts we can create an accurate model of the breasts. So one woman might need additional support in a particular angle while another who may share her exact band and cup size would not, merely due to the differences in shape and volume which are now available!</p>
+
+<p>Advances in textile manufacturing also provide potentially interesting elements. Better weaving machines are able to construct fabrics with custom 3D structures so that things like the fabric&rsquo;s elasticity can vary throughout without varying the amounts of a different material. Manufacturing supply chains, and custom orders are increasingly more common, easy and cheap. We get the additional advantage of being able to respond to changing fashions in both the desired target shape and appearance more easily than traditional approaches.</p>
+
+<p>So to get something like this done, one would need to be good at 3D scanning, the math required to do the tensor math for the breast shaping, the math for turning those force vectors into a pattern, the math and engineering required to optimize the patterns and the necessary textile manufacturing instructions, and the business connections to get the manufacturing done well and cheaply.</p>
+
+<p>A custom bra is necessary. There&rsquo;s just no other way to fulfill all 3 core tasks. I&rsquo;d love for someone to tackle this. Please do contact me with any thoughts you might have on this, it&rsquo;s more important than it might seem.</p>
+
+<p><em>Edit:</em> I really have been researching this fairly deeply for over a year, this is just meant to be a an introduction, so pardon the lack of nuance and depth. Happy to discuss any specific aspects further if anyone&rsquo;s interested!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Job!]]></title>
+    <link href="http://mockingeye.com/blog/2013/02/03/new-job/"/>
+    <updated>2013-02-03T20:22:00-08:00</updated>
+    <id>http://mockingeye.com/blog/2013/02/03/new-job</id>
+    <content type="html"><![CDATA[<p>Just thought I might make it a point to mention I recently joined the engineering team at <a href="http://www.comprehend.com/">Comprehend</a>, a fellow Y Combinator company. We make analytics software targeting pharmaceutical companies in an industry that&rsquo;s filled with balkanized solutions. Helping tackle the byzantine challenges involved in clinical trials should be interesting!</p>
+
+<p>As usual, I must add that my opinions and comments and do not represent my employer in any way shape or form.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading Everything Stdin in a Bash Script]]></title>
+    <link href="http://mockingeye.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script/"/>
+    <updated>2013-01-22T14:27:00-08:00</updated>
+    <id>http://mockingeye.com/blog/2013/01/22/reading-everything-stdin-in-a-bash-script</id>
+    <content type="html"><![CDATA[<p>In trying to get a <a href="http://collectd.org/">collectd</a> instance to send me alerts, I found out that I didn&rsquo;t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the <code>read</code> command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that&rsquo;s perhaps canonical, but doesn&rsquo;t seem to pop up via quick googling:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">VALUE</span><span class="o">=</span><span class="k">$(</span>cat<span class="k">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$VALUE&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s it! <code>$(cat)</code> is a shorthand for <code>$(cat /dev/stdin)</code>, so presumably you can use this to read from stderr by pointing it at <code>/dev/stderr</code>.</p>
+
+<p>Happy piping!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated From Posterous to Octopress]]></title>
+    <link href="http://mockingeye.com/blog/2012/08/01/migrated-from-posterous-to-octopress/"/>
+    <updated>2012-08-01T20:29:00-07:00</updated>
+    <id>http://mockingeye.com/blog/2012/08/01/migrated-from-posterous-to-octopress</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve migrated the blog from Posterous to <a href="http://octopress.org">Octopress</a>. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn&rsquo;t want the various security and management headaches that basically every dynamic CMS brings with it.</p>
+
+<p>I used the alternative <a href="https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb">posterous importer provided by Jekyll</a>&ndash;their default one doesn&rsquo;t preserve the permalinks. Before running it you should fix a bug: <code>s/post\.media[2]/post.media/</code>. Then you can run it with <code>ruby posterous.rb USERNAME PASSWORD API_TOKEN</code>. Presto!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Piping Ls Through Less With Colors on Mac OS X]]></title>
+    <link href="http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/index.html"/>
+    <updated>2012-06-13T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/piping-ls-through-less-with-colors-on-mac-os</id>
+    <content type="html"><![CDATA[<p>The following command will do the trick:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>CLICOLOR_FORCE=1 ls -G|less -R</pre></div>
+</div>
+
+
+<p>Or just add this to your <code>.bash_profile</code> file to have ls always display in color and less always able to consume color codes:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>alias ls='CLICOLOR_FORCE=1 ls -G'
+alias less='less -R'</pre></div>
+</div>
+
+
+<p>This has been tested on 10.6.8 and should be valid for subsequent versions as well. Just a tad annoying since <code>ls</code> on Mac OS X behaves a bit differently than the standard linux one (i.e. no <code>--color</code> option).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Pebble and Ubiquitous Computing]]></title>
+    <link href="http://mockingeye.com/the-pebble-and-ubiquitous-computing/index.html"/>
+    <updated>2012-05-10T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/the-pebble-and-ubiquitous-computing/the-pebble-and-ubiquitous-computing</id>
+    <content type="html"><![CDATA[<p>In case you haven't heard, <a href="http://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android">the Pebble </a>is a watch with an eInk screen that tethers to your phone over bluetooth. It's being funded via Kickstarter in what I believe is their biggest project to date (over $10 million). The company making it is Allerta, a fellow YC company that previously made a watch that only tethered to Blackberries (and had a fatal flaw: only a single button). Needless to say, I'm a backer, and thus am slated to receive one when they ship.</p>
+<p>As you can see from the Kickstarter page, a lot of the proposals involve using it as a very convenient information display, so that you can keep your phone in your pocket. That's great, but yesterday I realized that the accelerometer inside the Pebble takes it to the next level:</p>
+<p><strong>Everything is a touch surface.</strong> Gestures don't have to be a wizardly waving of your arms&mdash;though you can certainly do that, it will be certainly less awkward than waving your phone around&mdash;they can be as discreet as a sequences of taps.</p>
+<p>Objects that have no sensors in them can become touch-enabled. You can have tactile equivalents of QR codes: just print a number, and have people tap it out on a virtual phone grid to trigger.</p>
+<p>You could <em>Draw Something</em> in a sandbox. And really, generally allow user-arranged interfaces, here's a scenario: the watch displays the image of a particular control (a button, a slider, a knob) you tap somewhere on a surface (let's say you're holding a pen and it's a piece of paper). Now the system knows that's where you dropped that control, and it shows you the next one. So you could arrange your own <em>Draw Something</em> interface, a mild vibration from the built-in motor can indicate you're passing over an active control with its image showing on the watch's screen, in case you forgot to note it. Then you can just go ahead and draw, tapping on the controls to activate them. You can also just drop "buttons" around yourself: you sit down at the office, and you drop a "go to speakerphone" button on your arm rest. When you get a phone call, you just tap it to pick up, instead of either pulling out your phone, having to reach your arm up to your bluetooth headset, or even using your other arm to press a button on the watch.</p>
+<p>The world around you is now your configurable, editable control panel.</p>
+<p>Tactile interactions are still incredibly valuable, but we've come to associate them with information poor systems. The Pebble allows us to combine information-rich environment with physical interaction once again.&nbsp;</p>
+<p><strong>Bump all the things!</strong></p>
+<p><em>(and when the Google Glasses come out... ubicomp heaven)</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Brief Interlude - Client Attitudes]]></title>
+    <link href="http://mockingeye.com/a-brief-interlude-client-attitudes/index.html"/>
+    <updated>2012-03-21T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/a-brief-interlude-client-attitudes/a-brief-interlude-client-attitudes</id>
+    <content type="html"><![CDATA[<p>
+<p>Americans are often surprised at the extent to which "the customer is always right" isn't a valued precept in Europe. It is a common aspect of American culture that a certain level of service and courtesy is due, and that the customer is doing the business a favor by being a patron. Certainly a high quality of service is respected throughout Europe, but the same sense of deep entitlement is mostly lacking.</p>
+<p>But perhaps it's merely redirected: Europeans expect more of their governments both in terms of the services provided and in terms of the responsiveness to their needs. Very much the sort of feelings that Americans have about businesses, but not nearly as much about their governments.</p>
+<p>As someone who on occasion identifies as an anarcho-capitalist, this makes a lot of sense to me. Governments are just service providers, insurance companies on a grand scale that assume the moral right to extract their premium payments from you whether you're interested in their particular products or not. So I perceive a continuum between business and government, mostly on the axis of forced participation (what's in the middle? various levels of oligarchic monopolies, state-sponsored enterprises and so forth. Businesses do use some coercion, the perfect entity on the least-force side of this spectrum would forgo advertising for example).</p>
+<p>Most metrics have been pointing at greater social and economic mobility in Europe vs. the US for at least the last decade. Quality of life metrics have been solidly on Europe's side for even longer. It seems the cause is not the rift in political ideology--everyone's a populist at the ballot box--nor the difference in approaching ethical and legal matters, but rather the difference in expectations of customer service.&nbsp;</p>
+<p>The US has an incredibly successful and useful myth of the individual freedoms that abound here. However having freedoms of great magnitude possible is not the same as freedoms commonly accorded. Same for opportunity. This myth however is incredibly useful, it's *why* you have such great opportunity here. Although it is not the case now--and hasn't been the case for many times in history--that people can rise with greater ease here than elsewhere, those who do rise have a chance to rise much higher exactly because of the collective beliefs in opportunity and freedom. Sounds a like the lottery.</p>
+<p>Skill and smarts can often beat the house, but let's return to the previous metaphor. I think people in the US have been getting complacent about the crappy customer service they've been getting. We expect the smiles and greetings, but we've forgotten how to complain. And sure, movements like Occupy are that unruly couple you're trying not to make eye contact with who are tearing the shift manager a new one, but you silently agree that this place <em>has</em> gone downhill.&nbsp;</p>
+<p>Ask to speak to the manager.</p>
+<p>&nbsp;</p>
+<p><em>Interlude? Between what and what? Well, the next part of my series on global food security is on its way! Boy howdy! And if you don't find agriculture as fascinating as I do, you should probably stop eating.</em></p>
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Can We Feed Everyone on the Planet? — Global Food Security Part 1]]></title>
+    <link href="http://mockingeye.com/can-we-feed-everyone-on-the-planet-mquot-glob/index.html"/>
+    <updated>2012-02-13T00:00:00-08:00</updated>
+    <id>http://mockingeye.com/can-we-feed-everyone-on-the-planet-mquot-glob/can-we-feed-everyone-on-the-planet-mquot-glob</id>
+    <content type="html"><![CDATA[<p><em>This is the first of a series that will contain some of my thoughts on global food security and other related global thread factors. This post is a fairly hasty introduction to something I've been doing research on for some time.</em></p>
+<p>Our planet is overpopulated. Teeming masses of humanity are multiplying at an unsustainable rate. Beyond war and disease, one of our most basic existential needs&mdash;food&mdash;is unsatisfied<a href="#water"><sup>*</sup></a>: 925 million people are perpetually hungry, and up to 2 billion are intermittently food insecure<a href="#food-sec"><sup>1</sup></a>. You need to care about this because although food insecurity doesn't lead clearly to a true existential risk (that's where humanity gets wiped out), it is a major factor in societal collapse. This last affliction is one we're still in danger of despite our advances in technology, and especially with the tight integration of the global economy, it may not be as easy to maintain high functioning pockets.</p>
+<p>So, how can we feed everyone on the planet? In this first part I will use some rough calculations to look at whether this is even possible, or if we're wide off the mark.</p>
+<p>In order to find out if we can feed everyone I've adopted this simplified approach: find out how much food we produce, figure out a way to estimate its caloric content, and divide by the rough yearly caloric need per person. I found out the numbers for global food production are not very easy to come by and the ones I found estimated it in dollar value. However, I was able to dig up the global cereal production in tonnes. Cereals are the staple food in the vast majority of the world, and can be used to estimate the rough scale of our global food production. In later parts of the series I will attempt to produce more accurate estimates of our food production. One of the main problems with using cereals here is that in much of Africa&mdash;one of the parts of the world most afflicted with food insecurity&mdash;Cassava is the major staple. Unfortunately, Cassava is quite nutritionally poor and its widespread use is one of the things I'll address in later posts. There's another important problem with cereal (and is a major area I will also address later): 35-40% of cereal production goes to animal feed, rather than human consumption.</p>
+<p>So here's the the calculation intended to see if we're even in the ballpark of feeding everyone:</p>
+<table>
+
+<tr>
+<td>Total global production of cereals, in tonnes (2007)<a href="http://#cereal"><sup>2</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal per tonne of cereal<a href="http://#food-crisi"><sup>3</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal required per year per person<sup>&dagger;</sup></td>
+<td>&nbsp;</td>
+<td>People we can feed per year</td>
+</tr>
+<tr>
+<td>(&nbsp;2,349,874,000</td>
+<td>&times;</td>
+<td>3,000,000&nbsp;)</td>
+<td>&divide;</td>
+<td>912,500</td>
+<td>=</td>
+<td>7,725,613,150.68</td>
+</tr>
+
+</table>
+<p>Well, looks like we're just about there, as far as calories from cereals go! Does that mean we can rest safe? Well, obviously we can't, or there wouldn't be hungry people in the world. In subsequent posts I'm going to cover a many of the major issues preventing global food security and discuss methods to overcome them. A serious directed effort is necessary to reasonably guarantee food security to almost everyone human being in the world, but it's much easier than it seems at first. Here are some of the topics I'll address:</p>
+<ul>
+<li>Post-harvest loss and food waste</li>
+<li>Why couldn't the Green Revolution keep up?</li>
+<li>Genetically modified organisms and agribusiness</li>
+<li>Food insecurity and societal collapse</li>
+<li>Demographics and food security</li>
+</ul>
+<p><strong>Notes:</strong><br /> * <a name="water">&nbsp;</a>I'm ignoring water for now because the issues with the lack of water are more clearly infrastructural as opposed to related to a true global scarcity.<br /> &dagger; <a name="est">&nbsp;</a> This is my own rough estimate of 2,500 kcal * 365 days.</p>
+<p><strong>References:</strong></p>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Food_security" target="_blank">Food Security - Wikipedia</a><a name="food-sec">&nbsp;</a></li>
+<li><a href="http://earthtrends.wri.org/searchable_db/index.php?theme=8&amp;variable_ID=183&amp;action=select_countries" target="_blank">Agricultural Production: Cereals, total production - World Resources Institute</a><a name="cereal">&nbsp;</a></li>
+<li><a href="http://www.grida.no/publications/rr/food-crisis/page/3565.aspx" target="_blank">World Food Supply - GRIDA Arendal</a><a name="food-crisis">&nbsp;</a></li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Translate Chinese and Japanese Characters]]></title>
+    <link href="http://mockingeye.com/how-to-translate-chinese-and-japanese-charact/index.html"/>
+    <updated>2012-02-06T00:00:00-08:00</updated>
+    <id>http://mockingeye.com/how-to-translate-chinese-and-japanese-charact/how-to-translate-chinese-and-japanese-charact</id>
+    <content type="html"><![CDATA[<p><em>I'm in an Iron Blogger "competition" and per the rules I have to update the blog once a week. I've been a bit lax, so I've dug this up from my collection of articles I wrote for my now famously vaporware newsletter (vol 2 will come and the meek shall inherit). Enjoy!</em></p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chinese_character_%E6%8E%A1_cai3_pick_with_ROOT_colored.svg/260px-Chinese_character_%E6%8E%A1_cai3_pick_with_ROOT_colored.svg.png" border="0" align="left" alt="The Chinese character cai, meaning 'to pick&amp;iacute;, with its 'root&amp;iacute;, the original, semantic (meaning-bearing) graph on the right, colored red; and its later-added, redundant semantic determinative (which also happens to serve as its dictionary classifier, or section header (b˘shou) on the left in black. Both portions have been called the 'radical&amp;iacute; (although nowadays generally the left side), leading to confusion." style="margin-right: 15px;" />Hanzi Smatter<a href="#a1"><sup>1</sup></a> is great, but sometimes you don't want to rely on a random blog to translate your friends' crappy tattoos. Or maybe you wanna know what that anime's title REALLY means. Wonder no more! For a history lesson as well as a lot of information I'm just going to skip that could be important for translating larger texts (such as reading direction), there are links at the bottom of this section. For simplicity's sake I'm going to refer to all these characters as Hanzi<a href="#a2"><sup>2</sup></a> (Kanji<a href="#a3"><sup>3</sup></a> being the Japanese pronunciation of the same characters). There are also a lot of nuances to the radicals, their ordering, and non-radical elements of these characters that I'm gonna ignore for the same of simplicity.</p>
+<p>The key to being able to decipher these characters is understanding how they are constructed. Although some look quite complex and monolithic, all Hanzi are constructed from building blocks called <strong>radicals</strong><a href="http://#a4"><sup>4</sup></a>. Each radical consists of a particular number of strokes required to draw it and Chinese dictionaries are usually ordered by the increasing number of strokes (there are several other orderings, including ones based on semantic categorization, a tradition descended from the ancient Chinese dictionary the&nbsp;<a href="http://en.wikipedia.org/wiki/Erya" target="_blank">Erya</a>). Computerized radical-based dictionaries offer significantly faster lookups, because you can drill-down to the characters you mean quite quickly.</p>
+<ol>
+<li>Go to <a href="http://www.cojak.org/">http://www.cojak.org</a>. There are other Hanzi/Kanji dictionaries out there, but that one's decent and pretty</li>
+<li>Try and identify a simple "monolithic" structure within the character, and count its number of strokes. Until you become more familiar with the radicals you may miscount, though thankfuly the dictionary's interface lets you just find the radical that looks most similar. The location of the radical within the character varies, it's meant to represent the core "semantic" aspect of the word, but that isn't universally true.</li>
+<li>Click on that radical!</li>
+<li>Now you will be presented with choices of embellishments upon that radical, again ordered by number of strokes. Your character should be amongst the list.</li>
+<li>Now you will see the definition of that character. Below you may see a list of words that begin with that character, but are made up of multiple ones. If the character you are trying to translate is within a longer text, see if the adjacent characters don't match those in the list, because words can be made up of multiple characters</li>
+<li>Voila! With a little bit of pattern recognition, you've now got the tools to be translating most Hanzi without much difficulty.</li>
+</ol>
+<p>Almost underwhelming isn't it? Unfamiliar things can often seem daunting, especially foreign languages and writing systems. Even a little bit of knowledge, however, can go a long way towards demistifying large swathes of territory! One weekend I was waiting for a train at the Mountain View Caltrain station, when an elderly Chinese couple began speaking at me in animated Mandarin and gesturing at the ticket machine. I tried to help them buy tickets, but they waved me away. I don't speak any Chinese, but I am familiar with various cultural elements such as Laozi<a href="http://#a5"><sup>5</sup></a> (a.k.a Lao-Tzu, etc.) father of Taoism whose name simply means "old master". As the woman spoke to me, I noticed the word "lao" coming up multiple times. I asked "lao?", to which she nodded vigorously and repeated "lao! lao!". So, I helped them get the Senior-priced tickets on the machine and they left happily.</p>
+<p>Without resorting to universal hand gestures, the cross-linguistic issues were resolved! The important thing is to always try and apply even tiny bits of pattern recognition, you never know when it will be quite helpful.</p>
+<p><strong>Notes &amp; References:</strong><br /> <a name="a1"><sup>1 </sup></a><a href="http://hanzismatter.blogspot.com/" target="_blank">Hanzi Smatter</a><br /> <a name="a2"><sup>2 </sup></a><a href="http://en.wikipedia.org/wiki/Hanzi" target="_blank">Hanzi - Wikipedia</a><br /> <a name="a3"><sup>3 </sup></a><a href="http://en.wikipedia.org/wiki/Kanji" target="_blank">Kanji - Wikipedia</a><br /> <a name="a4"><sup>4 </sup></a><a href="http://en.wikipedia.org/wiki/Radical_(Chinese_character)" target="_blank">Radical (Chinese Character) - Wikipedia</a><br /> <a name="a5"><sup>5 </sup></a><a href="http://en.wikipedia.org/wiki/Laozi" target="_blank">Laozi - Wikipedia</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How I'd Improve Schools]]></title>
+    <link href="http://mockingeye.com/how-id-improve-schools/index.html"/>
+    <updated>2011-05-13T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/how-id-improve-schools/how-id-improve-schools</id>
+    <content type="html"><![CDATA[<p>I recently read a&nbsp;<a href="http://news.ycombinator.com/item?id=2463375">comment on a Hacker News post</a>&nbsp;that really struck a chord with me. To summarize, schools try to cram mastery into a particular allotment of time, instead of letting students work as long as they need to until mastery. In a system without this restriction "high aptitude" children would be able to reach advanced subjects without having to do it externally, and receive the support and structure which is the whole point of formal schooling. Simultaneously "low aptitude" children wouldn't be pressured and rushed. Those who have different learning modalities and would otherwise slip through the cracks would have the time to figure this out before being spit out of the school system feeling bad about themselves and not having found their optimal learning methodology.</p>
+<p />
+<div>This gels with <a href="http://www.overcomingbias.com">Robin Hanson</a>'s notion that the school systems in the most prosperous nations are vestigial artifacts of training for 19th century industrial society. For that purpose the various aspects of our schools seem most appropriate: start earlier than needed, last longer than required, training to do work on command whether useful or not, etc.</div>
+<p />
+<div>School shouldn't be an onus, <strong>or</strong> a badge of accomplishment. It should be what it's meant to be: a place where maximal aid is provided in the students' pursuit of learning about the world. No need for "We must prepare students for the real world / for work / to be well rounded individuals / for college" sloganeering.</div>
+<p />
+<div>I would like to enable learning by doing one simple thing that shouldn't change how schools are actually run a whole lot, but may feel strange:&nbsp;No more time-based grades, you stay in a class until you pass it*.</div>
+<p />
+<p />
+<p />
+<div>* if you want to enforce standards, just select a minimal set of classes that must be finished and a few elective slots, that's how must highschools work already. And if you're scared of classes that have 10 and 17 year olds together you could probably segment classes by rough age ranges.</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Bin Laden's Really Dead]]></title>
+    <link href="http://mockingeye.com/why-bin-ladens-really-dead/index.html"/>
+    <updated>2011-05-02T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/why-bin-ladens-really-dead/why-bin-ladens-really-dead</id>
+    <content type="html"><![CDATA[Although many in the Arab world would continue with their usual conspiracy theories (everything always boils down to a Mossad or CIA plot), there is one core reason why I think we have no cause to doubt the correct identification of Bin Laden:<p /> If he&#39;s still alive, a single teeny tiny tape sent to Al Jazeera would utterly destroy whatever credibility the US maintains in the world&#39;s eyes. There is no way the US government would risk such an embarrassment. Thus, I conclude that the kill must be genuine. I wouldn&#39;t put it past the US government to fabricate evidence, but in this case there is too much to lose.<p /> Additionally, I think the burial at sea (but with Muslim rites) is just disrespectful enough while not being insulting to Muslims. It also prevents any sort of pilgrimage site from being created. Bin Laden would not become a Shahid.
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Some Thoughts on Atlas Shrugged]]></title>
+    <link href="http://mockingeye.com/some-thoughts-on-atlas-shrugged/index.html"/>
+    <updated>2011-04-20T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/some-thoughts-on-atlas-shrugged/some-thoughts-on-atlas-shrugged</id>
+    <content type="html"><![CDATA[<p style="text-align: justify;">Atlas Shrugged, it seems most folks either love it or hate it. Except there's a secret underground of folks who follow a golden middle path. Those who can't stand Ayn Rand will decry you as a heartless bastard who couldn't tell good literature from a boiled sock. While those who love the book see your slightest disdain for either its literary stature or its message as weak-willed bleeding-hearted drivel.</p>
+<p style="text-align: justify;">In reality, Atlas Shrugged is a passably written but powerful polemic. Rand could out-write Dan Brown on a good day, and maybe stand up next to James Patterson but even Stephen King is rather far ahead. However, what she wrote has a strong impact on many people and dismissing it as nothing but fodder for egotists is willfully ignorant.</p>
+<p style="text-align: justify;">In my youth Atlas Shrugged was helpful in presenting an individualistic alternative that for whatever reason I wasn't exposed to. For many who grow up with ideals such as pulling yourself up by your bootstraps as cliched caricatures the book offers nothing but more of the same. Myself, I've always leaned towards approving of such things but before reading Atlas Shrugged in high school there was never a crystallized idea that this was a path one might follow. That is, although I thought I followed a meritocratic ideal I had always pictured it as a sort of technocracy instead of the more distributed ad-hoc system where your value to others is measured directly by them and not some external agency. Atlas Shrugged really opened my eyes not just to how I could be appreciated but how I should appreciate others--directly, personally, and for the sake of their own labors.</p>
+<p style="text-align: justify;">However, I was mature enough to quickly abandon the book's (over-)simplifications, straw men, and other problems. Holding Rand's improbable men of marble in ultimate regard is pretending much of what makes us human doesn't exist. The book's lessons are reacting to a context where the negative extremes it riles against are reality--e.g. the Russia Ayn Rand escaped. Its ideas are not templates for direct realization, for they are just as extreme and unreasonable.</p>
+<p style="text-align: justify;">We tend to assume that just because we may not appreicate someone else's endeavors they are somehow willfully blind. Paradoxical as it may seem Atlas Shrugged helped me find a new sort of compassion--most people see themselves as striving towards a personal ideal of some sort, not as corrupt goblins.</p>
+<p style="text-align: justify;">Just because you may see Atlas Shrugged as an extreme part of a view you consider prevalent, consider that it may be a shining beacon for those on the other side. It can also be a bible for zealots who take its words literally and can find no flaws in its stilted prose. So, let's not dismiss this important work but nor should we revere it.</p>
+<p style="text-align: justify;">(Oh and I saw the trailer for the movie and it was incredibly painful. Megan McArdle compared the movie to Tommy Wiseau's The Room so I guess I'll wait for the Rifftrax!)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Directions in Artificial Intelligence Research]]></title>
+    <link href="http://mockingeye.com/directions-in-artificial-intelligence-researc/index.html"/>
+    <updated>2011-04-07T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/directions-in-artificial-intelligence-researc/directions-in-artificial-intelligence-researc</id>
+    <content type="html"><![CDATA[<p>Much of the early optimism about Artificial Intelligence was crushed by what is now called <a href="http://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank">Moravec's Paradox</a>: it turns out that it's often substantially harder to replicate the lower-level sensorimotor skills of humans and animals than higher reasoning tasks. Students of <a href="http://en.wikipedia.org/wiki/Embodied_cognition" target="_blank">embodied cognition </a>see intelligence arising from a <em>necessary </em>interplay with our senses taking this even further, <a href="http://plato.stanford.edu/entries/consciousness-higher/" target="_blank">higher-order theories of consciousness</a>--which I've recently become a fan of--have consciousness as a higher order layering on top of mere intelligence. Thus, we're adding a few more layers to the layer cake of <a href="http://en.wikipedia.org/wiki/Supervenience" target="_blank">supervenience</a> (similar to what scientists often call "emergence", not used in Philosophy that way because the term has been claimed by a distinct usage).</p>
+<p>I would love to see more work on complete end-to-end AI systems that have increasingly deeper levels of feedback. That's the only we'll see better AI. That and neural modelling which is getting reeeal interesting. I think I'll start posting links to some fun papers soon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reverse Heel Christian Louboutin Experiment]]></title>
+    <link href="http://mockingeye.com/reverse-heel-christian-laboutin-experiment/index.html"/>
+    <updated>2010-11-24T00:00:00-08:00</updated>
+    <id>http://mockingeye.com/reverse-heel-christian-laboutin-experiment/reverse-heel-christian-laboutin-experiment</id>
+    <content type="html"><![CDATA[<p>As far as I know <a href="http://en.wikipedia.org/wiki/Christian_Louboutin">Christian Louboutin</a>--maker of the sexiest heels--has never done a reverse heel. I came up with reverse heels totally independently a couple of weeks ago while contemplating crazy things to do to women's shoes. Alas, I found out I was soundly beaten to this concept by others and several versions of it have already been made. Basically, a reverse heel is a heel that juts horizontally towards the back from the front part of the shoe rather than straight down from the heel.<p /> So, I decided to mock up what a Louboutin might look like with a reverse heel, whilst maintaining its original lines, curves, and sexy look. It turned out... ok. I think with some tweaking it could turn out to look quite nicely! In particular I would elongate the support past the heel, while making it thinner and more deadly--Louboutin shoes are famous for looking like dangerous weapons.<p /> Just a random exploration, we'll see what Christian does :&gt;</p>
+<p><img src="http://mockingeye.com/images/reverse-laboutin.png" alt="Reverse heel Christian Louboutin experiment" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Curbing Music Being Played on Cellphones in Public]]></title>
+    <link href="http://mockingeye.com/curbing-music-being-played-on-cellphones-in-p/index.html"/>
+    <updated>2010-11-04T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/curbing-music-being-played-on-cellphones-in-p/curbing-music-being-played-on-cellphones-in-p</id>
+    <content type="html"><![CDATA[<img src="http://mockingeye.com/images/cellmusic.png" alt="Curbing music being played on cellphones in public" /><p>If you take public transportation you&#39;ve indubitably encountered someone playing music using their cellphone as a boom box.<p />If you&#39;re an ethnomusicologist perhaps you&#39;re delighted at the developments in <a href="http://wayneandwax.com/?p=2332">treble culture</a>. If you&#39;re not, chances are you found it rather annoying, and perhaps the young turk or turkette partaking of the tinny notes seems rather too set in their ways to be berated by you in public.<p /> So, I&#39;ve come up with a passive-aggressive <b>and </b>mildly vandalistic (yes, vandalistic) method to curb this! Instructional pictograph stickers!<p />What you&#39;re looking at is a prototype for a design. The dimensions are those of a bumper sticker. I&#39;m not perfectly satisfied with the wording, nor with the NO pictograph, but it&#39;s getting there. Would appreciate comments and suggestions! Once I&#39;ve finalized, I will provide these TO THE WORLD!<p /> You&#39;ll be able to deploy them at your favorite public transportation venue, or just anywhere else affected by this scourge!<br /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fixing Svn Checksum Mismatch]]></title>
+    <link href="http://mockingeye.com/fixing-svn-checksum-mismatch/index.html"/>
+    <updated>2010-11-03T00:00:00-07:00</updated>
+    <id>http://mockingeye.com/fixing-svn-checksum-mismatch/fixing-svn-checksum-mismatch</id>
+    <content type="html"><![CDATA[All the info I found addressing this contains way too much cruft and doesn&#39;t present the actual solution clearly. Here are steps that will work, so you can get back to coding:<br /><ol><li>Copy the file away</li><li>svn revert FILENAME (in case you have local changes)<br /> </li><li>svn rm FILENAME</li><li>svn ci -m &quot;Fixing checksum mismatch&quot;</li><li>Copy the file back</li><li>svn add FILENAME</li><li>svn ci -m &quot;Fixed checksum mismatch&quot;</li></ol>There you go. No more headache.
+]]></content>
+  </entry>
+  
+</feed>
