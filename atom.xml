@@ -4,7 +4,7 @@
   <title><![CDATA[Mocking Eye]]></title>
   <link href="http://mockingeye.com/atom.xml" rel="self"/>
   <link href="http://mockingeye.com/"/>
-  <updated>2016-01-25T11:20:09-08:00</updated>
+  <updated>2016-02-07T23:10:05-08:00</updated>
   <id>http://mockingeye.com/</id>
   <author>
     <name><![CDATA[Mike K]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Living Room]]></title>
+    <link href="http://mockingeye.com/blog/2016/02/07/a-living-room/"/>
+    <updated>2016-02-07T14:34:25-08:00</updated>
+    <id>http://mockingeye.com/blog/2016/02/07/a-living-room</id>
+    <content type="html"><![CDATA[<p>For the last month I had the pleasure of joining fellow artists, designers and builders in a project that debuted at the <a href="http://ourcity.is/oakland/">Our City: Oakland</a> public design fair. It stood welcoming all for 3 days, Feb 4 &ndash; Feb 6, 2016.
+This was our artist statement:</p>
+
+<blockquote><p> Living Room sprouts from the ground in the middle of Frank Ogawa Plaza. An open countertop wraps around the wall, directing pedestrians in and out of the interior, where they can share their photo or enjoy the shifting display while playing House. The walls open like two arms into the city, suggesting that all public space can be sites for gathering and play.</p>
+
+<p> Living Room creates a space where people of Oakland come together to play and exist together as one community, one family. Portraits of passersby magically appear, arranged as family photos, in a warm playful set that transforms the city’s exterior into a shared space we all call home.</p></blockquote>
+
+<p>For me it was a very fulfilling experience that I hope to repeat in a few different ways over the coming months. Visitors seemed to enjoy it as well.</p>
+
+<p>I&rsquo;d also like to thank my collaborators: Albert Kong, Alex Kryzanowski, Min J Yoon, Kat Meler, Jessica Lachenal, Justin Tang, and Aaron Wynn</p>
+
+<h2>It was not just a dream:</h2>
+
+<p>Right after it was first built:</p>
+
+<p><img src="images/livingroom-after-build.jpg"></p>
+
+<p>Evening on the first night:</p>
+
+<p><img src="images/livingroom-evening.jpg"></p>
+
+<p>Night Room:</p>
+
+<p><img src="images/livingroom-night.jpg"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Revelations and Miscellania]]></title>
@@ -22,16 +54,17 @@
 
 <h2>Sports Corner</h2>
 
-<p><a href="https://www.wikiwand.com/en/Kabaddi">Kabbadi</a> is an Indian full-contact team sport where you have to take a breath, then chant &ldquo;kabbadikabbadikabbadi&hellip;&rdquo; as you run into the other team&rsquo;s territory and try to tag them. The chanting is to prove you&rsquo;re still on your first breath. Once you tag a member of the other team, they try and prevent you from exiting their territory. India vs. Pakistan in the 2014 World Cup:</p>
+<p><a href="https://www.wikiwand.com/en/Kabaddi">Kabbadi</a> is an Indian full-contact team sport where you have to take a breath, then chant &ldquo;kabbadikabbadikabbadi&hellip;&rdquo; as you run into the other team&rsquo;s territory and try to tag them. The chanting is to prove you&rsquo;re still on your first breath. Once you tag a member of the other team, they try and prevent you from exiting their territory. India vs. Pakistan in the 2014 World Cup:
+adfsd</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RSnP9z99I9M" frameborder="0" allowfullscreen></iframe>
+<div class="embed-video-container"><iframe src="//www.youtube.com/embed/RSnP9z99I9M" allowfullscreen></iframe></div>
 
 
 <h2>A Musical Interlude</h2>
 
 <p>Here&rsquo;s the band Too Many Zooz (you&rsquo;ve probably seen videos of them preforming in NYC&rsquo;s Union Square subway station) doing their Brasshouse thing:</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2saIopqJCKQ" frameborder="0" allowfullscreen></iframe>
+<div class="embed-video-container"><iframe src="//www.youtube.com/embed/2saIopqJCKQ" allowfullscreen></iframe></div>
 
 
 <h2>The Ur-kel Masters</h2>
@@ -388,15 +421,6 @@ alias less='less -R'</pre></div>
     <updated>2010-11-04T00:00:00-07:00</updated>
     <id>http://mockingeye.com/curbing-music-being-played-on-cellphones-in-p/curbing-music-being-played-on-cellphones-in-p</id>
     <content type="html"><![CDATA[<img src="http://mockingeye.com/images/cellmusic.png" alt="Curbing music being played on cellphones in public" /><p>If you take public transportation you&#39;ve indubitably encountered someone playing music using their cellphone as a boom box.<p />If you&#39;re an ethnomusicologist perhaps you&#39;re delighted at the developments in <a href="http://wayneandwax.com/?p=2332">treble culture</a>. If you&#39;re not, chances are you found it rather annoying, and perhaps the young turk or turkette partaking of the tinny notes seems rather too set in their ways to be berated by you in public.<p /> So, I&#39;ve come up with a passive-aggressive <b>and </b>mildly vandalistic (yes, vandalistic) method to curb this! Instructional pictograph stickers!<p />What you&#39;re looking at is a prototype for a design. The dimensions are those of a bumper sticker. I&#39;m not perfectly satisfied with the wording, nor with the NO pictograph, but it&#39;s getting there. Would appreciate comments and suggestions! Once I&#39;ve finalized, I will provide these TO THE WORLD!<p /> You&#39;ll be able to deploy them at your favorite public transportation venue, or just anywhere else affected by this scourge!<br /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fixing Svn Checksum Mismatch]]></title>
-    <link href="http://mockingeye.com/fixing-svn-checksum-mismatch/index.html"/>
-    <updated>2010-11-03T00:00:00-07:00</updated>
-    <id>http://mockingeye.com/fixing-svn-checksum-mismatch/fixing-svn-checksum-mismatch</id>
-    <content type="html"><![CDATA[All the info I found addressing this contains way too much cruft and doesn&#39;t present the actual solution clearly. Here are steps that will work, so you can get back to coding:<br /><ol><li>Copy the file away</li><li>svn revert FILENAME (in case you have local changes)<br /> </li><li>svn rm FILENAME</li><li>svn ci -m &quot;Fixing checksum mismatch&quot;</li><li>Copy the file back</li><li>svn add FILENAME</li><li>svn ci -m &quot;Fixed checksum mismatch&quot;</li></ol>There you go. No more headache.
 ]]></content>
   </entry>
   

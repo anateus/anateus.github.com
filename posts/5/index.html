@@ -10,7 +10,7 @@
 
   <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
   
-  <meta name="description" content="Teaching Jun 23rd, 2008 12:00 am | Comments The primary task of a useful teacher is to teach his students to recognize ‘inconvenient’ facts - I mean &hellip;">
+  <meta name="description" content="Moviesneak -- Stretch Your Movie Ticket Dollar Jul 7th, 2008 12:00 am | Comments Ever sneak from one movie to another at the movie theatre, after &hellip;">
   -->
   
 
@@ -99,6 +99,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title" style="font-family: "><a href="/moviesneak-stretch-your-movie-ticket-dollar/index.html">Moviesneak -- Stretch Your Movie Ticket Dollar</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2008-07-07T00:00:00-07:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2008</span></span> <span class='time'>12:00 am</span></time>
+        
+         | <a href="/moviesneak-stretch-your-movie-ticket-dollar/index.html#disqus_thread">Comments</a>
+        
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content" style="font-family: ; font-size: ">Ever sneak from one movie to another at the movie theatre, after only paying for one ticket? Well, I have. And I like it.
+
+This can often be done by looking at the showtimes ahead of time and finding movies that are times relatively near each other. Although this is sometimes thwarted by placing the temporally adjacent movies in different sections of the theatre, there are often opportunities for this type of sneaking.
+
+But instead of bothering to study movie showtime tables and such, I've written a little python script to do it for me. It's rather rudimentary. Here's how to use it:
+
+<ol>
+	<li>Get <b><a href="http://www.mockingeye.com/wp-content/uploads/2008/07/moviesneak.py" title="moviesneak.py">moviesneak.py</a></b>
+</li>
+	<li>Get showtimes for a theatre in your area.
+<ol>
+	<li>The format moviesneak accepts is Google Showtimes, which can be accessed by googling <code>showtimes &lt;zipcode&gt;</code>, or using this url: <code>http://www.google.com/movies?near=&lt;zipcode&gt;</code>.</li>
+	<li>Then select all the showtimes in a particular movie theatre, starting from the review stars, not including the theatre's address.</li>
+	<li>Copy these into a file somewhere.</li>
+</ol>
+</li>
+	<li>Run moviesneak: <code>moviesneak.py showtimes-file [optional time threshold in seconds]</code>.<ul>
+<li>By default, the threshold is 15 minutes (900 seconds). The threshold is how long before or after the end of one movie the following one should be. So a 15 minutes threshold means the following movie can start 15 mins before the current one ends, or 15 after (remember that even though it starts 15 mins before the current ends, you won't have to leave early, you'll only miss the previews)</li>
+</ul>
+</li>
+</ol>
+
+The code is under a BSD license, so just about anything can be done with it. If you have time to muck with <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup </a> or just plain regex, it would be nice if moviesneak could query google showtimes (or any other source) directly. The algorithm is very simple, and pretty ugly, but it can be plugged into pretty surroundings easily (such as a web interface).
+
+<em>Edit:</em> I haven't bothered writing a chaining algorithm (i.e. find the longest sequence of contiguous movies) mostly because I really can't watch more than 2 movies in a row at a movie theatre. However, one shouldn't be hard to write, since the corpus size is small enough even horrible algorithms will chug through quickly. Maybe when I'm bored enough/free enough I'll write one to extend moviesneak.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -479,51 +535,6 @@ Copy the <code>charm</code> and <code>ljcharm.py</code> files to the same dir as
 Alternatively, just run <code>python setup.py install</code>, and edit <code>twitterchive.py</code> to change the call to <code>./charm</code> in <code>main()</code> into just <code>charm.</code>
 
 Edit <code>~/.charmrc</code> to include your livejournal username and password. I recommend you follow the procedures described therein and only use the md5 digest of your password in this file.</ul>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title" style="font-family: "><a href="/chinas-crazy-english/index.html">China's Crazy English</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2008-04-23T00:00:00-07:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2008</span></span> <span class='time'>12:00 am</span></time>
-        
-         | <a href="/chinas-crazy-english/index.html#disqus_thread">Comments</a>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content" style="font-family: ; font-size: ">Crazy English is a language "teaching method" of increasing popularity in China led by a guy named Li Yang. It uses very cultish techniques to teach english via large rallies.
-
-Here's an example:
-
-<object height="355" width="425">
-<param name="movie" value="http://www.youtube.com/v/5XQFsXtFcJE&amp;hl=en" />
-<param name="wmode" value="transparent" />
-<embed src="http://www.youtube.com/v/5XQFsXtFcJE&amp;hl=en" wmode="transparent" type="application/x-shockwave-flash" height="355" width="425"></embed></object>
-
-Here are some further reasources:
-
-<a href="http://itre.cis.upenn.edu/~myl/languagelog/archives/005141.html">Crazy English</a> 11/21/2007 on <a href="http://languagelog.ldc.upenn.edu/nll/">Language Log</a>
-<a href="http://languagelog.ldc.upenn.edu/nll/?p=78">Crazy English Again</a> 4/23/2008 on L<a href="http://languagelog.ldc.upenn.edu/nll/">anguage Log</a>
-<a href="http://en.wikipedia.org/wiki/Crazy_English">Crazy English</a> on Wikipedia
 </div>
   
   
