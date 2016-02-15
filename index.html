@@ -10,7 +10,7 @@
 
   <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
   
-  <meta name="description" content="A Living Room Feb 7th, 2016 2:34 pm | Comments For the last month I had the pleasure of joining fellow artists, designers and builders in a project &hellip;">
+  <meta name="description" content="Alternative Libraries of San Francisco Feb 14th, 2016 6:22 pm | Comments This Valentine&rsquo;s day we made it a Library Lovers' Day and visited two &hellip;">
   -->
   
 
@@ -99,6 +99,54 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2016/02/14/alternative-libraries-of-san-francisco/">Alternative Libraries of San Francisco</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-02-14T18:22:36-08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>6:22 pm</span></time>
+        
+         | <a href="/blog/2016/02/14/alternative-libraries-of-san-francisco/#disqus_thread">Comments</a>
+        
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content" style="font-family: ; font-size: "><p>This Valentine&rsquo;s day we made it a Library Lovers' Day and visited two of my favorite libraries in SF:</p>
+
+<h2>Stop 1: The Prelinger Library</h2>
+
+<p><img src="http://ww1.hdnux.com/photos/40/31/02/8491192/3/920x1240.jpg"></p>
+
+<p>The <a href="http://www.wikiwand.com/en/Prelinger_Library">Prelinger library</a> is basically the personal research library of archivist power-couple <a href="https://www.wikiwand.com/en/Megan_Prelinger">Megan Prelinger</a> and <a href="https://www.wikiwand.com/en/Rick_Prelinger">Rick Prelinger</a>. It&rsquo;s open one day every week, and two weekends a month. It uses its own unique classification scheme and hosts both digital and non-digital books as well as pretty large collection of ephemera. The classification scheme encourages browsing and discovery. I always discover a new treasure whenever I&rsquo;m here. Tonight it was the <em>Manual of the Corporation of the City of New York (1860)</em> which in addition to seating maps of 19th century politicians and minutes of meetings has amazing foldout engravings of daily life in New York City in the early to mid 1800s.</p>
+
+<p><a href="http://www.prelingerlibrary.org/home/">Prelinger Library &ndash; Official Website</a></p>
+
+<h2>Stop 2: The Mechanics' Institute Library</h2>
+
+<p><img src="http://www.sfgate.com/blogs/images/sfgate/dinkelspiel/2009/03/25/mechanics_institute.jpg"></p>
+
+<p>Started as the Gold Rush was dying out with a vocational and technical focus, The <a href="https://www.wikiwand.com/en/San_Francisco_Mechanics%27_Institute">Mechanics' Institue Library</a> is the oldest library on the West Coast, and it conatins the oldest chess club in the United States. This library is open to the public, but membership requires a fee. 1854 isn&rsquo;t that old even by East Coast standards, but this place has about as much gravitas as this part of the country can muster. I especially like their large-format book collection, which is pleasure to leaf through on the nice leather couches. Flipped through books on Roman armor, birds of prey, Tarot, and menswear (which has an introduction by Terrence Stamp).</p>
+
+<p><a href="http://www.milibrary.org/">Mecahnics' Institute Library &amp; Chess Room &ndash; Official Website</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -507,53 +555,6 @@ adfsd</p>
   <div class="entry-content" style="font-family: ; font-size: "><p>I&rsquo;ve migrated the blog from Posterous to <a href="http://octopress.org">Octopress</a>. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn&rsquo;t want the various security and management headaches that basically every dynamic CMS brings with it.</p>
 
 <p>I used the alternative <a href="https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb">posterous importer provided by Jekyll</a>&ndash;their default one doesn&rsquo;t preserve the permalinks. Before running it you should fix a bug: <code>s/post\.media[2]/post.media/</code>. Then you can run it with <code>ruby posterous.rb USERNAME PASSWORD API_TOKEN</code>. Presto!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title" style="font-family: "><a href="/piping-ls-through-less-with-colors-on-mac-os/index.html">Piping Ls Through Less With Colors on Mac OS X</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2012-06-13T00:00:00-07:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
-        
-         | <a href="/piping-ls-through-less-with-colors-on-mac-os/index.html#disqus_thread">Comments</a>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content" style="font-family: ; font-size: "><p>The following command will do the trick:</p>
-
-<div class="CodeRay">
-  <div class="code"><pre>CLICOLOR_FORCE=1 ls -G|less -R</pre></div>
-</div>
-
-
-<p>Or just add this to your <code>.bash_profile</code> file to have ls always display in color and less always able to consume color codes:</p>
-
-<div class="CodeRay">
-  <div class="code"><pre>alias ls='CLICOLOR_FORCE=1 ls -G'
-alias less='less -R'</pre></div>
-</div>
-
-
-<p>This has been tested on 10.6.8 and should be valid for subsequent versions as well. Just a tad annoying since <code>ls</code> on Mac OS X behaves a bit differently than the standard linux one (i.e. no <code>--color</code> option).</p>
 </div>
   
   

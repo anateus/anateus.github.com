@@ -10,7 +10,7 @@
 
   <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
   
-  <meta name="description" content="The Pebble and Ubiquitous Computing May 10th, 2012 12:00 am | Comments In case you haven't heard, the Pebble is a watch with an eInk screen that &hellip;">
+  <meta name="description" content="Piping Ls Through Less With Colors on Mac OS X Jun 13th, 2012 12:00 am | Comments The following command will do the trick: CLICOLOR_FORCE=1 ls -G| &hellip;">
   -->
   
 
@@ -99,6 +99,53 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title" style="font-family: "><a href="/piping-ls-through-less-with-colors-on-mac-os/index.html">Piping Ls Through Less With Colors on Mac OS X</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-06-13T00:00:00-07:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+         | <a href="/piping-ls-through-less-with-colors-on-mac-os/index.html#disqus_thread">Comments</a>
+        
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content" style="font-family: ; font-size: "><p>The following command will do the trick:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>CLICOLOR_FORCE=1 ls -G|less -R</pre></div>
+</div>
+
+
+<p>Or just add this to your <code>.bash_profile</code> file to have ls always display in color and less always able to consume color codes:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>alias ls='CLICOLOR_FORCE=1 ls -G'
+alias less='less -R'</pre></div>
+</div>
+
+
+<p>This has been tested on 10.6.8 and should be valid for subsequent versions as well. Just a tad annoying since <code>ls</code> on Mac OS X behaves a bit differently than the standard linux one (i.e. no <code>--color</code> option).</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -471,38 +518,6 @@
 
   <div class="entry-content" style="font-family: ; font-size: "><p>As far as I know <a href="http://en.wikipedia.org/wiki/Christian_Louboutin">Christian Louboutin</a>--maker of the sexiest heels--has never done a reverse heel. I came up with reverse heels totally independently a couple of weeks ago while contemplating crazy things to do to women's shoes. Alas, I found out I was soundly beaten to this concept by others and several versions of it have already been made. Basically, a reverse heel is a heel that juts horizontally towards the back from the front part of the shoe rather than straight down from the heel.<p /> So, I decided to mock up what a Louboutin might look like with a reverse heel, whilst maintaining its original lines, curves, and sexy look. It turned out... ok. I think with some tweaking it could turn out to look quite nicely! In particular I would elongate the support past the heel, while making it thinner and more deadly--Louboutin shoes are famous for looking like dangerous weapons.<p /> Just a random exploration, we'll see what Christian does :&gt;</p>
 <p><img src="/images/reverse-laboutin.png" alt="Reverse heel Christian Louboutin experiment" /></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title" style="font-family: "><a href="/curbing-music-being-played-on-cellphones-in-p/index.html">Curbing Music Being Played on Cellphones in Public</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2010-11-04T00:00:00-07:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2010</span></span> <span class='time'>12:00 am</span></time>
-        
-         | <a href="/curbing-music-being-played-on-cellphones-in-p/index.html#disqus_thread">Comments</a>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content" style="font-family: ; font-size: "><img src="/images/cellmusic.png" alt="Curbing music being played on cellphones in public" /><p>If you take public transportation you&#39;ve indubitably encountered someone playing music using their cellphone as a boom box.<p />If you&#39;re an ethnomusicologist perhaps you&#39;re delighted at the developments in <a href="http://wayneandwax.com/?p=2332">treble culture</a>. If you&#39;re not, chances are you found it rather annoying, and perhaps the young turk or turkette partaking of the tinny notes seems rather too set in their ways to be berated by you in public.<p /> So, I&#39;ve come up with a passive-aggressive <b>and </b>mildly vandalistic (yes, vandalistic) method to curb this! Instructional pictograph stickers!<p />What you&#39;re looking at is a prototype for a design. The dimensions are those of a bumper sticker. I&#39;m not perfectly satisfied with the wording, nor with the NO pictograph, but it&#39;s getting there. Would appreciate comments and suggestions! Once I&#39;ve finalized, I will provide these TO THE WORLD!<p /> You&#39;ll be able to deploy them at your favorite public transportation venue, or just anywhere else affected by this scourge!<br /></p>
 </div>
   
   
