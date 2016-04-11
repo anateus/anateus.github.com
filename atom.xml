@@ -4,7 +4,7 @@
   <title><![CDATA[Mocking Eye]]></title>
   <link href="http://mockingeye.com/atom.xml" rel="self"/>
   <link href="http://mockingeye.com/"/>
-  <updated>2016-03-14T14:02:26-07:00</updated>
+  <updated>2016-04-10T19:32:00-07:00</updated>
   <id>http://mockingeye.com/</id>
   <author>
     <name><![CDATA[Mike K]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Paradox of Decision]]></title>
+    <link href="http://mockingeye.com/blog/2016/04/10/a-paradox-of-decision/"/>
+    <updated>2016-04-10T11:10:13-07:00</updated>
+    <id>http://mockingeye.com/blog/2016/04/10/a-paradox-of-decision</id>
+    <content type="html"><![CDATA[<p>Rejecting pragmatism for ideals can&rsquo;t lead to results. Rejecting ideals for pragmatism can&rsquo;t lead to good results.</p>
+
+<h2>A Paradox of Epistemology</h2>
+
+<p>The more truths one holds the better they are revealed and the more one sees how many one does not yet hold.</p>
+
+<h2>An Axiom of Action</h2>
+
+<p>While truths sharpen each other, actions dull one another.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Alternative Libraries of San Francisco]]></title>
@@ -427,16 +444,6 @@ alias less='less -R'</pre></div>
     <id>http://mockingeye.com/directions-in-artificial-intelligence-researc/directions-in-artificial-intelligence-researc</id>
     <content type="html"><![CDATA[<p>Much of the early optimism about Artificial Intelligence was crushed by what is now called <a href="http://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank">Moravec's Paradox</a>: it turns out that it's often substantially harder to replicate the lower-level sensorimotor skills of humans and animals than higher reasoning tasks. Students of <a href="http://en.wikipedia.org/wiki/Embodied_cognition" target="_blank">embodied cognition </a>see intelligence arising from a <em>necessary </em>interplay with our senses taking this even further, <a href="http://plato.stanford.edu/entries/consciousness-higher/" target="_blank">higher-order theories of consciousness</a>--which I've recently become a fan of--have consciousness as a higher order layering on top of mere intelligence. Thus, we're adding a few more layers to the layer cake of <a href="http://en.wikipedia.org/wiki/Supervenience" target="_blank">supervenience</a> (similar to what scientists often call "emergence", not used in Philosophy that way because the term has been claimed by a distinct usage).</p>
 <p>I would love to see more work on complete end-to-end AI systems that have increasingly deeper levels of feedback. That's the only we'll see better AI. That and neural modelling which is getting reeeal interesting. I think I'll start posting links to some fun papers soon.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reverse Heel Christian Louboutin Experiment]]></title>
-    <link href="http://mockingeye.com/reverse-heel-christian-laboutin-experiment/index.html"/>
-    <updated>2010-11-24T00:00:00-08:00</updated>
-    <id>http://mockingeye.com/reverse-heel-christian-laboutin-experiment/reverse-heel-christian-laboutin-experiment</id>
-    <content type="html"><![CDATA[<p>As far as I know <a href="http://en.wikipedia.org/wiki/Christian_Louboutin">Christian Louboutin</a>--maker of the sexiest heels--has never done a reverse heel. I came up with reverse heels totally independently a couple of weeks ago while contemplating crazy things to do to women's shoes. Alas, I found out I was soundly beaten to this concept by others and several versions of it have already been made. Basically, a reverse heel is a heel that juts horizontally towards the back from the front part of the shoe rather than straight down from the heel.<p /> So, I decided to mock up what a Louboutin might look like with a reverse heel, whilst maintaining its original lines, curves, and sexy look. It turned out... ok. I think with some tweaking it could turn out to look quite nicely! In particular I would elongate the support past the heel, while making it thinner and more deadly--Louboutin shoes are famous for looking like dangerous weapons.<p /> Just a random exploration, we'll see what Christian does :&gt;</p>
-<p><img src="http://mockingeye.com/images/reverse-laboutin.png" alt="Reverse heel Christian Louboutin experiment" /></p>
 ]]></content>
   </entry>
   

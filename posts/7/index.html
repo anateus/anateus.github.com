@@ -10,7 +10,7 @@
 
   <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
   
-  <meta name="description" content="Transparent Society, Privacy, and the Balance of Power Mar 11th, 2008 12:00 am | Comments Recently Bruce Schneier posted a debunking of the idea of &hellip;">
+  <meta name="description" content="Unified Identity Design Mar 17th, 2008 12:00 am | Comments My online identity is highly fragmented. Some parts are public, others are restricted to &hellip;">
   -->
   
 
@@ -99,6 +99,63 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title" style="font-family: "><a href="/unified-identity-design/index.html">Unified Identity Design</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2008-03-17T00:00:00-07:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2008</span></span> <span class='time'>12:00 am</span></time>
+        
+         | <a href="/unified-identity-design/index.html#disqus_thread">Comments</a>
+        
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content" style="font-family: ; font-size: ">My online identity is highly fragmented. Some parts are public, others are restricted to specific groups. Part of my identity is <em>presence</em>. That is, the way people can find out what I'm doing, and contact me. Here is a taxonomy of some different aspects of my Online Identity:
+<ul>
+	<li>
+<strong>Events:</strong> Google Calendar, Facebook Events</li>
+	<li>
+<strong>Personal Information:</strong> Facebook, LinkedIn</li>
+	<li>
+<strong>Text Messaging:</strong> AIM, SMS, GoogleTalk, Email</li>
+	<li>
+<strong>Voice:</strong> Cell, Skype</li>
+	<li>
+<strong>Contacts:</strong> Facebook, LinkedIn, Gmail contacts, Cellphone contacts</li>
+	<li>
+<strong>Presence:</strong> AIM Away message, Facebook status, Twitter</li>
+
+</ul>
+
+The idea of <a href="http://en.wikipedia.org/wiki/Unified_messaging">Unified Messaging</a> is a vertical solution in that it attempts to aggregate the methods of contact for one person, but it usually does so via proprietary solutions for each category. That is, there is a provided method for events (that is, calendar), personal information, text messaging, and voice.
+
+What I want is a way to take all of my existing solutions, and create an intermediate format, which can be used to update all the rest. And then I want mobile access.
+
+I plan on integrating some of this into Gargoyle. The method of implementation will most likely be FOAF, though I'm as yet unsure about how I want to store my events. Events right now are probably the best category, since facebook publishes an iCal feed of my events, which I have imported as a dynamic calendar into my Google Calendar. The Google Calendar, in turn, sends me event notifications to my cell, via SMS.
+
+My initial task is to be available via whatever way is most convenient, no matter what the original mode of contact was, with SMS being the common-denominator. This can be most easily achieved by putting gatekeeper bots at each incoming mode of communication. So, there will be an AIM bot, that when set to "on" would forward all incoming AIM messages to an appropriate alternative location. Perhaps an even easier way would be to use existing methods: run my own Jabber server, with transports for all the various protocols. Jabber is also the easiest method for which to write bots in python.
+
+These are some preliminary ideas that I'm filing publically. More to come soon.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -492,49 +549,6 @@ def merge_dicts(*dictionaries):
 <li>The <code>reduce(funct,collection)</code> will sequentially apply the function <code>funct()</code> to each member of <code>collection</code>. The classic example is that <code>reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])</code> calculates <code>((((1+2)+3)+4)+5)</code>.</li>
 <li>List comperehensions are super fun and work like this: <code>[something(value) for value in list]</code> does <code>something</code> to each <code>value</code> in <code>list</code>, and returns the results in a list containing the results of <code>something(value)</code>. There is a permutation that looks like this: <code>[something(value) for value in list if value &gt; 5]</code> (any condition can be placed after the <code>if</code>), this only adds <code>something(value)</code> to the list if the condition is <code>true</code>.</li>
 </ul>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title" style="font-family: "><a href="/democracy-and-lizards/index.html">Democracy and Lizards</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2008-01-25T00:00:00-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>25</span><span class='date-suffix'>th</span>, <span class='date-year'>2008</span></span> <span class='time'>12:00 am</span></time>
-        
-         | <a href="/democracy-and-lizards/index.html#disqus_thread">Comments</a>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content" style="font-family: ; font-size: ">A cynical view I somewhat share, provided by the genius of Douglas Adam:
-<blockquote>
-    ‘On [that] world, the people are people. The leaders are lizards. The people hate the lizards and the lizards rule the people.’
-    ‘Odd,’ said Arthur, ‘I thought you said it was a democracy?’
-    ‘I did,’ said Ford, ‘It is.’
-    ‘So,’ said Arthur, hoping he wasn’t sounding ridiculously obtuse, ‘why don’t the people get rid of the lizards?’
-    ‘It honestly doesn’t occur to them,’ said Ford. ‘They’ve all got the vote, so they all pretty much assume that the government they’ve voted in more or less approximates to the government they want.’
-    ‘You mean they actually vote for the lizards?’
-    ‘Oh yes,’ said Ford with a shrug, ‘of course.’
-    ‘But,’ said Arthur, going for the big one again, ‘why?’
-    ‘Because if they didn’t vote for a lizard,’ said Ford, ‘the wrong lizard might get in.’
-</blockquote>
 </div>
   
   
