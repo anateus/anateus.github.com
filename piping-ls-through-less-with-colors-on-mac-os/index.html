@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Mocking Eye | ‘Tis all in vain?</title>
+<title>Piping ls through less with colors on Mac OS X | Mocking Eye</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Mocking Eye" />
+<meta property="og:title" content="Piping ls through less with colors on Mac OS X" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="‘Tis all in vain?" />
-<meta property="og:description" content="‘Tis all in vain?" />
-<link rel="canonical" href="http://mockingeye.com/404.html" />
-<meta property="og:url" content="http://mockingeye.com/404.html" />
+<meta name="description" content="The following command will do the trick:" />
+<meta property="og:description" content="The following command will do the trick:" />
+<link rel="canonical" href="http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/" />
+<meta property="og:url" content="http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/" />
 <meta property="og:site_name" content="Mocking Eye" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-06-13T00:00:00-07:00" />
 <script type="application/ld+json">
-{"url":"http://mockingeye.com/404.html","headline":"Mocking Eye","description":"‘Tis all in vain?","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/","headline":"Piping ls through less with colors on Mac OS X","datePublished":"2012-06-13T00:00:00-07:00","dateModified":"2012-06-13T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://mockingeye.com/piping-ls-through-less-with-colors-on-mac-os/"},"description":"The following command will do the trick:","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://mockingeye.com/feed.xml" title="Mocking Eye" /><script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
@@ -37,27 +39,33 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Piping ls through less with colors on Mac OS X</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2012-06-13T00:00:00-07:00" itemprop="datePublished">Jun 13, 2012
+      </time></p>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>The following command will do the trick:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>CLICOLOR_FORCE=1 ls -G|less -R</pre></div>
 </div>
 
+<p>Or just add this to your <code>.bash_profile</code> file to have ls always display in color and less always able to consume color codes:</p>
+
+<div class="CodeRay">
+  <div class="code"><pre>alias ls='CLICOLOR_FORCE=1 ls -G'
+alias less='less -R'</pre></div>
+</div>
+
+<p>This has been tested on 10.6.8 and should be valid for subsequent versions as well. Just a tad annoying since <code>ls</code> on Mac OS X behaves a bit differently than the standard linux one (i.e. no <code>--color</code> option).</p>
+
+  </div><a class="u-url" href="/piping-ls-through-less-with-colors-on-mac-os/index.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

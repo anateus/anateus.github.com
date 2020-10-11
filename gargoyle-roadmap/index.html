@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Gargoyle Roadmap | Mocking Eye</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Gargoyle Roadmap" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Official Gargoyle Roadmap, calluh callay!" />
+<meta property="og:description" content="Official Gargoyle Roadmap, calluh callay!" />
+<link rel="canonical" href="http://mockingeye.com/gargoyle-roadmap/" />
+<meta property="og:url" content="http://mockingeye.com/gargoyle-roadmap/" />
+<meta property="og:site_name" content="Mocking Eye" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2008-04-22T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://mockingeye.com/gargoyle-roadmap/","headline":"Gargoyle Roadmap","datePublished":"2008-04-22T00:00:00-07:00","dateModified":"2008-04-22T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://mockingeye.com/gargoyle-roadmap/"},"description":"Official Gargoyle Roadmap, calluh callay!","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://mockingeye.com/feed.xml" title="Mocking Eye" /><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mocking Eye</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Gargoyle Roadmap</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2008-04-22T00:00:00-07:00" itemprop="datePublished">Apr 22, 2008
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Official Gargoyle Roadmap, calluh callay!</p>
+
+<p>Currently, Gargoyle consists of 3 parts:</p>
+<ul>
+	<li><a href="http://www.mockingeye.com/index.php/2008/04/22/introducing-gargoyle-poi-server/">Gargoyle POI Server (GPS)</a></li>
+	<li>Gargoyle Extraction Agent Service (GEAS)</li>
+	<li>Gargoyle Personal Agent (GPA)</li>
+</ul>
+<p>At the moment, only GPS is truly usable, and even that is to a very limited degree. A proof of concept for GPA was posted, and most of a v0.2 was written, but that codebase will be abandoned. GEAS is for now just a whole bunch of ideas without a single line of code.</p>
+
+<p>What follows is a breakdown of what each component of Gargoyle is, what features are implemented, and what features are planned.</p>
+<p><!--more--></p>
+
+<p><strong>Gargoyle POI Server (GPS)</strong>
+Priority features are marked with an asterisk. (A <a href="http://en.wikipedia.org/wiki/Point_of_Interest">POI</a> is a <a href="http://en.wikipedia.org/wiki/Point_of_Interest">Point of Interest</a>)</p>
+<ul>
+	<li>Store and retrieve POIs via a REST interface
+<ul>
+	<li>GET access - 100% implemented</li>
+	<li>POST access* - 20% implemented</li>
+</ul>
+</li>
+	<li>View POIs in multiple formats
+<ul>
+	<li>KML output - 100% implemented</li>
+	<li>GeoRSS output* - 20% implemented</li>
+	<li>JSON output - 20% implemented</li>
+	<li>GPX output - 20% implemented</li>
+</ul>
+</li>
+	<li>Submit POIs in multiple formats
+<ul>
+	<li>KML input - 0% implemented</li>
+	<li>GeoRSS input - 0% implemented</li>
+	<li>JSON input - 0% implemented</li>
+	<li>GPX input - 0% implemented</li>
+</ul>
+</li>
+</ul>
+<p><strong>Gargoyle Extraction Agent Service (GEAS)</strong>
+None of this is implemented.</p>
+<ul>
+	<li>An interface for publishing data to GPS</li>
+	<li>A JSON-based Domain Specific Language for defining questions about geospatial information.</li>
+	<li>An Extractor template that answers the questions posed using the aforementioned DSL with a list of POIs, which get published to GPS. Here are some examples of questions that can quite easily be answered:
+<ul>
+	<li>What places are mentioned in Boing Boing posts?</li>
+	<li>Where are the 4+ star rated Afghan restaurants on Yelp?</li>
+	<li>Where are people I'm following on Twitter posting from?</li>
+	<li>Where are the meetings in my Google Calendar located?</li>
+	<li>Where are the other people that have their GPAs publish their location information?</li>
+	<li>Where are people posting flickr photos from?</li>
+	<li>Where are nearby Wikipedia pages?</li>
+In all these cases further relevant information can be attached to the POI in a description field, or perhaps any number of customs ones, since the CouchDB backend is very flexible.</ul>
+</li>
+</ul>
+<p><strong>Gargoyle Personal Agent (GPA)</strong>
+This isn’t actually a single application. Rather it is a suite of applications for multiple platforms, each with modular UIs.</p>
+<ul>
+	<li>Query a positioning device (such as a GPS unit) and retrieve relevant POI lists. This is the main task.</li>
+	<li>Maintain a cache of the nearby POI lists, and precache ones slightly further away intelligently.</li>
+	<li>Maintain a list of user priorities (which can be interactively modified) that affects POI presentation.</li>
+Now here are the various alternative user interfaces:
+	<li>A Google Maps mashup that displays the nearby POIs. This can be run on the web, and thus be iPhone compatible.</li>
+	<li>Display the POIs on whatever mapping tool a given device may have. On Google's Android Gargoyle will use Google Maps.</li>
+	<li>Pronounce POI via Text-to-Speech if a bluetooth headset is available. This existed in the proof of concept which ran on the Nokia n800. Should be possible on various cellphones, perhaps Google Android.</li>
+	<li>List nearby POIs linearly via some graphical interface.</li>
+In all cases, the client must intelligently be picking which POIs to bring up. For example, Wikipedia pages should not be announced until right next to the user, otherwise in some areas (e.g. NYC) the user would be utterly swamped with information. Whereas things like 5-star rated restaurants should be displayed even at some distance, especially when the user has indicated they are hungry.</ul>
+<p><strong>Development Plan:</strong></p>
+<ol>
+	<li> Implement GeoRSS support in GPS</li>
+	<li>Create rudimentary exporter from GeoNames wikipedia data into GPS.</li>
+	<li>Create Google Maps mashup which displays this data by reading it from GPS.</li>
+</ol>
+<p>None of this is new, in that a Google Maps view of this data already exists. However, this will lay the groundwork for extending the system and creating open interfaces that allow rapid development of plugins and improvements.</p>
+
+  </div><a class="u-url" href="/gargoyle-roadmap/index.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col one-half">
+      <h2 class="footer-heading">Mocking Eye</h2>
+        <ul class="contact-list">
+          <li class="p-name">Mocking Eye</li></ul>
+      </div>
+
+      <div class="footer-col one-half">
+        <p>&#39;Tis all in vain?</p>
+      </div>
+
+      <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
