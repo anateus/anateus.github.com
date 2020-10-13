@@ -1,17 +1,59 @@
 ---
-layout: full-width
-title: blog
-# Note that this index page uses a full-width layout!
+layout: default
+title: Home
 ---
 
-  <h1 class="content-listing-header sans">Articles</h1>
-  <ul class="content-listing ">
-    {% for post in site.posts %}      
-        <li class="listing">
-          <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
-        </li>
-    {% endfor %}
-  </ul>
+<h1>{{ site.title }}</h1>
+
+<ul class="content-listing ">
+  {% for post in paginator.posts %}
+  <li class="listing">
+    <hr class="slender">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h3 class="contrast">{{ post.title }}</h3>
+    </a>
+    <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span> <br />
+    <div>
+      {% assign content_words = post.content | number_of_words %}
+      {% assign excerpt_words = post.excerpt | number_of_words %}
+
+      {% if excerpt_words < content_words %}
+      {{ post.excerpt }}
+      <br /><a href="{{ post.url }}#read-more" class="btn btn-info">Read More</a>
+      {% elsif excerpt_words == content_words %}
+      {{ post.excerpt | strip_html | truncatewords: 30 }}
+      <a href="{{ post.url }}#read-more" class="btn btn-info">Read More</a>
+      {% else %}
+      another case?
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+  <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+  {% if page == paginator.page %}
+  <span class="webjeda">{{ page }}</span>
+  {% elsif page == 1 %}
+  <a href="/">{{ page }}</a>
+  {% else %}
+  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+  {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+  <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

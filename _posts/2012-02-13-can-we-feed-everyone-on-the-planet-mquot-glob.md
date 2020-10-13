@@ -1,0 +1,49 @@
+---
+permalink: /can-we-feed-everyone-on-the-planet-mquot-glob/index.html
+layout: post
+title: Can we feed everyone on the planet? — Global Food Security Part 1
+published: true
+categories: []
+---
+<p><em>This is the first of a series that will contain some of my thoughts on global food security and other related global thread factors. This post is a fairly hasty introduction to something I've been doing research on for some time.</em></p>
+<p>Our planet is overpopulated. Teeming masses of humanity are multiplying at an unsustainable rate. Beyond war and disease, one of our most basic existential needs&mdash;food&mdash;is unsatisfied<a href="#water"><sup>*</sup></a>: 925 million people are perpetually hungry, and up to 2 billion are intermittently food insecure<a href="#food-sec"><sup>1</sup></a>. You need to care about this because although food insecurity doesn't lead clearly to a true existential risk (that's where humanity gets wiped out), it is a major factor in societal collapse. This last affliction is one we're still in danger of despite our advances in technology, and especially with the tight integration of the global economy, it may not be as easy to maintain high functioning pockets.</p>
+<p>So, how can we feed everyone on the planet? In this first part I will use some rough calculations to look at whether this is even possible, or if we're wide off the mark.</p>
+<p>In order to find out if we can feed everyone I've adopted this simplified approach: find out how much food we produce, figure out a way to estimate its caloric content, and divide by the rough yearly caloric need per person. I found out the numbers for global food production are not very easy to come by and the ones I found estimated it in dollar value. However, I was able to dig up the global cereal production in tonnes. Cereals are the staple food in the vast majority of the world, and can be used to estimate the rough scale of our global food production. In later parts of the series I will attempt to produce more accurate estimates of our food production. One of the main problems with using cereals here is that in much of Africa&mdash;one of the parts of the world most afflicted with food insecurity&mdash;Cassava is the major staple. Unfortunately, Cassava is quite nutritionally poor and its widespread use is one of the things I'll address in later posts. There's another important problem with cereal (and is a major area I will also address later): 35-40% of cereal production goes to animal feed, rather than human consumption.</p>
+<p>So here's the the calculation intended to see if we're even in the ballpark of feeding everyone:</p>
+<table>
+
+<tr>
+<td>Total global production of cereals, in tonnes (2007)<a href="http://#cereal"><sup>2</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal per tonne of cereal<a href="http://#food-crisi"><sup>3</sup></a></td>
+<td>&nbsp;</td>
+<td>KCal required per year per person<sup>&dagger;</sup></td>
+<td>&nbsp;</td>
+<td>People we can feed per year</td>
+</tr>
+<tr>
+<td>(&nbsp;2,349,874,000</td>
+<td>&times;</td>
+<td>3,000,000&nbsp;)</td>
+<td>&divide;</td>
+<td>912,500</td>
+<td>=</td>
+<td>7,725,613,150.68</td>
+</tr>
+
+</table>
+<p>Well, looks like we're just about there, as far as calories from cereals go! Does that mean we can rest safe? Well, obviously we can't, or there wouldn't be hungry people in the world. In subsequent posts I'm going to cover a many of the major issues preventing global food security and discuss methods to overcome them. A serious directed effort is necessary to reasonably guarantee food security to almost everyone human being in the world, but it's much easier than it seems at first. Here are some of the topics I'll address:</p>
+<ul>
+<li>Post-harvest loss and food waste</li>
+<li>Why couldn't the Green Revolution keep up?</li>
+<li>Genetically modified organisms and agribusiness</li>
+<li>Food insecurity and societal collapse</li>
+<li>Demographics and food security</li>
+</ul>
+<p><strong>Notes:</strong><br /> * <a name="water">&nbsp;</a>I'm ignoring water for now because the issues with the lack of water are more clearly infrastructural as opposed to related to a true global scarcity.<br /> &dagger; <a name="est">&nbsp;</a> This is my own rough estimate of 2,500 kcal * 365 days.</p>
+<p><strong>References:</strong></p>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Food_security" target="_blank">Food Security - Wikipedia</a><a name="food-sec">&nbsp;</a></li>
+<li><a href="http://earthtrends.wri.org/searchable_db/index.php?theme=8&amp;variable_ID=183&amp;action=select_countries" target="_blank">Agricultural Production: Cereals, total production - World Resources Institute</a><a name="cereal">&nbsp;</a></li>
+<li><a href="http://www.grida.no/publications/rr/food-crisis/page/3565.aspx" target="_blank">World Food Supply - GRIDA Arendal</a><a name="food-crisis">&nbsp;</a></li>
+</ol>

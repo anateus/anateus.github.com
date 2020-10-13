@@ -1,14 +1,13 @@
-baseurl: /tufte-jekyll
-title: Tufte-Jekyll
-subtitle: Content-centric blogging
-author: clay harmon
+title: Mocking Eye
+baseurl: ""
+subtitle: "'Tis all in vain?"
+author: Michael Katsevman
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
-name: tufte
+description: Description
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:short_year/:title
-timezone: America/New_York
+permalink: /posts/:year/:month/:day/:title
+timezone: America/Los_Angeles 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
@@ -17,11 +16,10 @@ post:
 page:
   template: _page.txt
   extension: md
-editor: gvim
+editor: vim
 git:
   branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/clayh53.github.com/
+plugins:
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/page/page:num/"

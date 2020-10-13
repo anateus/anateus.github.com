@@ -1,0 +1,18 @@
+---
+permalink: /a-brief-interlude-client-attitudes/index.html
+layout: post
+title: A brief interlude - Client attitudes
+published: true
+categories: []
+---
+<p>
+<p>Americans are often surprised at the extent to which "the customer is always right" isn't a valued precept in Europe. It is a common aspect of American culture that a certain level of service and courtesy is due, and that the customer is doing the business a favor by being a patron. Certainly a high quality of service is respected throughout Europe, but the same sense of deep entitlement is mostly lacking.</p>
+<p>But perhaps it's merely redirected: Europeans expect more of their governments both in terms of the services provided and in terms of the responsiveness to their needs. Very much the sort of feelings that Americans have about businesses, but not nearly as much about their governments.</p>
+<p>As someone who on occasion identifies as an anarcho-capitalist, this makes a lot of sense to me. Governments are just service providers, insurance companies on a grand scale that assume the moral right to extract their premium payments from you whether you're interested in their particular products or not. So I perceive a continuum between business and government, mostly on the axis of forced participation (what's in the middle? various levels of oligarchic monopolies, state-sponsored enterprises and so forth. Businesses do use some coercion, the perfect entity on the least-force side of this spectrum would forgo advertising for example).</p>
+<p>Most metrics have been pointing at greater social and economic mobility in Europe vs. the US for at least the last decade. Quality of life metrics have been solidly on Europe's side for even longer. It seems the cause is not the rift in political ideology--everyone's a populist at the ballot box--nor the difference in approaching ethical and legal matters, but rather the difference in expectations of customer service.&nbsp;</p>
+<p>The US has an incredibly successful and useful myth of the individual freedoms that abound here. However having freedoms of great magnitude possible is not the same as freedoms commonly accorded. Same for opportunity. This myth however is incredibly useful, it's *why* you have such great opportunity here. Although it is not the case now--and hasn't been the case for many times in history--that people can rise with greater ease here than elsewhere, those who do rise have a chance to rise much higher exactly because of the collective beliefs in opportunity and freedom. Sounds a like the lottery.</p>
+<p>Skill and smarts can often beat the house, but let's return to the previous metaphor. I think people in the US have been getting complacent about the crappy customer service they've been getting. We expect the smiles and greetings, but we've forgotten how to complain. And sure, movements like Occupy are that unruly couple you're trying not to make eye contact with who are tearing the shift manager a new one, but you silently agree that this place <em>has</em> gone downhill.&nbsp;</p>
+<p>Ask to speak to the manager.</p>
+<p>&nbsp;</p>
+<p><em>Interlude? Between what and what? Well, the next part of my series on global food security is on its way! Boy howdy! And if you don't find agriculture as fascinating as I do, you should probably stop eating.</em></p>
+</p>

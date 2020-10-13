@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: ETbook;
-  src: url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+  src: url("../assets/assets/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
   src: url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbemboromanosf") format("svg");
   font-weight: normal;
   font-style: normal
@@ -34,4 +34,53 @@
   src: url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbemboromanosf") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: 
+      url('../assets/fonts/otf/cmunrm.otf') format("opentype"),
+      url('../assets/fonts/eot/cmunrm-webfont.eot'),
+      url('../assets/fonts/eot/cmunrm-webfont.eot?#iefix') format("embedded-opentype"),
+      url('../assets/fonts/svg/cmunrm-webfont.svg') format("svg"),
+      url('../assets/fonts/woff/cmunrm-webfont.woff') format("woff"),
+      url('../assets/fonts/ttf/cmunrm-webfont.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: 
+      url('../assets/fonts/otf/cmunbx.otf') format("opentype"),
+      url('../assets/fonts/eot/cmunbx-webfont.eot'),
+      url('../assets/fonts/eot/cmunbx-webfont.eot?#iefix') format("embedded-opentype"),
+      url('../assets/fonts/svg/cmunbx-webfont.svg') format("svg"),
+      url('../assets/fonts/woff/cmunbx-webfont.woff') format("woff"),
+      url('../assets/fonts/ttf/cmunbx-webfont.ttf') format("truetype");
+      font-weight: bold;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src:
+      url('../assets/fonts/otf/cmunbi.otf') format("opentype"), 
+      url('../assets/fonts/eot/cmunbi-webfont.eot'),
+      url('../assets/fonts/eot/cmunbi-webfont.eot?#iefix') format("embedded-opentype"),
+      url('../assets/fonts/svg/cmunbi-webfont.svg') format("svg"),
+      url('../assets/fonts/woff/cmunbi-webfont.woff') format("woff"),
+      url('../assets/fonts/ttf/cmunbi-webfont.ttf') format("truetype");
+      font-weight: bold;
+      font-style: italic;
+      
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: 
+      url('../assets/fonts/otf/cmunsl.otf') format("opentype"),
+      url('../assets/fonts/eot/cmunsl-webfont.eot'),
+      url('../assets/fonts/eot/cmunsl-webfont.eot?#iefix') format("embedded-opentype"),
+      url('../assets/fonts/svg/cmunsl-webfont.svg') format("svg"),
+      url('../assets/fonts/woff/cmunsl-webfont.woff') format("woff"),
+      url('../assets/fonts/ttf/cmunsl-webfont.ttf') format("truetype");
+      font-style: italic;
 }
