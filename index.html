@@ -9,10 +9,10 @@ title: Home
   {% for post in paginator.posts %}
   <li class="listing">
     <hr class="slender">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a class="title" href="{{ post.url | prepend: site.baseurl }}">
       <h3 class="contrast">{{ post.title }}</h3>
     </a>
-    <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span> <br />
+    <span class="smaller date">{{ post.date | date: "%B %-d, %Y" }}</span> <br />
     <div>
       {% assign content_words = post.content | number_of_words %}
       {% assign excerpt_words = post.excerpt | number_of_words %}
@@ -21,7 +21,7 @@ title: Home
       {{ post.excerpt }}
       <br /><a href="{{ post.url }}#read-more" class="btn btn-info">Read More</a>
       {% elsif excerpt_words == content_words %}
-      {{ post.excerpt | strip_html | truncatewords: 30 }}
+      {{ post.excerpt | strip_html | truncatewords: 12 }}
       <a href="{{ post.url }}#read-more" class="btn btn-info">Read More</a>
       {% else %}
       another case?
