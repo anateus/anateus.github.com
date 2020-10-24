@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://mockingeye.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mockingeye.com/" rel="alternate" type="text/html" /><updated>2020-10-10T21:57:30-07:00</updated><id>http://mockingeye.com/feed.xml</id><title type="html">Mocking Eye</title><subtitle>'Tis all in vain?</subtitle><entry><title type="html">Alternative Libraries of San Francisco</title><link href="http://mockingeye.com/2016/02/14/alternative-libraries-of-san-francisco.html" rel="alternate" type="text/html" title="Alternative Libraries of San Francisco" /><published>2016-02-14T18:22:36-08:00</published><updated>2016-02-14T18:22:36-08:00</updated><id>http://mockingeye.com/2016/02/14/alternative-libraries-of-san-francisco</id><content type="html" xml:base="http://mockingeye.com/2016/02/14/alternative-libraries-of-san-francisco.html">&lt;p&gt;This Valentine’s day we made it a Library Lovers’ Day and visited two of my favorite libraries in SF:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mocking Eye</title>
+    <description>Description</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Oct 2020 16:49:00 -0700</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2020 16:49:00 -0700</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Alternative Libraries of San Francisco</title>
+        <description>&lt;p&gt;This Valentine’s day we made it a Library Lovers’ Day and visited two of my favorite libraries in SF:&lt;/p&gt;
 
 &lt;h2 id=&quot;stop-1-the-prelinger-library&quot;&gt;Stop 1: The Prelinger Library&lt;/h2&gt;
 
@@ -14,7 +27,18 @@
 
 &lt;p&gt;Started as the Gold Rush was dying out with a vocational and technical focus, The &lt;a href=&quot;https://www.wikiwand.com/en/San_Francisco_Mechanics%27_Institute&quot;&gt;Mechanics’ Institute Library&lt;/a&gt; is the oldest library on the West Coast, and it contains the oldest chess club in the United States. This library is open to the public, but membership requires a fee. 1854 isn’t that old even by East Coast standards, but this place has about as much gravitas as this part of the country can muster. I especially like their large-format book collection, which is pleasure to leaf through on the nice leather couches. Flipped through books on Roman armor, birds of prey, Tarot, and menswear (which has an introduction by Terrence Stamp).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.milibrary.org/&quot;&gt;Mecahnics’ Institute Library &amp;amp; Chess Room – Official Website&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This Valentine’s day we made it a Library Lovers’ Day and visited two of my favorite libraries in SF:</summary></entry><entry><title type="html">A Living Room</title><link href="http://mockingeye.com/2016/02/07/a-living-room.html" rel="alternate" type="text/html" title="A Living Room" /><published>2016-02-07T14:34:25-08:00</published><updated>2016-02-07T14:34:25-08:00</updated><id>http://mockingeye.com/2016/02/07/a-living-room</id><content type="html" xml:base="http://mockingeye.com/2016/02/07/a-living-room.html">&lt;p&gt;For the last month I had the pleasure of joining fellow artists, designers and builders in a project that debuted at the &lt;a href=&quot;http://ourcity.is/oakland/&quot;&gt;Our City: Oakland&lt;/a&gt; public design fair. It stood welcoming all for 3 days, Feb 4 – Feb 6, 2016.
+&lt;p&gt;&lt;a href=&quot;http://www.milibrary.org/&quot;&gt;Mecahnics’ Institute Library &amp;amp; Chess Room – Official Website&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Feb 2016 18:22:36 -0800</pubDate>
+        <link>/posts/2016/02/14/alternative-libraries-of-san-francisco</link>
+        <guid isPermaLink="true">/posts/2016/02/14/alternative-libraries-of-san-francisco</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Living Room</title>
+        <description>&lt;p&gt;For the last month I had the pleasure of joining fellow artists, designers and builders in a project that debuted at the &lt;a href=&quot;http://ourcity.is/oakland/&quot;&gt;Our City: Oakland&lt;/a&gt; public design fair. It stood welcoming all for 3 days, Feb 4 – Feb 6, 2016.
 This was our artist statement:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -41,7 +65,19 @@ This was our artist statement:&lt;/p&gt;
 
 &lt;p&gt;Night Room:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/livingroom-night.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For the last month I had the pleasure of joining fellow artists, designers and builders in a project that debuted at the Our City: Oakland public design fair. It stood welcoming all for 3 days, Feb 4 – Feb 6, 2016. This was our artist statement:</summary></entry><entry><title type="html">Revelations and Miscellania</title><link href="http://mockingeye.com/2016/01/25/revelations-and-miscellania.html" rel="alternate" type="text/html" title="Revelations and Miscellania" /><published>2016-01-25T10:59:14-08:00</published><updated>2016-01-25T10:59:14-08:00</updated><id>http://mockingeye.com/2016/01/25/revelations-and-miscellania</id><content type="html" xml:base="http://mockingeye.com/2016/01/25/revelations-and-miscellania.html">&lt;p&gt;Switching all the world’s cars to driverless at once would save more lives this year than immediate world peace.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/livingroom-night.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 07 Feb 2016 14:34:25 -0800</pubDate>
+        <link>/posts/2016/02/07/a-living-room</link>
+        <guid isPermaLink="true">/posts/2016/02/07/a-living-room</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Revelations and Miscellania</title>
+        <description>&lt;p&gt;Switching all the world’s cars to driverless at once would save more lives this year than immediate world peace.&lt;/p&gt;
 
 &lt;h2 id=&quot;sports-corner&quot;&gt;Sports Corner&lt;/h2&gt;
 
@@ -60,7 +96,18 @@ adfsd&lt;/p&gt;
 
 &lt;h2 id=&quot;the-ur-kel-masters&quot;&gt;The Ur-kel Masters&lt;/h2&gt;
 
-&lt;p&gt;Videogame mashup of Family Matters and Star Control II.&lt;/p&gt;</content><author><name></name></author><summary type="html">Switching all the world’s cars to driverless at once would save more lives this year than immediate world peace.</summary></entry><entry><title type="html">Posts will continue until morale improves. -mgmt</title><link href="http://mockingeye.com/2015/05/13/posts-will-continue-until-morale-improves-mgmt.html" rel="alternate" type="text/html" title="Posts will continue until morale improves. -mgmt" /><published>2015-05-13T14:13:00-07:00</published><updated>2015-05-13T14:13:00-07:00</updated><id>http://mockingeye.com/2015/05/13/posts-will-continue-until-morale-improves-mgmt</id><content type="html" xml:base="http://mockingeye.com/2015/05/13/posts-will-continue-until-morale-improves-mgmt.html">&lt;p&gt;Going to resume posting, collating smaller thoughts I’ve had and sometimes posted on other media. Perhaps it’ll encourage me to expand on some.&lt;/p&gt;
+&lt;p&gt;Videogame mashup of Family Matters and Star Control II.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 10:59:14 -0800</pubDate>
+        <link>/posts/2016/01/25/revelations-and-miscellania</link>
+        <guid isPermaLink="true">/posts/2016/01/25/revelations-and-miscellania</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Posts will continue until morale improves. -mgmt</title>
+        <description>&lt;p&gt;Going to resume posting, collating smaller thoughts I’ve had and sometimes posted on other media. Perhaps it’ll encourage me to expand on some.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;A cult becomes a religion when you can be one just on holidays.&lt;/li&gt;
@@ -77,13 +124,46 @@ adfsd&lt;/p&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.wikiwand.com/en/Ingressive_sound&quot;&gt;Pulmonic ingressives&lt;/a&gt; in the wild: &amp;lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/URgdIAz4QNg&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Going to resume posting, collating smaller thoughts I’ve had and sometimes posted on other media. Perhaps it’ll encourage me to expand on some.</summary></entry><entry><title type="html">User Interfaces</title><link href="http://mockingeye.com/2014/01/12/user-interfaces.html" rel="alternate" type="text/html" title="User Interfaces" /><published>2014-01-12T23:04:00-08:00</published><updated>2014-01-12T23:04:00-08:00</updated><id>http://mockingeye.com/2014/01/12/user-interfaces</id><content type="html" xml:base="http://mockingeye.com/2014/01/12/user-interfaces.html">&lt;p&gt;User interfaces matter. I was watching a recent episode of &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Taste&quot;&gt;The Taste&lt;/a&gt;, and one of the contestants’ meatloaf just wasn’t cooking. Every time she went back to her oven she’d see the touch screen display 350F. She would slide the touch-based temperature slider to 550F and walk away. But when she’d return, the temperature was back to 350F.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 May 2015 14:13:00 -0700</pubDate>
+        <link>/posts/2015/05/13/posts-will-continue-until-morale-improves-mgmt</link>
+        <guid isPermaLink="true">/posts/2015/05/13/posts-will-continue-until-morale-improves-mgmt</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>User Interfaces</title>
+        <description>&lt;p&gt;User interfaces matter. I was watching a recent episode of &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Taste&quot;&gt;The Taste&lt;/a&gt;, and one of the contestants’ meatloaf just wasn’t cooking. Every time she went back to her oven she’d see the touch screen display 350F. She would slide the touch-based temperature slider to 550F and walk away. But when she’d return, the temperature was back to 350F.&lt;/p&gt;
 
 &lt;p&gt;The first time she did this I had a suspicion. The second time she went to back to the screen, I was able to confirm it. The temperature selection screen had an OK button on the bottom right. Just like it’s a &lt;a href=&quot;http://en.wikipedia.org/wiki/Modal_dialog&quot;&gt;modal dialog&lt;/a&gt;. She would set the temperature, but walk away without tapping that all-important OK button so the temperature wasn’t actually being adjusted.&lt;/p&gt;
 
 &lt;p&gt;User interfaces use metaphors in order to access shortcuts you already have in your brain. This is why &lt;a href=&quot;http://en.wikipedia.org/wiki/Skeumorphism#Digital_skeuomorphs&quot;&gt;skeumorphism&lt;/a&gt; is used in the design of digital interfaces, so you don’t have to learn a completely new way to perform a task.&lt;/p&gt;
 
-&lt;p&gt;One of the most simple interfaces is a lever. It &lt;a href=&quot;http://en.wikipedia.org/wiki/Affordance&quot;&gt;affords&lt;/a&gt; manipulation and it augments human capability: you can exert greater force. But it’s also a metaphor for what a user interface is. If an interfaces does not enable enhancement of capacity, it is actively a hinderance. To avoid &lt;a href=&quot;http://en.wikipedia.org/wiki/Cargo_cult#Metaphorical_uses_of_the_term&quot;&gt;cargo cult design&lt;/a&gt; always consider what you attempting to enable and how much leverage you are contributing.&lt;/p&gt;</content><author><name></name></author><summary type="html">User interfaces matter. I was watching a recent episode of The Taste, and one of the contestants’ meatloaf just wasn’t cooking. Every time she went back to her oven she’d see the touch screen display 350F. She would slide the touch-based temperature slider to 550F and walk away. But when she’d return, the temperature was back to 350F.</summary></entry><entry><title type="html">Mirrorshades</title><link href="http://mockingeye.com/2013/03/03/mirrorshades.html" rel="alternate" type="text/html" title="Mirrorshades" /><published>2013-03-03T17:21:00-08:00</published><updated>2013-03-03T17:21:00-08:00</updated><id>http://mockingeye.com/2013/03/03/mirrorshades</id><content type="html" xml:base="http://mockingeye.com/2013/03/03/mirrorshades.html">&lt;p&gt;Finally reading Bruce Sterling’s cyberpunk short story collection &lt;a href=&quot;http://www.amazon.com/gp/product/0441533825/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0441533825&amp;amp;linkCode=as2&amp;amp;tag=themoceye-20&quot;&gt;Mirrorshades&lt;/a&gt;. It’s commonly referred to as the definitive collection of what was then a movement and is now more of a distinct sub-genre. I was expecting to read a collection of hyper stylized and at times outdated stories, akin to how much of William Gibson’s Sprawl trilogy reads now (they’re still awesome, but are clearly an artifact of their times, while a lot of good SF from the same era manages to escape that fate). To my delight I got something much fresher. Covering a nice swathe of the movement, it gives a pretty comprehensive and non-stereotypical example of the style and the themes of cyberpunk. There’s still a lot of arguing about whether everything in it is cyberpunk (for example Gibson’s Gernsback Continuum, which still reads fresh) but I think it manages to capture the feelings of cyberpunk with a nuance and scope I wasn’t really expecting.&lt;/p&gt;</content><author><name></name></author><summary type="html">Finally reading Bruce Sterling’s cyberpunk short story collection Mirrorshades. It’s commonly referred to as the definitive collection of what was then a movement and is now more of a distinct sub-genre. I was expecting to read a collection of hyper stylized and at times outdated stories, akin to how much of William Gibson’s Sprawl trilogy reads now (they’re still awesome, but are clearly an artifact of their times, while a lot of good SF from the same era manages to escape that fate). To my delight I got something much fresher. Covering a nice swathe of the movement, it gives a pretty comprehensive and non-stereotypical example of the style and the themes of cyberpunk. There’s still a lot of arguing about whether everything in it is cyberpunk (for example Gibson’s Gernsback Continuum, which still reads fresh) but I think it manages to capture the feelings of cyberpunk with a nuance and scope I wasn’t really expecting.</summary></entry><entry><title type="html">Solving a Major Problem – Bras</title><link href="http://mockingeye.com/2013/02/24/solving-a-major-problem-bras.html" rel="alternate" type="text/html" title="Solving a Major Problem – Bras" /><published>2013-02-24T21:59:00-08:00</published><updated>2013-02-24T21:59:00-08:00</updated><id>http://mockingeye.com/2013/02/24/solving-a-major-problem-bras</id><content type="html" xml:base="http://mockingeye.com/2013/02/24/solving-a-major-problem-bras.html">&lt;p&gt;I like learning about other people’s problems. I particular like learning about problems from people who have different problems than mine and one of the most common and persistent of those is the issue of bras. Many women told me about it and complaints were near universal and came from all quarters. I’ve specifically asked a lot of women about their experiences with bras to better understand and also did research on the state of the art of design, engineering and manufacturing of bras. This is something that affects women with breasts of all sizes–it isn’t restricted to women with big breasts. I realized recently that although I’d love to work on this problem, without some help I can’t do it. I’m not a domain expert in several of the fields required, though I’ve gone into some depth on the subject, so writing about it would perhaps inspire someone to either join me or take it up on their own.&lt;/p&gt;
+&lt;p&gt;One of the most simple interfaces is a lever. It &lt;a href=&quot;http://en.wikipedia.org/wiki/Affordance&quot;&gt;affords&lt;/a&gt; manipulation and it augments human capability: you can exert greater force. But it’s also a metaphor for what a user interface is. If an interfaces does not enable enhancement of capacity, it is actively a hinderance. To avoid &lt;a href=&quot;http://en.wikipedia.org/wiki/Cargo_cult#Metaphorical_uses_of_the_term&quot;&gt;cargo cult design&lt;/a&gt; always consider what you attempting to enable and how much leverage you are contributing.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jan 2014 23:04:00 -0800</pubDate>
+        <link>/posts/2014/01/12/user-interfaces</link>
+        <guid isPermaLink="true">/posts/2014/01/12/user-interfaces</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mirrorshades</title>
+        <description>&lt;p&gt;Finally reading Bruce Sterling’s cyberpunk short story collection &lt;a href=&quot;http://www.amazon.com/gp/product/0441533825/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0441533825&amp;amp;linkCode=as2&amp;amp;tag=themoceye-20&quot;&gt;Mirrorshades&lt;/a&gt;. It’s commonly referred to as the definitive collection of what was then a movement and is now more of a distinct sub-genre. I was expecting to read a collection of hyper stylized and at times outdated stories, akin to how much of William Gibson’s Sprawl trilogy reads now (they’re still awesome, but are clearly an artifact of their times, while a lot of good SF from the same era manages to escape that fate). To my delight I got something much fresher. Covering a nice swathe of the movement, it gives a pretty comprehensive and non-stereotypical example of the style and the themes of cyberpunk. There’s still a lot of arguing about whether everything in it is cyberpunk (for example Gibson’s Gernsback Continuum, which still reads fresh) but I think it manages to capture the feelings of cyberpunk with a nuance and scope I wasn’t really expecting.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Mar 2013 17:21:00 -0800</pubDate>
+        <link>/posts/2013/03/03/mirrorshades</link>
+        <guid isPermaLink="true">/posts/2013/03/03/mirrorshades</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Solving a Major Problem -- Bras</title>
+        <description>&lt;p&gt;I like learning about other people’s problems. I particular like learning about problems from people who have different problems than mine and one of the most common and persistent of those is the issue of bras. Many women told me about it and complaints were near universal and came from all quarters. I’ve specifically asked a lot of women about their experiences with bras to better understand and also did research on the state of the art of design, engineering and manufacturing of bras. This is something that affects women with breasts of all sizes–it isn’t restricted to women with big breasts. I realized recently that although I’d love to work on this problem, without some help I can’t do it. I’m not a domain expert in several of the fields required, though I’ve gone into some depth on the subject, so writing about it would perhaps inspire someone to either join me or take it up on their own.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;An important note:&lt;/em&gt; It is common amongst engineers and programmers to wade into a new domain with a savior complex, “we’ll fix this for you with our fresh perspective!”. On a slightly different slant, a lot of women have experience &lt;a href=&quot;http://www.urbandictionary.com/define.php?term=Mansplain&quot;&gt;mansplaining&lt;/a&gt;. I’m trying very explicitly to not be doing either of these. I’d like this to be an overview of what I’ve discovered and what I think is a good solution. I’m not swooping from above magically delivering bra salvation to the helpless female masses. I just haven’t seen these ideas put together before and thought folks might be interested. Just wanted this to be clear.&lt;/p&gt;
 
@@ -119,9 +199,31 @@ adfsd&lt;/p&gt;
 
 &lt;p&gt;A custom bra is necessary. There’s just no other way to fulfill all 3 core tasks. I’d love for someone to tackle this. Please do contact me with any thoughts you might have on this, it’s more important than it might seem.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Edit:&lt;/em&gt; I really have been researching this fairly deeply for over a year, this is just meant to be a an introduction, so pardon the lack of nuance and depth. Happy to discuss any specific aspects further if anyone’s interested!&lt;/p&gt;</content><author><name></name></author><summary type="html">I like learning about other people’s problems. I particular like learning about problems from people who have different problems than mine and one of the most common and persistent of those is the issue of bras. Many women told me about it and complaints were near universal and came from all quarters. I’ve specifically asked a lot of women about their experiences with bras to better understand and also did research on the state of the art of design, engineering and manufacturing of bras. This is something that affects women with breasts of all sizes–it isn’t restricted to women with big breasts. I realized recently that although I’d love to work on this problem, without some help I can’t do it. I’m not a domain expert in several of the fields required, though I’ve gone into some depth on the subject, so writing about it would perhaps inspire someone to either join me or take it up on their own.</summary></entry><entry><title type="html">New Job!</title><link href="http://mockingeye.com/2013/02/03/new-job.html" rel="alternate" type="text/html" title="New Job!" /><published>2013-02-03T20:22:00-08:00</published><updated>2013-02-03T20:22:00-08:00</updated><id>http://mockingeye.com/2013/02/03/new-job</id><content type="html" xml:base="http://mockingeye.com/2013/02/03/new-job.html">&lt;p&gt;Just thought I might make it a point to mention I recently joined the engineering team at &lt;a href=&quot;http://www.comprehend.com/&quot;&gt;Comprehend&lt;/a&gt;, a fellow Y Combinator company. We make analytics software targeting pharmaceutical companies in an industry that’s filled with balkanized solutions. Helping tackle the byzantine challenges involved in clinical trials should be interesting!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit:&lt;/em&gt; I really have been researching this fairly deeply for over a year, this is just meant to be a an introduction, so pardon the lack of nuance and depth. Happy to discuss any specific aspects further if anyone’s interested!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Feb 2013 21:59:00 -0800</pubDate>
+        <link>/posts/2013/02/24/solving-a-major-problem-bras</link>
+        <guid isPermaLink="true">/posts/2013/02/24/solving-a-major-problem-bras</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New Job!</title>
+        <description>&lt;p&gt;Just thought I might make it a point to mention I recently joined the engineering team at &lt;a href=&quot;http://www.comprehend.com/&quot;&gt;Comprehend&lt;/a&gt;, a fellow Y Combinator company. We make analytics software targeting pharmaceutical companies in an industry that’s filled with balkanized solutions. Helping tackle the byzantine challenges involved in clinical trials should be interesting!&lt;/p&gt;
 
-&lt;p&gt;As usual, I must add that my opinions and comments and do not represent my employer in any way shape or form.&lt;/p&gt;</content><author><name></name></author><summary type="html">Just thought I might make it a point to mention I recently joined the engineering team at Comprehend, a fellow Y Combinator company. We make analytics software targeting pharmaceutical companies in an industry that’s filled with balkanized solutions. Helping tackle the byzantine challenges involved in clinical trials should be interesting!</summary></entry><entry><title type="html">Reading everything stdin in a bash script</title><link href="http://mockingeye.com/2013/01/22/reading-everything-stdin-in-a-bash-script.html" rel="alternate" type="text/html" title="Reading everything stdin in a bash script" /><published>2013-01-22T14:27:00-08:00</published><updated>2013-01-22T14:27:00-08:00</updated><id>http://mockingeye.com/2013/01/22/reading-everything-stdin-in-a-bash-script</id><content type="html" xml:base="http://mockingeye.com/2013/01/22/reading-everything-stdin-in-a-bash-script.html">&lt;p&gt;In trying to get a &lt;a href=&quot;http://collectd.org/&quot;&gt;collectd&lt;/a&gt; instance to send me alerts, I found out that I didn’t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt; command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that’s perhaps canonical, but doesn’t seem to pop up via quick googling:&lt;/p&gt;
+&lt;p&gt;As usual, I must add that my opinions and comments and do not represent my employer in any way shape or form.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Feb 2013 20:22:00 -0800</pubDate>
+        <link>/posts/2013/02/03/new-job</link>
+        <guid isPermaLink="true">/posts/2013/02/03/new-job</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Reading everything stdin in a bash script</title>
+        <description>&lt;p&gt;In trying to get a &lt;a href=&quot;http://collectd.org/&quot;&gt;collectd&lt;/a&gt; instance to send me alerts, I found out that I didn’t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt; command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that’s perhaps canonical, but doesn’t seem to pop up via quick googling:&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
 
@@ -133,6 +235,28 @@ adfsd&lt;/p&gt;
 
 &lt;p&gt;That’s it! &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$(cat)&lt;/code&gt; is a shorthand for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$(cat /dev/stdin)&lt;/code&gt;, so presumably you can use this to read from stderr by pointing it at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/stderr&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Happy piping!&lt;/p&gt;</content><author><name></name></author><summary type="html">In trying to get a collectd instance to send me alerts, I found out that I didn’t know how to just read everything that might be piped into a bash script via standard input. You can read line by line easily using the read command. Just looping over it seemed pretty horrendous to me until I discovered an elegant way to do it that’s perhaps canonical, but doesn’t seem to pop up via quick googling:</summary></entry><entry><title type="html">Migrated from Posterous to Octopress</title><link href="http://mockingeye.com/2012/08/01/migrated-from-posterous-to-octopress.html" rel="alternate" type="text/html" title="Migrated from Posterous to Octopress" /><published>2012-08-01T20:29:00-07:00</published><updated>2012-08-01T20:29:00-07:00</updated><id>http://mockingeye.com/2012/08/01/migrated-from-posterous-to-octopress</id><content type="html" xml:base="http://mockingeye.com/2012/08/01/migrated-from-posterous-to-octopress.html">&lt;p&gt;I’ve migrated the blog from Posterous to &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt;. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn’t want the various security and management headaches that basically every dynamic CMS brings with it.&lt;/p&gt;
+&lt;p&gt;Happy piping!&lt;/p&gt;
 
-&lt;p&gt;I used the alternative &lt;a href=&quot;https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb&quot;&gt;posterous importer provided by Jekyll&lt;/a&gt;–their default one doesn’t preserve the permalinks. Before running it you should fix a bug: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s/post\.media[2]/post.media/&lt;/code&gt;. Then you can run it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby posterous.rb USERNAME PASSWORD API_TOKEN&lt;/code&gt;. Presto!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve migrated the blog from Posterous to Octopress. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn’t want the various security and management headaches that basically every dynamic CMS brings with it.</summary></entry></feed>
+</description>
+        <pubDate>Tue, 22 Jan 2013 14:27:00 -0800</pubDate>
+        <link>/posts/2013/01/22/reading-everything-stdin-in-a-bash-script</link>
+        <guid isPermaLink="true">/posts/2013/01/22/reading-everything-stdin-in-a-bash-script</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Migrated from Posterous to Octopress</title>
+        <description>&lt;p&gt;I’ve migrated the blog from Posterous to &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt;. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn’t want the various security and management headaches that basically every dynamic CMS brings with it.&lt;/p&gt;
+
+&lt;p&gt;I used the alternative &lt;a href=&quot;https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb&quot;&gt;posterous importer provided by Jekyll&lt;/a&gt;–their default one doesn’t preserve the permalinks. Before running it you should fix a bug: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s/post\.media[2]/post.media/&lt;/code&gt;. Then you can run it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby posterous.rb USERNAME PASSWORD API_TOKEN&lt;/code&gt;. Presto!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Aug 2012 20:29:00 -0700</pubDate>
+        <link>/posts/2012/08/01/migrated-from-posterous-to-octopress</link>
+        <guid isPermaLink="true">/posts/2012/08/01/migrated-from-posterous-to-octopress</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
