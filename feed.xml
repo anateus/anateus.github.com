@@ -5,9 +5,561 @@
     <description>Description</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Oct 2020 16:49:00 -0700</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2020 16:49:00 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2020 22:27:40 -0800</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2020 22:27:40 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Kaleidoscopic Haikus of the L@st Propitious Age</title>
+        <description>&lt;style type=&quot;text/css&quot;&gt;
+h1 { font-variant: small-caps; } 
+&lt;/style&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I'm still working on this piece, but I think it's ready to be shared even in this draft state. Feedback is very welcome.&lt;/p&gt;&lt;footer&gt;The author&lt;cite&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the 1990’s,&lt;/span&gt; my dad worked for a vector graphics startup. Sometimes he’d bring home these thick softcover books filled with glossy pages covered with nothing but pictures.&lt;/p&gt;
+
+&lt;p&gt;I loved to get lost in page after page of idyllic azure beaches,&lt;label for=&quot;beaches&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;beaches&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Photos of beaches in a catalog.&quot; src=&quot;/assets/images/stock_photo_catalogs/beaches.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt; or hands being shaken, or piles of currency, or majestic vistas, or laughing multi-ethnic faces. Some of them were nothing but rows of tiny boxes barely big enough to make out. Others had bigger prints and included illustrations, or abstract patterns, or closeups of a leaf’s surface.&lt;/p&gt;
+
+&lt;p&gt;Being already used to reading encyclopedias cover to cover this was just the sort of concentrated barrage of information I craved, this time in visual form.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Stock photography grew&lt;/span&gt;  in prominence throughout the 20&lt;sup&gt;th&lt;/sup&gt; century. What started as a byproduct of &lt;em&gt;assignment photography&lt;/em&gt;&lt;label for=&quot;assignment&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;assignment&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Life_(magazine)&quot;&gt;Life Magazine&lt;/a&gt; sending a photographer to take photos of something specific. &lt;/span&gt; became a major business in its own right. Stock photography served advertisers as well as both corporate and journalistic copywriters.&lt;/p&gt;
+
+&lt;p&gt;Over time, as the number of in-house photographers decreased, selling to stock photography companies became a viable endeavor on its own. By the late 80’s there was plenty of both supply and demand.&lt;/p&gt;
+&lt;h2 id=&quot;-après-moi-&quot;&gt;« Après moi… »&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The 90’s were&lt;/span&gt; an inflection point between analog and digital and between traditional stock and &lt;em&gt;microstock&lt;/em&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The sort of let’s-crank-out-dozens-of-these-in-this-anonymous-studio-with-this-box-of-props stock photography you often find online these days. &lt;/span&gt;. Towards the end of the 80’s, stock photos consisted majorly of naturalistic subjects or broad conceptual ones. As more niche subjects became more common, so did more specialized—and more artistically elaborate—presentation. With &lt;em&gt;desktop publishing&lt;/em&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Desktop_publishing&quot;&gt;Desktop Publishing&lt;/a&gt; software such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Adobe_PageMaker&quot;&gt;Aldus PageMaker&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/QuarkXPress&quot;&gt;QuarkXPress&lt;/a&gt; allowed for faster and easier layouts and typesetting. Supplanting &lt;a href=&quot;https://en.wikipedia.org/wiki/Phototypesetting&quot;&gt;phototypesetting&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Paste_up&quot;&gt;paste up&lt;/a&gt; as the primary method of laying out graphic designed printed materials. &lt;/span&gt; becoming more common it became increasingly more affordable to produce catalogs that were coherent pieces of graphic design rather than mere indexes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/images/stock_photo_catalogs/watercolor_flowers.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is typified by Photonica—a Japanese stock agency founded in Tokyo in 1987 and in New York in 1990&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Photonica’s non-Japanese business was eventually &lt;a href=&quot;https://www.selling-stock.com/Article/getty-acquires-photonica-and-iconica&quot;&gt;bought by Getty in 2005&lt;/a&gt;. &lt;/span&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The sophisticated colour and abstracted forms of Photonica represent a reaction against the ‘stock photo’ look; the imagery is highly specific rather than generic, and the style foregrounds the vision of individual photographers.&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;#abbot94&quot;&gt;Abbot 1994&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The success of this approach led to rapid imitation such as the somewhat brazenly titled “Photo Haiku” catalog from FPG International&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;FPG International was &lt;a href=&quot;https://www.selling-stock.com/Article/visual-comm-group-buys-fpg&quot;&gt;bought by Visual Communications Group (VCG) in 1997&lt;/a&gt;. &lt;/span&gt;. Stock photo companies themselves exemplify the common marketing paradox where they must be simultaneously both leaders and followers and so they are never shy about jumping on a trend even as they try to shape it.&lt;/p&gt;
+
+&lt;h2 id=&quot;-à-la-recherche-&quot;&gt;« À la recherche… »&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A couple of months&lt;/span&gt; after my son was born, I was idly thinking of things I’d like to show him some day when I thought of the stock photo catalogs of childhood for the first time in decades. And with that memory came their scent. They smelled a bit like a cross between a bookstore full of new books and a photograph freshly pulled from the paper envelope it arrived in from the photo lab &lt;label for=&quot;olds-only&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;olds-only&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;An olfactory simile with a dwindling audience. &lt;/span&gt;. I realized that after all these years, recovering that scent may be impossible but the multi-sensory aspect only bolstered my eagerness to get my hands on them.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;https://d1dlh1v05qf6d3.cloudfront.net/information/uploads/2015/11/womenlaughingatsalad.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As one might imagine, searching for “stock photo catalog” isn’t very fruitful. The results are overwhelmed by the online collections offering the usual women-laughing-at-salads. Eventually, I managed to dig up some specimens on eBay and was pleasantly surprised at how cheap many were. It did make sense, since these are pretty hefty books that take up a lot of space and have no discernible target market or even ISBNs. What saved them was that while of interest mainly to professionals even when used for commerce, they are clearly not the ephemeral objects that most product catalogs are.&lt;/p&gt;
+
+&lt;p&gt;I received my first batch of eBay deliveries soon after. They came to me in San Francisco from right next door in Pacifica, though with a detour through Los Angeles due to the vagaries of intra-Pandemic USPS. The first two I leafed through were lovely and the images were even better than I remembered&lt;label for=&quot;little-boxes&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;little-boxes&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;A lot of the ones from my childhood consisted primarily of rows of tiny photo boxes, looking a little like film strip. It made for a striking effect but not much detail. &lt;/span&gt;. The third one had &lt;em&gt;the smell&lt;/em&gt; and I was hooked.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Until I began&lt;/span&gt; this search, I hadn’t really pieced together what those books in my childhood memories were, and definitely didn’t know what they were called. Heck, it was before I even learned any English. So to build my collection I had to learn who was involved in the field back then. &lt;label for=&quot;neon-tech&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;neon-tech&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;90s neon tech&quot; src=&quot;/assets/images/stock_photo_catalogs/neon_tech.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The industry had been undergoing massive consolidation even in the 90’s, which means that many publishers of the catalogs no longer exist or have been absorbed by the majors. The companies that do exist no longer print paper catalogs, everything is digital. Nor do they mention the paper catalogs anywhere. Nevertheless, I was eventually able to build a by-no-means comprehensive but fairly representative &lt;a href=&quot;#the-collection&quot;&gt;collection of stock photo catalogs&lt;/a&gt;. I haven’t yet discovered the specific catalogs or even the company (or companies) that printed the ones from my memories, so that quest continues.&lt;/p&gt;
+
+&lt;p&gt;I’ve been leafing through them with my son&lt;label for=&quot;age&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;age&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Who is 9 months old as I write this. &lt;/span&gt;, so they’re already accomplishing their intended purpose quite nicely. The amount, quality, and diversity of imagery rivals that of the best coffee table books and comes at a cost saving of as many as two orders of magnitude. But beyond being a cool hack, what makes these such fascinating artifacts?&lt;/p&gt;
+
+&lt;h2 id=&quot;go-ahead-look-at-the-man-behind-the-curtain&quot;&gt;Go ahead, look at the man behind the curtain!&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Before the advent&lt;/span&gt; of effortless electronic searches and infinite digital collections, stock agencies had to be able to predict what visuals would be mostly desirable. The transformation of the industry that I described above involved taking a more active role in shaping the visual language of the images, not just to respond to trends, but to predict the trends by creating them. Staying on the cusp of cool was the domain of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Coolhunting&quot;&gt;coolhunters&lt;/a&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;cf. &lt;em&gt;Pattern Recognition&lt;/em&gt; by William Gibson. &lt;/span&gt;, a pastime both popular and serious in the 90’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;smiles&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;smiles&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Smiling people&quot; src=&quot;/assets/images/stock_photo_catalogs/smiles.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;
+The dissonance of the positivity a user of these images would usually like to convey and the exploitation implied by the attempt makes for fascinating viewing. I can’t help but see many of the images as genuine and earnest representations despite this. A catalog with a nature theme has a chapter with images of humanity’s negative impact on the Earth, which while perfect for the downer portion of your next PowerPoint is presented wholly seriously. But beyond that sort of shallow cynicism the very attempt to dictate the visual culture indicates a sort of optimism from a time when mass-media had a semblance of direction beyond split-second reaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;ptrap&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ptrap&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;P-trap Diagram&quot; src=&quot;/assets/images/ptrap.png&quot; /&gt;&lt;br /&gt;A P-trap keeps the sewer smell out.&lt;/span&gt;Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys’ typewriters with &lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera&quot;&gt;DSLR&lt;/a&gt;s&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;More and more going &lt;a href=&quot;https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera&quot;&gt;mirrorless&lt;/a&gt;, these days. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The printed catalogs&lt;/span&gt;  I’ve been collecting are a snapshot from a time when people still tried to construct a visual culture perpetual motion machine, attempting to drive the trends while being driven by them. Join me in leafing through this preserved Ouroboros of Cool.&lt;/p&gt;
+
+&lt;h2 id=&quot;kaleidoscope&quot;&gt;Kaleidoscope&lt;/h2&gt;
+&lt;!-- Code based on: https://www.script-tutorials.com/creating-kaleidoscope-using-jquery-and-css/ --&gt;
+
+&lt;p&gt;The title certainly hinted there may be a kaleidoscope. Picked some somewhat representative selections from my collection for this one. Please enjoy this trippy (and clearly transformative) work.&lt;/p&gt;
+
+&lt;p&gt;Choose your view:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a onclick=&quot;javascript:set_collection_to_pages()&quot;&gt;Look Inside&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;  &lt;a style=&quot;margin-left: 3rem&quot; onclick=&quot;javascript:set_collection_to_covers()&quot;&gt;Judge Them By Their Covers&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;kaleidoscope&quot;&gt;
+    &lt;div style=&quot;text-align: right; margin-right: 1rem; font-size: 1.4rem&quot;&gt;&lt;a onclick=&quot;javascript:stop_rotation()&quot;&gt;That's enough.&lt;/a&gt; &amp;#9757;&amp;#xFE0E;&lt;/div&gt;
+    &lt;div class=&quot;kal_main&quot;&gt;
+        &lt;div class=&quot;kal_cont&quot;&gt;
+          &lt;div class=&quot;ks s1&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s2&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s3&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s4&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s5&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s6&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s7&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s8&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s9&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s10&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s11&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;ks s12&quot;&gt;&lt;div class=&quot;ksc&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr style=&quot;width: 60%; margin: 0 0 5rem 3rem;&quot; /&gt;
+
+&lt;h2 id=&quot;the-collection&quot;&gt;The Collection&lt;a href=&quot;&quot; name=&quot;the-collection&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Gallery of stock photo catalog covers.&quot; src=&quot;/assets/images/stock_photo_catalog_covers/cover_gallery.png&quot; /&gt;&lt;br /&gt;Cover Gallery&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Company&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Year&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Comstock&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1994&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Encyclopedia of Stock Photography, Volume 6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Corbis&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1997&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Speaking in Visuals&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Red&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2001&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;American Mosaic 006&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;FPG International&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1993&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Photo Haiku&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Selects Volume 5: Renaissance: Exceptional Stock Photographs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1996&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Selects Volume 3: Historical Selects: A Look at the 20th Century&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1998&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;The Stock Directory: Science + Industry&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;People: Contemporary Living&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Masterfile&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1997&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;The Green Directory 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1998&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;The Positive Image&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bon Voyage&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;PhotoDisc&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1996&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Resource Book 4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1998&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Resource Book 6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Photonica&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1997&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Edition 25 “Evolution”&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1999&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Edition 44&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Edition 49 “Life?”&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2001&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Edition 61&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Edition 62 “Spanner”&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sharpshooters&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1994&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Premium Stock Photography 5&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SuperStock&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1998&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Portfolio 8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Portfolio 9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tony Stone&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1993&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Images - Vol 5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1994&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Images: Visions of Nature&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1995&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Images: Business and Industry&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Images - Vol 7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1998&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Signal&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wonderfile&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;sup&gt;†&lt;/sup&gt;2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DigitalVision&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;sup&gt;†&lt;/sup&gt;&lt;em&gt;Year is estimated based on when Wonderfile was spun out of Masterfile&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+    .kaleidoscope {
+        overflow: hidden;
+        width: 950px;
+        height: 0px;
+        margin: 2rem 0;
+        -webkit-transition: height 1.5s ease-in-out;
+        transition: height 1.5s ease-in-out;
+    }
+
+    /* common kaleidoscope styles */
+
+    .kal_main {
+        overflow: hidden;
+         -moz-border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        width: 950px;
+        height: 950px;
+        margin: auto
+    }
+
+    .kal_cont {
+        width: 140%;
+        height: 140%;
+        left: -20%;
+        top: -20%;
+        position: relative;
+        margin: auto
+    }
+
+    .kal_cont .ks {
+        -webkit-transform-origin: right top;
+        -moz-transform-origin: right top;
+        -o-transform-origin: right top;
+        transform-origin: right top;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .kal_cont .ksc {
+        height: 100%;
+        width: 100%;
+        -webkit-transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(30deg);
+        position: relative;
+        -webkit-transform-origin: left top;
+        -moz-transform-origin: left top;
+        -o-transform-origin: left top;
+        transform-origin: left top;
+        left: 100%;
+        top: 0;
+        background-size: cover;
+        -webkit-transition: background-image 2.5s ease;
+        transition: background-image 2.5s ease;
+    }
+
+    /* styles for each sector */
+
+    .kal_cont .s1 {
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+    }
+
+    .kal_cont .s2 {
+        -webkit-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kal_cont .s3 {
+        -webkit-transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    .kal_cont .s4 {
+        -webkit-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kal_cont .s5 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .kal_cont .s6 {
+        -webkit-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kal_cont .s7 {
+        -webkit-transform: rotate(150deg);
+        -moz-transform: rotate(150deg);
+        -o-transform: rotate(150deg);
+        transform: rotate(150deg);
+    }
+
+    .kal_cont .s8 {
+        -webkit-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kal_cont .s9 {
+        -webkit-transform: rotate(210deg);
+        -moz-transform: rotate(210deg);
+        -o-transform: rotate(210deg);
+        transform: rotate(210deg);
+    }
+
+    .kal_cont .s10 {
+        -webkit-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .kal_cont .s11 {
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    .kal_cont .s12 {
+        -webkit-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+    }
+    
+    a:hover { cursor: pointer; }
+&lt;/style&gt;
+
+&lt;script&gt;
+var cover_images = [
+    '/assets/images/stock_photo_catalog_covers/Corbis%20American%20Mosaic%20006.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Corbis%20Red.jpg', 
+    '/assets/images/stock_photo_catalog_covers/FPG%20Historical%20Selects%20Vol%203.jpg', 
+    '/assets/images/stock_photo_catalog_covers/FPG%20People%20Contemporary%20Living.jpg', 
+    '/assets/images/stock_photo_catalog_covers/FPG%20Photo%20Haiku.jpg', 
+    '/assets/images/stock_photo_catalog_covers/FPG%20Selects%20Vol%205.jpg', 
+    '/assets/images/stock_photo_catalog_covers/FPG%20Stock%20Directory%20Science%20%2B%20Industry.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Masterfile%20Bon%20Voyage.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Masterfile%20The%20Green%20Directory%202.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Masterfile%20The%20Positive%20Image.jpg', 
+    '/assets/images/stock_photo_catalog_covers/PhotoDisc%20Resource%20Book%204.jpg', 
+    '/assets/images/stock_photo_catalog_covers/PhotoDisc%20Resource%20Book%20X.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Photonica%2025.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Photonica%2044.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Photonica%2049.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Photonica%2061.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Photonica%2062.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Sharpshooter%205.jpg', 
+    '/assets/images/stock_photo_catalog_covers/SuperStock%20Portfolio%208.jpg', 
+    '/assets/images/stock_photo_catalog_covers/SuperStock%20Portfolio%209.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Tony%20Stone%20Images%20Business%20and%20Industry.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Tony%20Stone%20Images%20Nature.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Tony%20Stone%20Images%20Vol%205.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Tony%20Stone%20Images%20Vol%207.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Tony%20Stone%20Signal.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Wonderfile%20DigitalVision.jpg', 
+    '/assets/images/stock_photo_catalog_covers/Comstock%20Encyclopedia%20of%20Stock%20Photography%20Volume%206.jpg', 
+];
+
+var page_images = [
+    '/assets/images/stock_photo_catalogs/business.jpg',
+    '/assets/images/stock_photo_catalogs/clouds.jpg',
+    '/assets/images/stock_photo_catalogs/computers.jpg',
+    '/assets/images/stock_photo_catalogs/fast_moving_business.jpg',
+    '/assets/images/stock_photo_catalogs/fish.jpg',
+    '/assets/images/stock_photo_catalogs/forests.jpg',
+    '/assets/images/stock_photo_catalogs/green.jpg',
+    '/assets/images/stock_photo_catalogs/internet_world.jpg',
+    '/assets/images/stock_photo_catalogs/logging_industry.jpg',
+    '/assets/images/stock_photo_catalogs/medicine.jpg',
+    '/assets/images/stock_photo_catalogs/business_district.jpg',
+    '/assets/images/stock_photo_catalogs/neon_tech.jpg',
+    '/assets/images/stock_photo_catalogs/pills_etc.jpg',
+    '/assets/images/stock_photo_catalogs/rust.jpg',
+    '/assets/images/stock_photo_catalogs/slightly_sick.jpg',
+    '/assets/images/stock_photo_catalogs/smiles.jpg',
+    '/assets/images/stock_photo_catalogs/sports.jpg',
+    '/assets/images/stock_photo_catalogs/watercolor_flowers.jpg',
+]
+
+
+var current_image = 0;
+var current_collection = cover_images;
+
+function set_collection_to_covers() {
+    current_image = -1;
+    current_collection = cover_images;
+    document.styleSheets[2].cssRules[4].style.backgroundSize = 'cover';
+    rotate_image();
+}
+
+function set_collection_to_pages() {
+    current_image = -1;
+    current_collection = page_images;
+    document.styleSheets[2].cssRules[4].style.backgroundSize = 'contain';
+    rotate_image();
+}
+
+function rotate_image() {  
+    if (!rotationInterval) {
+        start_rotation();
+        return;
+    }
+    var cur_pos = $('.ks .ksc').css('background-position');
+    current_image = (current_image == current_collection.length - 1) ? 0 : current_image + 1;
+    document.styleSheets[2].cssRules[4].style.backgroundImage = &quot;url(&quot; + current_collection[current_image] + &quot;)&quot;;
+    $('.ks .ksc').css('background-position', cur_pos);
+}
+
+function start_rotation() {
+    if (stopTimeout) {
+        clearTimeout(stopTimeout);
+        stopTimeout = null;
+        stopEverything();
+    }
+    $('.kaleidoscope').css('height','0px');
+    $('.kaleidoscope').css('height', '980px');
+    //$('.kal_main').css('height', '950px');
+    rotationInterval = setInterval(rotate_image, 4000);
+    $(document).on('mousemove', 'div.ks',function(e){
+        e.stopPropagation();
+        $('.ks .ksc').css('background-position', e.pageX+&quot;px &quot;+e.pageY+&quot;px&quot;);
+    });
+    rotate_image();
+}
+
+function stopEverything() {
+    clearInterval(rotationInterval);
+    $(document).off('mousemove', 'div.ks');
+    rotationInterval = null;
+    document.styleSheets[2].cssRules[4].style.backgroundImage = null;
+
+}
+
+function stop_rotation() {
+    $('.kaleidoscope').css('height','0px');
+    stopTimeout = setTimeout(stopEverything, 4000);
+}
+
+var rotationInterval, stopTimeout;
+&lt;/script&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot; name=&quot;abbot94&quot;&gt;&lt;/a&gt; Miller, Abbot. “Pictures for Rent”. Autumn 1994. &lt;em&gt;Eye Magazine.&lt;/em&gt; &lt;a href=&quot;http://www.eyemagazine.com/feature/article/pictures-for-rent&quot;&gt;http://www.eyemagazine.com/feature/article/pictures-for-rent&lt;/a&gt; &lt;a href=&quot;https://web.archive.org/web/20200731034820/http://www.eyemagazine.com/feature/article/pictures-for-rent&quot;&gt;&lt;sup&gt;[archive]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eng, Rohn and Pickerrel, Jim. “Is the Internet for Photographers?” February 15, 1996. &lt;em&gt;Selling Stock.&lt;/em&gt; &lt;a href=&quot;https://www.selling-stock.com/Article/internet-for-photographers&quot;&gt;https://www.selling-stock.com/Article/internet-for-photographers&lt;/a&gt; &lt;a href=&quot;https://web.archive.org/web/20171029143112/https://www.selling-stock.com/Article/internet-for-photographers&quot;&gt;&lt;sup&gt;[archive]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Frosh, Paul. &lt;em&gt;The Image Factory: Consumer Culture, Photography and the Visual Content Industry.&lt;/em&gt; Berg, 2003.
+&lt;!-- - &quot;Stock Photography.&quot; *Wikipedia.* &lt;https://en.wikipedia.org/wiki/Stock_photography&gt; [&lt;sup&gt;[archive]&lt;/sup&gt;](https://web.archive.org/web/20200930070509/https://en.wikipedia.org/wiki/Stock_photography) --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Nov 2020 16:56:40 -0800</pubDate>
+        <link>/posts/2020/11/06/kaleidoscopic-haikus-of-the-l@st-propitious-age</link>
+        <guid isPermaLink="true">/posts/2020/11/06/kaleidoscopic-haikus-of-the-l@st-propitious-age</guid>
+        
+        
+      </item>
     
       <item>
         <title>Alternative Libraries of San Francisco</title>
@@ -241,19 +793,6 @@ adfsd&lt;/p&gt;
         <pubDate>Tue, 22 Jan 2013 14:27:00 -0800</pubDate>
         <link>/posts/2013/01/22/reading-everything-stdin-in-a-bash-script</link>
         <guid isPermaLink="true">/posts/2013/01/22/reading-everything-stdin-in-a-bash-script</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Migrated from Posterous to Octopress</title>
-        <description>&lt;p&gt;I’ve migrated the blog from Posterous to &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt;. Posterous was alright, but syntax highlighting was a bit annoying, and gist embedding is ugly. Plus I just wanted a little bit more control. At the same time I didn’t want the various security and management headaches that basically every dynamic CMS brings with it.&lt;/p&gt;
-
-&lt;p&gt;I used the alternative &lt;a href=&quot;https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb&quot;&gt;posterous importer provided by Jekyll&lt;/a&gt;–their default one doesn’t preserve the permalinks. Before running it you should fix a bug: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s/post\.media[2]/post.media/&lt;/code&gt;. Then you can run it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby posterous.rb USERNAME PASSWORD API_TOKEN&lt;/code&gt;. Presto!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Aug 2012 20:29:00 -0700</pubDate>
-        <link>/posts/2012/08/01/migrated-from-posterous-to-octopress</link>
-        <guid isPermaLink="true">/posts/2012/08/01/migrated-from-posterous-to-octopress</guid>
         
         
       </item>
