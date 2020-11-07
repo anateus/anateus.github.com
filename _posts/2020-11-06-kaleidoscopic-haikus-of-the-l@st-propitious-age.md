@@ -66,9 +66,11 @@ The dissonance of the positivity a user of these images would usually like to co
 
 The title certainly hinted there may be a kaleidoscope. Picked some somewhat representative selections from my collection for this one. Please enjoy this trippy (and clearly transformative) work.
 
+> *Non-mobile Chrome browser (or something Chromium-based) strongly recommended. Animation is pretty jerky on other browsers and devices that I've tested. Will try to optimize it soon.*
+
 Choose your view:
 
-- <a onclick="javascript:set_collection_to_pages()">Look Inside</a> <span style="position: relative; top: 0.5rem">&#9759;</span>  <a style="margin-left: 3rem" onclick="javascript:set_collection_to_covers()">Judge Them By Their Covers</a> <span style="position: relative; top: 0.5rem">&#9759;</span>
+- <a onclick="javascript:set_collection_to_pages()">Look&nbsp;Inside</a>&nbsp;<span style="position: relative; top: 0.5rem; margin-right: rem;">&#9759;</span> <a onclick="javascript:set_collection_to_covers()">Judge&nbsp;Them&nbsp;By&nbsp;Their&nbsp;Covers</a>&nbsp;<span style="position: relative; top: 0.5rem">&#9759;</span>
 
 <div class="kaleidoscope">
     <div style="text-align: right; margin-right: 1rem; font-size: 1.4rem"><a onclick="javascript:stop_rotation()">That's enough.</a> &#9757;&#xFE0E;</div>
