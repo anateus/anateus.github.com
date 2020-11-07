@@ -138,7 +138,7 @@ Choose your view:
  |                     |                         | <sup>&dagger;</sup>*Year is estimated based on when Wonderfile was spun out of Masterfile* |
 
 <!-- TODO: There's a flicker issue in Chrome on image transition. The correct fix is to have two layers and instead of transitioning the same element, need to assign image to the hidden element, fade out current one, then swap their layering. Another potentially approach is to just programmatically render every image, just hidden, and just be swapping one layer into visibility at a time. -->
-<!-- New idea: use CSS animation with keyframes instead, something like in https://www.nicolapietroluongo.com/css/css3-background-change-effect/. >
+<!-- New idea: use CSS animation with keyframes instead, something like in https://www.nicolapietroluongo.com/css/css3-background-change-effect/. -->
 
 <style type="text/css">
     .kaleidoscope {
