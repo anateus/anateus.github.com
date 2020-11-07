@@ -5,8 +5,8 @@
     <description>Description</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Nov 2020 22:27:40 -0800</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2020 22:27:40 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Nov 2020 11:05:20 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Nov 2020 11:05:20 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -15,18 +15,17 @@
 h1 { font-variant: small-caps; } 
 &lt;/style&gt;
 
-&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I'm still working on this piece, but I think it's ready to be shared even in this draft state. Feedback is very welcome.&lt;/p&gt;&lt;footer&gt;The author&lt;cite&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the 1990’s,&lt;/span&gt; my dad worked for a vector graphics startup. Sometimes he’d bring home these thick softcover books filled &lt;label for=&quot;note&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;note&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;I’m still working on this piece, but I think it’s ready to be shared even in this draft state. Feedback is very welcome.&lt;br /&gt; —The author.&lt;/em&gt; &lt;/span&gt; with glossy pages covered with nothing but pictures.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the 1990’s,&lt;/span&gt; my dad worked for a vector graphics startup. Sometimes he’d bring home these thick softcover books filled with glossy pages covered with nothing but pictures.&lt;/p&gt;
+&lt;p&gt;I loved to get lost in page after page of idyllic azure beaches,&lt;label for=&quot;beaches&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;beaches&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Photos of beaches in a catalog.&quot; src=&quot;/assets/images/stock_photo_catalogs/beaches.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;, hands being shaken, piles of currency, majestic vistas, or laughing multi-ethnic faces. Some of them were nothing but rows of tiny boxes barely big enough to make out. Others had bigger prints and included illustrations, or abstract patterns, or closeups of a leaf’s surface.&lt;/p&gt;
 
-&lt;p&gt;I loved to get lost in page after page of idyllic azure beaches,&lt;label for=&quot;beaches&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;beaches&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Photos of beaches in a catalog.&quot; src=&quot;/assets/images/stock_photo_catalogs/beaches.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt; or hands being shaken, or piles of currency, or majestic vistas, or laughing multi-ethnic faces. Some of them were nothing but rows of tiny boxes barely big enough to make out. Others had bigger prints and included illustrations, or abstract patterns, or closeups of a leaf’s surface.&lt;/p&gt;
+&lt;p&gt;Being already used to reading encyclopedias cover to cover this was just the sort of concentrated barrage of information I craved, this time in visual form. My dad eventually left that job, and I forgot all about those books.&lt;/p&gt;
 
-&lt;p&gt;Being already used to reading encyclopedias cover to cover this was just the sort of concentrated barrage of information I craved, this time in visual form.&lt;/p&gt;
+&lt;h2 id=&quot;-après-moi-&quot;&gt;« Après moi… »&lt;/h2&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Stock photography grew&lt;/span&gt;  in prominence throughout the 20&lt;sup&gt;th&lt;/sup&gt; century. What started as a byproduct of &lt;em&gt;assignment photography&lt;/em&gt;&lt;label for=&quot;assignment&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;assignment&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Life_(magazine)&quot;&gt;Life Magazine&lt;/a&gt; sending a photographer to take photos of something specific. &lt;/span&gt; became a major business in its own right. Stock photography served advertisers as well as both corporate and journalistic copywriters.&lt;/p&gt;
 
 &lt;p&gt;Over time, as the number of in-house photographers decreased, selling to stock photography companies became a viable endeavor on its own. By the late 80’s there was plenty of both supply and demand.&lt;/p&gt;
-&lt;h2 id=&quot;-après-moi-&quot;&gt;« Après moi… »&lt;/h2&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The 90’s were&lt;/span&gt; an inflection point between analog and digital and between traditional stock and &lt;em&gt;microstock&lt;/em&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The sort of let’s-crank-out-dozens-of-these-in-this-anonymous-studio-with-this-box-of-props stock photography you often find online these days. &lt;/span&gt;. Towards the end of the 80’s, stock photos consisted majorly of naturalistic subjects or broad conceptual ones. As more niche subjects became more common, so did more specialized—and more artistically elaborate—presentation. With &lt;em&gt;desktop publishing&lt;/em&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Desktop_publishing&quot;&gt;Desktop Publishing&lt;/a&gt; software such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Adobe_PageMaker&quot;&gt;Aldus PageMaker&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/QuarkXPress&quot;&gt;QuarkXPress&lt;/a&gt; allowed for faster and easier layouts and typesetting. Supplanting &lt;a href=&quot;https://en.wikipedia.org/wiki/Phototypesetting&quot;&gt;phototypesetting&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Paste_up&quot;&gt;paste up&lt;/a&gt; as the primary method of laying out graphic designed printed materials. &lt;/span&gt; becoming more common it became increasingly more affordable to produce catalogs that were coherent pieces of graphic design rather than mere indexes.&lt;/p&gt;
 
@@ -39,13 +38,13 @@ h1 { font-variant: small-caps; }
   &lt;p&gt;The sophisticated colour and abstracted forms of Photonica represent a reaction against the ‘stock photo’ look; the imagery is highly specific rather than generic, and the style foregrounds the vision of individual photographers.&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;#abbot94&quot;&gt;Abbot 1994&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The success of this approach led to rapid imitation such as the somewhat brazenly titled “Photo Haiku” catalog from FPG International&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;FPG International was &lt;a href=&quot;https://www.selling-stock.com/Article/visual-comm-group-buys-fpg&quot;&gt;bought by Visual Communications Group (VCG) in 1997&lt;/a&gt;. &lt;/span&gt;. Stock photo companies themselves exemplify the common marketing paradox where they must be simultaneously both leaders and followers and so they are never shy about jumping on a trend even as they try to shape it.&lt;/p&gt;
+&lt;p&gt;The success of this approach led to rapid imitation such as the somewhat brazenly titled &lt;em&gt;Photo Haiku&lt;/em&gt; catalog from FPG International&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;FPG International was &lt;a href=&quot;https://www.selling-stock.com/Article/visual-comm-group-buys-fpg&quot;&gt;bought by Visual Communications Group (VCG) in 1997&lt;/a&gt;. &lt;/span&gt;. Stock photo companies themselves exemplify the common marketing paradox where they must be simultaneously both leaders and followers and so they are never shy about jumping on a trend even as they try to shape it.&lt;/p&gt;
 
 &lt;h2 id=&quot;-à-la-recherche-&quot;&gt;« À la recherche… »&lt;/h2&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A couple of months&lt;/span&gt; after my son was born, I was idly thinking of things I’d like to show him some day when I thought of the stock photo catalogs of childhood for the first time in decades. And with that memory came their scent. They smelled a bit like a cross between a bookstore full of new books and a photograph freshly pulled from the paper envelope it arrived in from the photo lab &lt;label for=&quot;olds-only&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;olds-only&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;An olfactory simile with a dwindling audience. &lt;/span&gt;. I realized that after all these years, recovering that scent may be impossible but the multi-sensory aspect only bolstered my eagerness to get my hands on them.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A couple of months&lt;/span&gt; after my son was born, I was idly thinking of things I’d like to show him some day when I remembered the stock photo catalogs of my childhood for the first time in decades. With that memory came their scent. They smelled a bit like a cross between a bookstore full of new books and a photograph freshly pulled from the photo lab’s paper envelope&lt;label for=&quot;olds-only&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;olds-only&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;An olfactory simile with a dwindling audience. &lt;/span&gt;. Though I realized that recovering that scent may be impossible after all these years, the multi-sensory aspect only bolstered my eagerness to get my hands on them again.&lt;/p&gt;
 
-&lt;p&gt;&lt;label for=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;https://d1dlh1v05qf6d3.cloudfront.net/information/uploads/2015/11/womenlaughingatsalad.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;laughing-with-salads&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;&quot; src=&quot;/assets/images/womenlaughingatsalad.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;As one might imagine, searching for “stock photo catalog” isn’t very fruitful. The results are overwhelmed by the online collections offering the usual women-laughing-at-salads. Eventually, I managed to dig up some specimens on eBay and was pleasantly surprised at how cheap many were. It did make sense, since these are pretty hefty books that take up a lot of space and have no discernible target market or even ISBNs. What saved them was that while of interest mainly to professionals even when used for commerce, they are clearly not the ephemeral objects that most product catalogs are.&lt;/p&gt;
 
@@ -57,14 +56,18 @@ h1 { font-variant: small-caps; }
 
 &lt;h2 id=&quot;go-ahead-look-at-the-man-behind-the-curtain&quot;&gt;Go ahead, look at the man behind the curtain!&lt;/h2&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Before the advent&lt;/span&gt; of effortless electronic searches and infinite digital collections, stock agencies had to be able to predict what visuals would be mostly desirable. The transformation of the industry that I described above involved taking a more active role in shaping the visual language of the images, not just to respond to trends, but to predict the trends by creating them. Staying on the cusp of cool was the domain of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Coolhunting&quot;&gt;coolhunters&lt;/a&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;cf. &lt;em&gt;Pattern Recognition&lt;/em&gt; by William Gibson. &lt;/span&gt;, a pastime both popular and serious in the 90’s.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Before the advent&lt;/span&gt; of effortless electronic searches and infinite digital collections, stock agencies had to be able to predict what visuals would be mostly desirable. The transformation of the industry that I touched on above involved taking a more active role in shaping the visual language of the images, not just to respond to trends, but to predict the trends by creating them. Staying on the cusp of cool was the domain of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Coolhunting&quot;&gt;coolhunters&lt;/a&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;cf. &lt;em&gt;Pattern Recognition&lt;/em&gt; by William Gibson. &lt;/span&gt;, a pastime both popular and serious in the 90’s.&lt;/p&gt;
 
 &lt;p&gt;&lt;label for=&quot;smiles&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;smiles&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Smiling people&quot; src=&quot;/assets/images/stock_photo_catalogs/smiles.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;
-The dissonance of the positivity a user of these images would usually like to convey and the exploitation implied by the attempt makes for fascinating viewing. I can’t help but see many of the images as genuine and earnest representations despite this. A catalog with a nature theme has a chapter with images of humanity’s negative impact on the Earth, which while perfect for the downer portion of your next PowerPoint is presented wholly seriously. But beyond that sort of shallow cynicism the very attempt to dictate the visual culture indicates a sort of optimism from a time when mass-media had a semblance of direction beyond split-second reaction.&lt;/p&gt;
+The dissonance of the positivity a user of these images would usually like to convey and the exploitation implied by the attempt makes for fascinating viewing. Many, and perhaps most, of the images are genuine and earnest representations despite this. The question of art within commerce is an old one, and the two have coexisted since the very beginning. The framing isn’t purely mercenary in nature either: a catalog with a nature theme has a chapter with images of humanity’s negative impact on the Earth. While they may also be perfect for the downer portion of your next PowerPoint that section is presented wholly seriously. Beyond the background cynicism of commercial art, the very attempt to dictate the visual culture indicates a sort of optimism from a time when mass-media had a semblance of direction beyond split-second reaction.&lt;/p&gt;
 
 &lt;p&gt;&lt;label for=&quot;ptrap&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ptrap&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;P-trap Diagram&quot; src=&quot;/assets/images/ptrap.png&quot; /&gt;&lt;br /&gt;A P-trap keeps the sewer smell out.&lt;/span&gt;Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys’ typewriters with &lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera&quot;&gt;DSLR&lt;/a&gt;s&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;More and more going &lt;a href=&quot;https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera&quot;&gt;mirrorless&lt;/a&gt;, these days. &lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The printed catalogs&lt;/span&gt;  I’ve been collecting are a snapshot from a time when people still tried to construct a visual culture perpetual motion machine, attempting to drive the trends while being driven by them. Join me in leafing through this preserved Ouroboros of Cool.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;I’d like to write up interesting content I’ve found, but that’s going to take a while so I’ll be periodically adding those here. In the meantime, check out the Kaleidoscope below!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;kaleidoscope&quot;&gt;Kaleidoscope&lt;/h2&gt;
 &lt;!-- Code based on: https://www.script-tutorials.com/creating-kaleidoscope-using-jquery-and-css/ --&gt;
@@ -100,7 +103,7 @@ The dissonance of the positivity a user of these images would usually like to co
 &lt;hr style=&quot;width: 60%; margin: 0 0 5rem 3rem;&quot; /&gt;
 
 &lt;h2 id=&quot;the-collection&quot;&gt;The Collection&lt;a href=&quot;&quot; name=&quot;the-collection&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;label for=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Gallery of stock photo catalog covers.&quot; src=&quot;/assets/images/stock_photo_catalog_covers/cover_gallery.png&quot; /&gt;&lt;br /&gt;Cover Gallery&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cover-gallery&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Gallery of stock photo catalog covers.&quot; src=&quot;/assets/images/stock_photo_catalog_covers/cover_gallery.png&quot; /&gt;&lt;br /&gt;&lt;em&gt;Catalog Covers — Order doesn’t quite match listing&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -279,6 +282,9 @@ The dissonance of the positivity a user of these images would usually like to co
   &lt;/tfoot&gt;
 &lt;/table&gt;
 
+&lt;!-- TODO: There's a flicker issue in Chrome on image transition. The correct fix is to have two layers and instead of transitioning the same element, need to assign image to the hidden element, fade out current one, then swap their layering. Another potentially approach is to just programmatically render every image, just hidden, and just be swapping one layer into visibility at a time. --&gt;
+&lt;!-- New idea: use CSS animation with keyframes instead, something like in https://www.nicolapietroluongo.com/css/css3-background-change-effect/. &gt;
+
 &lt;style type=&quot;text/css&quot;&gt;
     .kaleidoscope {
         overflow: hidden;
@@ -298,6 +304,9 @@ The dissonance of the positivity a user of these images would usually like to co
         width: 950px;
         height: 950px;
         margin: auto
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        /* -webkit-perspective: 1000; */
     }
 
     .kal_cont {
@@ -310,6 +319,8 @@ The dissonance of the positivity a user of these images would usually like to co
     }
 
     .kal_cont .ks {
+        /* -webkit-backface-visibility: hidden; */
+        /* -webkit-transform-style: preserve-3d; */
         -webkit-transform-origin: right top;
         -moz-transform-origin: right top;
         -o-transform-origin: right top;
@@ -326,10 +337,10 @@ The dissonance of the positivity a user of these images would usually like to co
     .kal_cont .ksc {
         height: 100%;
         width: 100%;
-        -webkit-transform: rotate(30deg);
-        -moz-transform: rotate(30deg);
-        -o-transform: rotate(30deg);
-        transform: rotate(30deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(30deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(30deg);
+        -o-transform: scale3d(1, 1, 1) rotate(30deg);
+        transform: scale3d(1, 1, 1) rotate(30deg);
         position: relative;
         -webkit-transform-origin: left top;
         -moz-transform-origin: left top;
@@ -338,94 +349,95 @@ The dissonance of the positivity a user of these images would usually like to co
         left: 100%;
         top: 0;
         background-size: cover;
-        -webkit-transition: background-image 2.5s ease;
         transition: background-image 2.5s ease;
+        /* -webkit-backface-visibility: hidden; */
+        /* -webkit-transform-style: preserve-3d; */
     }
 
     /* styles for each sector */
 
     .kal_cont .s1 {
-        -webkit-transform: rotate(-30deg);
-        -moz-transform: rotate(-30deg);
-        -o-transform: rotate(-30deg);
-        transform: rotate(-30deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(-30deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(-30deg);
+        -o-transform: scale3d(1, 1, 1) rotate(-30deg);
+        transform: scale3d(1, 1, 1) rotate(-30deg);
     }
 
     .kal_cont .s2 {
-        -webkit-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(30deg) matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .kal_cont .s3 {
-        -webkit-transform: rotate(30deg);
-        -moz-transform: rotate(30deg);
-        -o-transform: rotate(30deg);
-        transform: rotate(30deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(30deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(30deg);
+        -o-transform: scale3d(1, 1, 1) rotate(30deg);
+        transform: scale3d(1, 1, 1) rotate(30deg);
     }
 
     .kal_cont .s4 {
-        -webkit-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .kal_cont .s5 {
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(90deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(90deg);
+        -o-transform: scale3d(1, 1, 1) rotate(90deg);
+        transform: scale3d(1, 1, 1) rotate(90deg);
     }
 
     .kal_cont .s6 {
-        -webkit-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(150deg) matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .kal_cont .s7 {
-        -webkit-transform: rotate(150deg);
-        -moz-transform: rotate(150deg);
-        -o-transform: rotate(150deg);
-        transform: rotate(150deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(150deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(150deg);
+        -o-transform: scale3d(1, 1, 1) rotate(150deg);
+        transform: scale3d(1, 1, 1) rotate(150deg);
     }
 
     .kal_cont .s8 {
-        -webkit-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(210deg) matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .kal_cont .s9 {
-        -webkit-transform: rotate(210deg);
-        -moz-transform: rotate(210deg);
-        -o-transform: rotate(210deg);
-        transform: rotate(210deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(210deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(210deg);
+        -o-transform: scale3d(1, 1, 1) rotate(210deg);
+        transform: scale3d(1, 1, 1) rotate(210deg);
     }
 
     .kal_cont .s10 {
-        -webkit-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(270deg) matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .kal_cont .s11 {
-        -webkit-transform: rotate(270deg);
-        -moz-transform: rotate(270deg);
-        -o-transform: rotate(270deg);
-        transform: rotate(270deg);
+        -webkit-transform: scale3d(1, 1, 1) rotate(270deg);
+        -moz-transform: scale3d(1, 1, 1) rotate(270deg);
+        -o-transform: scale3d(1, 1, 1) rotate(270deg);
+        transform: scale3d(1, 1, 1) rotate(270deg);
     }
 
     .kal_cont .s12 {
-        -webkit-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
-        -moz-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
-        -o-transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
-        transform: rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: scale3d(1, 1, 1) rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        -moz-transform: scale3d(1, 1, 1) rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform: scale3d(1, 1, 1) rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
+        transform: scale3d(1, 1, 1) rotate(330deg) matrix(-1, 0, 0, 1, 0, 0);
     }
     
     a:hover { cursor: pointer; }
@@ -483,6 +495,14 @@ var page_images = [
     '/assets/images/stock_photo_catalogs/watercolor_flowers.jpg',
 ]
 
+var image_cache = [];
+
+for (var i of cover_images.concat(page_images)) {
+    var img = new Image();
+    img.src = i;
+    image_cache.push(img);
+}
+
 
 var current_image = 0;
 var current_collection = cover_images;
@@ -509,7 +529,7 @@ function rotate_image() {
     var cur_pos = $('.ks .ksc').css('background-position');
     current_image = (current_image == current_collection.length - 1) ? 0 : current_image + 1;
     document.styleSheets[2].cssRules[4].style.backgroundImage = &quot;url(&quot; + current_collection[current_image] + &quot;)&quot;;
-    $('.ks .ksc').css('background-position', cur_pos);
+    document.styleSheets[2].cssRules[4].style.backgroundPosition = cur_pos;
 }
 
 function start_rotation() {
@@ -520,11 +540,10 @@ function start_rotation() {
     }
     $('.kaleidoscope').css('height','0px');
     $('.kaleidoscope').css('height', '980px');
-    //$('.kal_main').css('height', '950px');
     rotationInterval = setInterval(rotate_image, 4000);
     $(document).on('mousemove', 'div.ks',function(e){
         e.stopPropagation();
-        $('.ks .ksc').css('background-position', e.pageX+&quot;px &quot;+e.pageY+&quot;px&quot;);
+        document.styleSheets[2].cssRules[4].style.backgroundPosition = e.pageX+&quot;px &quot;+e.pageY+&quot;px&quot;;
     });
     rotate_image();
 }
@@ -545,14 +564,12 @@ function stop_rotation() {
 var rotationInterval, stopTimeout;
 &lt;/script&gt;
 
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+## References
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot; name=&quot;abbot94&quot;&gt;&lt;/a&gt; Miller, Abbot. “Pictures for Rent”. Autumn 1994. &lt;em&gt;Eye Magazine.&lt;/em&gt; &lt;a href=&quot;http://www.eyemagazine.com/feature/article/pictures-for-rent&quot;&gt;http://www.eyemagazine.com/feature/article/pictures-for-rent&lt;/a&gt; &lt;a href=&quot;https://web.archive.org/web/20200731034820/http://www.eyemagazine.com/feature/article/pictures-for-rent&quot;&gt;&lt;sup&gt;[archive]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Eng, Rohn and Pickerrel, Jim. “Is the Internet for Photographers?” February 15, 1996. &lt;em&gt;Selling Stock.&lt;/em&gt; &lt;a href=&quot;https://www.selling-stock.com/Article/internet-for-photographers&quot;&gt;https://www.selling-stock.com/Article/internet-for-photographers&lt;/a&gt; &lt;a href=&quot;https://web.archive.org/web/20171029143112/https://www.selling-stock.com/Article/internet-for-photographers&quot;&gt;&lt;sup&gt;[archive]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Frosh, Paul. &lt;em&gt;The Image Factory: Consumer Culture, Photography and the Visual Content Industry.&lt;/em&gt; Berg, 2003.
-&lt;!-- - &quot;Stock Photography.&quot; *Wikipedia.* &lt;https://en.wikipedia.org/wiki/Stock_photography&gt; [&lt;sup&gt;[archive]&lt;/sup&gt;](https://web.archive.org/web/20200930070509/https://en.wikipedia.org/wiki/Stock_photography) --&gt;&lt;/li&gt;
-&lt;/ul&gt;
+- [](){:name=&quot;abbot94&quot;} Miller, Abbot. &quot;Pictures for Rent&quot;. Autumn 1994. *Eye Magazine.* &lt;http://www.eyemagazine.com/feature/article/pictures-for-rent&gt; [&lt;sup&gt;[archive]&lt;/sup&gt;](https://web.archive.org/web/20200731034820/http://www.eyemagazine.com/feature/article/pictures-for-rent)
+- Eng, Rohn and Pickerrel, Jim. &quot;Is the Internet for Photographers?&quot; February 15, 1996. *Selling Stock.* &lt;https://www.selling-stock.com/Article/internet-for-photographers&gt; [&lt;sup&gt;[archive]&lt;/sup&gt;](https://web.archive.org/web/20171029143112/https://www.selling-stock.com/Article/internet-for-photographers)
+- Frosh, Paul. *The Image Factory: Consumer Culture, Photography and the Visual Content Industry.* Berg, 2003.
+&lt;!-- - &quot;Stock Photography.&quot; *Wikipedia.* &lt;https://en.wikipedia.org/wiki/Stock_photography&gt; [&lt;sup&gt;[archive]&lt;/sup&gt;](https://web.archive.org/web/20200930070509/https://en.wikipedia.org/wiki/Stock_photography) --&gt;
 </description>
         <pubDate>Fri, 06 Nov 2020 16:56:40 -0800</pubDate>
         <link>/posts/2020/11/06/kaleidoscopic-haikus-of-the-l@st-propitious-age</link>
