@@ -8,3 +8,5 @@ _site
 vendor
 .pygments-cache
 config.codekit
+.liquidrc
+.vscode

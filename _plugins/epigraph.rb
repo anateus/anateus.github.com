@@ -14,7 +14,7 @@ module Jekyll
 
     def render(context)
         "<div class='epigraph'><blockquote><p>#{@text[0]}</p>"+
-        "<footer>#{@text[1]}, "+"<cite>#{@text[2]}</cite></footer></blockquote></div>"
+        "<footer>#{@text[1]}#{', ' if !@text[2].nil?}"+"<cite>#{@text[2]}</cite></footer></blockquote></div>"
     end
   end
 end
