@@ -5,8 +5,8 @@
     <description>Description</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Nov 2020 11:10:56 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2020 11:10:56 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Nov 2020 12:05:37 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Nov 2020 12:05:37 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -74,10 +74,14 @@ The dissonance of the positivity a user of these images would usually like to co
 
 &lt;p&gt;The title certainly hinted there may be a kaleidoscope. Picked some somewhat representative selections from my collection for this one. Please enjoy this trippy (and clearly transformative) work.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Non-mobile Chrome browser (or something Chromium-based) strongly recommended. Animation is pretty jerky on other browsers and devices that I’ve tested. Will try to optimize it soon.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Choose your view:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a onclick=&quot;javascript:set_collection_to_pages()&quot;&gt;Look Inside&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;  &lt;a style=&quot;margin-left: 3rem&quot; onclick=&quot;javascript:set_collection_to_covers()&quot;&gt;Judge Them By Their Covers&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a onclick=&quot;javascript:set_collection_to_pages()&quot;&gt;Look Inside&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem; margin-right: rem;&quot;&gt;☟&lt;/span&gt; &lt;a onclick=&quot;javascript:set_collection_to_covers()&quot;&gt;Judge Them By Their Covers&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;kaleidoscope&quot;&gt;
