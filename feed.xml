@@ -5,8 +5,8 @@
     <description>Description</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Nov 2020 21:13:24 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2020 21:13:24 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Nov 2020 21:16:17 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2020 21:16:17 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -116,7 +116,7 @@ The dissonance of the positivity a user of these images would usually like to co
   &lt;li&gt;Abstracts
     &lt;ul&gt;
       &lt;li&gt;Generic Abstract Visuals&lt;/li&gt;
-      &lt;li&gt;Tech/Business-y Abstracts&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Glowing circuit board patterns, piles of international currency, etc. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;Tech/Business-y Abstracts&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
