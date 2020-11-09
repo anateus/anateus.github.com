@@ -7,6 +7,15 @@ categories:
 ---
 <style  type="text/css">
 h1 { font-variant: small-caps; } 
+article > ul {
+    margin-top: 1rem;
+}
+li {
+    margin-top: 0;
+}
+li li .sidenote, li li .marginnote {
+    margin-right: -120%;
+}
 </style>
 
 {% newthought "In the 1990's," %}my dad worked for a vector graphics startup. Sometimes he'd bring home these thick softcover books filled {% marginnote 'note' "*I'm still working on this piece, but I think it's ready to be shared even in this draft state. Feedback is very welcome.<br/> &mdash;The author.*" %} with glossy pages covered with nothing but pictures.
@@ -48,18 +57,60 @@ I received my first batch of eBay deliveries soon after. They came to me in San 
 
 I've been leafing through them with my son{% marginnote 'age' 'Who is 9 months old as I write this.' %}, so they're already accomplishing their intended purpose quite nicely. The amount, quality, and diversity of imagery rivals that of the best coffee table books and comes at a cost saving of as many as two orders of magnitude. But beyond being a cool hack, what makes these such fascinating artifacts?
 
-## Go ahead, look at the man behind the curtain!
+## Merchants of Cool?
 
 {% newthought "Before the advent" %}of effortless electronic searches and infinite digital collections, stock agencies had to be able to predict what visuals would be mostly desirable. The transformation of the industry that I touched on above involved taking a more active role in shaping the visual language of the images, not just to respond to trends, but to predict the trends by creating them. Staying on the cusp of cool was the domain of the [coolhunters](https://en.wikipedia.org/wiki/Coolhunting){% sidenote * "cf. *Pattern Recognition* by William Gibson." %}, a pastime both popular and serious in the 90's.
 
 {% marginfigure 'smiles' 'assets/images/stock_photo_catalogs/smiles.jpg' '' 'Smiling people' %}
 The dissonance of the positivity a user of these images would usually like to convey and the exploitation implied by the attempt makes for fascinating viewing. Many, and perhaps most, of the images are genuine and earnest representations despite this. The question of art within commerce is an old one, and the two have coexisted since the very beginning. The framing isn't purely mercenary in nature either: a catalog with a nature theme has a chapter with images of humanity's negative impact on the Earth. While they may also be perfect for the downer portion of your next PowerPoint that section is presented wholly seriously. Beyond the background cynicism of commercial art, the very attempt to dictate the visual culture indicates a sort of optimism from a time when mass-media had a semblance of direction beyond split-second reaction.
 
-{% marginfigure 'ptrap' 'assets/images/ptrap.png' 'A P-trap keeps the sewer smell out.' 'P-trap Diagram' %}Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys' typewriters with [DSLR](https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera)s{% sidenote * "More and more going [mirrorless](https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera), these days." %}.
+{% marginfigure 'ptrap' 'assets/images/ptrap.png' 'A P-trap keeps the sewer smell out.' 'P-trap Diagram' %}Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys' typewriters with [DSLR](https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera)s{% sidenote * "More and more are switching to [mirrorless cameras](https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera)." %}.
 
 {% newthought "The printed catalogs" %} I've been collecting are a snapshot from a time when people still tried to construct a visual culture perpetual motion machine, attempting to drive the trends while being driven by them. Join me in leafing through this preserved Ouroboros of Cool.
 
-> *I'd like to write up interesting content I've found, but that's going to take a while so I'll be periodically adding those here. In the meantime, check out the Kaleidoscope below!*
+## Go ahead, look at the man behind the curtain!
+
+### The Format
+{% newthought "So what are these catalogs like?" %} They are all softcover, with a majority roughly octavo-sized: 9"x12" seems most common, with a few slightly shorter or narrower. Several of the Photonica catalogs are octavo-sized, measuring 6"x9". The thinnest number around 150 pages, with most being somewhere between 200 and 300 pp. They are printed similarly to a very high-end magazine: fairly glossy paper and the printing quality is uniformly high quality. This makes each a pretty hefty specimen.
+
+### The Content
+Each catalog is divided into thematic chapters. A few try to be fairly comprehensive, covering a wide array of categories with some subset of the following seeming most common:
+{% marginnote 'still-cataloging' "I'm still in the process of fully accessioning my collection, and will be cataloging the specific categories each book covers. That's going to take a little bit of time, so if you're curious, check back periodically for updates." %}
+
+- People
+  - Babies/Children
+  - Women/Men
+  - Couples
+  - Seniors
+- Activities *&mdash; These involve people, but center what they're doing.*
+  - Sports
+  - Leisure
+- Places
+  - Cities
+  - Famous Locations
+  - Nature
+- Business
+  - Office Scenes
+  - Business District Scenes
+  - Heavy Industry
+  - Medicine
+- Abstracts
+  - Generic Abstract Visuals
+  - Tech/Business-y Abstracts{% sidenote * "Glowing circuit board patterns, piles of international currency, etc." %}
+
+Others are organized around a particular theme&mdash;e.g. *The Green Directory* is all nature photography&mdash;but then sub-categorize it further. Some do take on more abstract concepts as themes, such as *The Positive Image* and most of Photonica's catalogs.
+
+### The Style
+
+{% marginnote 'still-stylin' "This is another area that I'm still analyzing. There's a lot of interesting patterns to dig up." %}
+As noted above, Photonica tends to have a style that strongly hews to "artistic" photography. The rest will veer in that direction at times, but tend to utilize artistic approaches and techniques in a more systematic manner that relates to the subject matter plainly. For example, using blurring techniques for motion, different filters and color processes to convey emotional valence, etc.
+
+Particularly amusing to me were some of these 90s tropes:
+- &#9758;&#xFE0E;&nbsp;&nbsp;Fisheye lens, centering faces in particular.{% sidenote 'busta' 'As Busta Rhymes was [fond of doing](https://www.youtube.com/watch?v=un3NkWnHl9Q)' %}
+- &#9758;&#xFE0E;&nbsp;&nbsp;A particular kind of motion blur.
+- &#9758;&#xFE0E;&nbsp;&nbsp;Photographic color schemes, especially a sort of blue-yellow one.{% marginfigure 'office-stop' 'assets/images/stock_photo_catalogs/stop.jpg' 'An image that covers many tropes.' %}
+
+
 
 ## Kaleidoscope
 <!-- Code based on: https://www.script-tutorials.com/creating-kaleidoscope-using-jquery-and-css/ -->
@@ -70,7 +121,7 @@ The title certainly hinted there may be a kaleidoscope. Picked some somewhat rep
 
 Choose your view:
 
-- <a onclick="javascript:set_collection_to_pages()">Look&nbsp;Inside</a>&nbsp;<span style="position: relative; top: 0.5rem; margin-right: rem;">&#9759;</span> <a onclick="javascript:set_collection_to_covers()">Judge&nbsp;Them&nbsp;By&nbsp;Their&nbsp;Covers</a>&nbsp;<span style="position: relative; top: 0.5rem">&#9759;</span>
+- <a onclick="javascript:set_collection_to_pages()">Look&nbsp;Inside</a>&nbsp;<span style="position: relative; top: 0.5rem; margin-right: rem;">&#9759;&#xFE0E;</span> <a onclick="javascript:set_collection_to_covers()">Judge&nbsp;Them&nbsp;By&nbsp;Their&nbsp;Covers</a>&nbsp;<span style="position: relative; top: 0.5rem">&#9759;&#xFE0E;</span>
 
 <div class="kaleidoscope">
     <div style="text-align: right; margin-right: 1rem; font-size: 1.4rem"><a onclick="javascript:stop_rotation()">That's enough.</a> &#9757;&#xFE0E;</div>
