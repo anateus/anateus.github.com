@@ -96,7 +96,7 @@ Each catalog is divided into thematic chapters. A few try to be fairly comprehen
   - Medicine
 - Abstracts
   - Generic Abstract Visuals
-  - Tech/Business-y Abstracts{% sidenote * "Glowing circuit board patterns, piles of international currency, etc." %}
+  - Tech/Business-y Abstracts
 
 Others are organized around a particular theme&mdash;e.g. *The Green Directory* is all nature photography&mdash;but then sub-categorize it further. Some do take on more abstract concepts as themes, such as *The Positive Image* and most of Photonica's catalogs.
 
