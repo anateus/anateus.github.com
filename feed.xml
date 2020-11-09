@@ -5,14 +5,23 @@
     <description>Description</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Nov 2020 12:05:37 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2020 12:05:37 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Nov 2020 21:13:24 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2020 21:13:24 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Kaleidoscopic Haikus of the L@st Propitious Age</title>
         <description>&lt;style type=&quot;text/css&quot;&gt;
 h1 { font-variant: small-caps; } 
+article &gt; ul {
+    margin-top: 1rem;
+}
+li {
+    margin-top: 0;
+}
+li li .sidenote, li li .marginnote {
+    margin-right: -120%;
+}
 &lt;/style&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the 1990’s,&lt;/span&gt; my dad worked for a vector graphics startup. Sometimes he’d bring home these thick softcover books filled &lt;label for=&quot;note&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;note&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;I’m still working on this piece, but I think it’s ready to be shared even in this draft state. Feedback is very welcome.&lt;br /&gt; —The author.&lt;/em&gt; &lt;/span&gt; with glossy pages covered with nothing but pictures.&lt;/p&gt;
@@ -54,20 +63,77 @@ h1 { font-variant: small-caps; }
 
 &lt;p&gt;I’ve been leafing through them with my son&lt;label for=&quot;age&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;age&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Who is 9 months old as I write this. &lt;/span&gt;, so they’re already accomplishing their intended purpose quite nicely. The amount, quality, and diversity of imagery rivals that of the best coffee table books and comes at a cost saving of as many as two orders of magnitude. But beyond being a cool hack, what makes these such fascinating artifacts?&lt;/p&gt;
 
-&lt;h2 id=&quot;go-ahead-look-at-the-man-behind-the-curtain&quot;&gt;Go ahead, look at the man behind the curtain!&lt;/h2&gt;
+&lt;h2 id=&quot;merchants-of-cool&quot;&gt;Merchants of Cool?&lt;/h2&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Before the advent&lt;/span&gt; of effortless electronic searches and infinite digital collections, stock agencies had to be able to predict what visuals would be mostly desirable. The transformation of the industry that I touched on above involved taking a more active role in shaping the visual language of the images, not just to respond to trends, but to predict the trends by creating them. Staying on the cusp of cool was the domain of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Coolhunting&quot;&gt;coolhunters&lt;/a&gt;&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;cf. &lt;em&gt;Pattern Recognition&lt;/em&gt; by William Gibson. &lt;/span&gt;, a pastime both popular and serious in the 90’s.&lt;/p&gt;
 
 &lt;p&gt;&lt;label for=&quot;smiles&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;smiles&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;Smiling people&quot; src=&quot;/assets/images/stock_photo_catalogs/smiles.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;
 The dissonance of the positivity a user of these images would usually like to convey and the exploitation implied by the attempt makes for fascinating viewing. Many, and perhaps most, of the images are genuine and earnest representations despite this. The question of art within commerce is an old one, and the two have coexisted since the very beginning. The framing isn’t purely mercenary in nature either: a catalog with a nature theme has a chapter with images of humanity’s negative impact on the Earth. While they may also be perfect for the downer portion of your next PowerPoint that section is presented wholly seriously. Beyond the background cynicism of commercial art, the very attempt to dictate the visual culture indicates a sort of optimism from a time when mass-media had a semblance of direction beyond split-second reaction.&lt;/p&gt;
 
-&lt;p&gt;&lt;label for=&quot;ptrap&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ptrap&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;P-trap Diagram&quot; src=&quot;/assets/images/ptrap.png&quot; /&gt;&lt;br /&gt;A P-trap keeps the sewer smell out.&lt;/span&gt;Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys’ typewriters with &lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera&quot;&gt;DSLR&lt;/a&gt;s&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;More and more going &lt;a href=&quot;https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera&quot;&gt;mirrorless&lt;/a&gt;, these days. &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;label for=&quot;ptrap&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ptrap&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;P-trap Diagram&quot; src=&quot;/assets/images/ptrap.png&quot; /&gt;&lt;br /&gt;A P-trap keeps the sewer smell out.&lt;/span&gt;Although few of these catalogs represent the sort of cutting-edge material that coolhunters were tasked with digging up, they are a crystallized form of the machinery of cultural shaping, dating from the awkward teenage years of that pursuit. These days, there barely is any cool to hunt. The grizzled veterans of this field have to contend with increasingly opaque memes, eldritch TikTok trends, and Russian bots. Not an orderly Information Superhighway, but a full-duplex sewage line with no P-trap. So nowadays, stock photo websites are the interfacesto infinite archives, replacing the monkeys’ typewriters with &lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera&quot;&gt;DSLR&lt;/a&gt;s&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;More and more are switching to &lt;a href=&quot;https://en.wikipedia.org/wiki/Mirrorless_interchangeable-lens_camera&quot;&gt;mirrorless cameras&lt;/a&gt;. &lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The printed catalogs&lt;/span&gt;  I’ve been collecting are a snapshot from a time when people still tried to construct a visual culture perpetual motion machine, attempting to drive the trends while being driven by them. Join me in leafing through this preserved Ouroboros of Cool.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;I’d like to write up interesting content I’ve found, but that’s going to take a while so I’ll be periodically adding those here. In the meantime, check out the Kaleidoscope below!&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;go-ahead-look-at-the-man-behind-the-curtain&quot;&gt;Go ahead, look at the man behind the curtain!&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-format&quot;&gt;The Format&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So what are these catalogs like?&lt;/span&gt;  They are all softcover, with a majority roughly octavo-sized: 9”x12” seems most common, with a few slightly shorter or narrower. Several of the Photonica catalogs are octavo-sized, measuring 6”x9”. The thinnest number around 150 pages, with most being somewhere between 200 and 300 pp. They are printed similarly to a very high-end magazine: fairly glossy paper and the printing quality is uniformly high quality. This makes each a pretty hefty specimen.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-content&quot;&gt;The Content&lt;/h3&gt;
+&lt;p&gt;Each catalog is divided into thematic chapters. A few try to be fairly comprehensive, covering a wide array of categories with some subset of the following seeming most common:
+&lt;label for=&quot;still-cataloging&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;still-cataloging&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;I’m still in the process of fully accessioning my collection, and will be cataloging the specific categories each book covers. That’s going to take a little bit of time, so if you’re curious, check back periodically for updates. &lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People
+    &lt;ul&gt;
+      &lt;li&gt;Babies/Children&lt;/li&gt;
+      &lt;li&gt;Women/Men&lt;/li&gt;
+      &lt;li&gt;Couples&lt;/li&gt;
+      &lt;li&gt;Seniors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Activities &lt;em&gt;— These involve people, but center what they’re doing.&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sports&lt;/li&gt;
+      &lt;li&gt;Leisure&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Places
+    &lt;ul&gt;
+      &lt;li&gt;Cities&lt;/li&gt;
+      &lt;li&gt;Famous Locations&lt;/li&gt;
+      &lt;li&gt;Nature&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Business
+    &lt;ul&gt;
+      &lt;li&gt;Office Scenes&lt;/li&gt;
+      &lt;li&gt;Business District Scenes&lt;/li&gt;
+      &lt;li&gt;Heavy Industry&lt;/li&gt;
+      &lt;li&gt;Medicine&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Abstracts
+    &lt;ul&gt;
+      &lt;li&gt;Generic Abstract Visuals&lt;/li&gt;
+      &lt;li&gt;Tech/Business-y Abstracts&lt;label for=&quot;*&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;*&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Glowing circuit board patterns, piles of international currency, etc. &lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Others are organized around a particular theme—e.g. &lt;em&gt;The Green Directory&lt;/em&gt; is all nature photography—but then sub-categorize it further. Some do take on more abstract concepts as themes, such as &lt;em&gt;The Positive Image&lt;/em&gt; and most of Photonica’s catalogs.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-style&quot;&gt;The Style&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;still-stylin&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;still-stylin&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This is another area that I’m still analyzing. There’s a lot of interesting patterns to dig up. &lt;/span&gt;
+As noted above, Photonica tends to have a style that strongly hews to “artistic” photography. The rest will veer in that direction at times, but tend to utilize artistic approaches and techniques in a more systematic manner that relates to the subject matter plainly. For example, using blurring techniques for motion, different filters and color processes to convey emotional valence, etc.&lt;/p&gt;
+
+&lt;p&gt;Particularly amusing to me were some of these 90s tropes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;☞︎  Fisheye lens, centering faces in particular.&lt;label for=&quot;busta&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;busta&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As Busta Rhymes was &lt;a href=&quot;https://www.youtube.com/watch?v=un3NkWnHl9Q&quot;&gt;fond of doing&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;☞︎  A particular kind of motion blur.&lt;/li&gt;
+  &lt;li&gt;☞︎  Photographic color schemes, especially a sort of blue-yellow one.&lt;label for=&quot;office-stop&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;office-stop&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; alt=&quot;&quot; src=&quot;/assets/images/stock_photo_catalogs/stop.jpg&quot; /&gt;&lt;br /&gt;An image that covers many tropes.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;kaleidoscope&quot;&gt;Kaleidoscope&lt;/h2&gt;
 &lt;!-- Code based on: https://www.script-tutorials.com/creating-kaleidoscope-using-jquery-and-css/ --&gt;
@@ -81,7 +147,7 @@ The dissonance of the positivity a user of these images would usually like to co
 &lt;p&gt;Choose your view:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a onclick=&quot;javascript:set_collection_to_pages()&quot;&gt;Look Inside&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem; margin-right: rem;&quot;&gt;☟&lt;/span&gt; &lt;a onclick=&quot;javascript:set_collection_to_covers()&quot;&gt;Judge Them By Their Covers&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a onclick=&quot;javascript:set_collection_to_pages()&quot;&gt;Look Inside&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem; margin-right: rem;&quot;&gt;☟︎&lt;/span&gt; &lt;a onclick=&quot;javascript:set_collection_to_covers()&quot;&gt;Judge Them By Their Covers&lt;/a&gt; &lt;span style=&quot;position: relative; top: 0.5rem&quot;&gt;☟︎&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;kaleidoscope&quot;&gt;

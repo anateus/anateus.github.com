@@ -246,6 +246,8 @@ section { padding-top: 1rem; padding-bottom: 1rem; }
 
 ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: none; }
 
+li > ul { width: 80%; }
+
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
 
 figcaption { float: right; clear: right; margin-right: -50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
